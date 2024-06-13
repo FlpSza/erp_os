@@ -1,0 +1,51 @@
+2024-06-13 17:00:45,074 15196 INFO ? odoo: Odoo version 16.0-20240527 
+2024-06-13 17:00:45,075 15196 INFO ? odoo: Using configuration file at C:\ERP\server\odoo.conf 
+2024-06-13 17:00:45,075 15196 INFO ? odoo: addons paths: ['C:\\ERP\\server\\odoo\\addons', 'c:\\erp\\sessions\\addons\\16.0', 'c:\\erp\\server\\odoo\\addons'] 
+2024-06-13 17:00:45,075 15196 INFO ? odoo: database: openpg@localhost:5432 
+2024-06-13 17:00:45,882 15196 WARNING ? py.warnings: C:\ERP\python\lib\site-packages\reportlab\platypus\paraparser.py:54: DeprecationWarning: invalid escape sequence '\s'
+  File "C:\ERP\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\ERP\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\ERP\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\ERP\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\ERP\server\odoo\service\server.py", line 1356, in start
+    load_server_wide_modules()
+  File "C:\ERP\server\odoo\service\server.py", line 1259, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\ERP\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\ERP\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\ERP\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\ERP\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\ERP\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\ERP\server\odoo\addons\base\models\__init__.py", line 11, in <module>
+    from . import ir_actions_report
+  File "C:\ERP\server\odoo\addons\base\models\ir_actions_report.py", line 24, in <module>
+    from reportlab.graphics.barcode import createBarcodeDrawing
+  File "C:\ERP\python\lib\site-packages\reportlab\graphics\barcode\__init__.py", line 76, in <module>
+    _reset()
+  File "C:\ERP\python\lib\site-packages\reportlab\graphics\barcode\__init__.py", line 42, in _reset
+    from reportlab.graphics.barcode.widgets import BarcodeI2of5, BarcodeCode128, BarcodeStandard93,\
+  File "C:\ERP\python\lib\site-packages\reportlab\graphics\barcode\widgets.py", line 23, in <module>
+    from reportlab.graphics.shapes import Line, Rect, Group, NotImplementedError, String
+  File "C:\ERP\python\lib\site-packages\reportlab\graphics\shapes.py", line 12, in <module>
+    from reportlab.platypus import Flowable
+  File "C:\ERP\python\lib\site-packages\reportlab\platypus\__init__.py", line 10, in <module>
+    from .paragraph import *
+  File "C:\ERP\python\lib\site-packages\reportlab\platypus\paragraph.py", line 16, in <module>
+    from reportlab.platypus.paraparser import ParaParser, _PCT, _num as _parser_num, _re_us_value
+  File "C:\ERP\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\ERP\server\odoo\netsvc.py", line 290, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-06-13 17:00:47,426 15196 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\ERP\thirdparty\wkhtmltopdf.exe 
+2024-06-13 17:00:50,377 15196 INFO ? odoo.service.server: Initiating shutdown 
+2024-06-13 17:00:50,377 15196 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 

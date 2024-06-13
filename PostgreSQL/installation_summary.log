@@ -1,0 +1,14 @@
+
+Installation Directory: C:\ERP\PostgreSQL
+Server Installation Directory: C:\ERP\PostgreSQL
+Data Directory: C:\ERP\PostgreSQL\data
+Database Port: 5432
+Database Superuser: openpg
+Operating System Account: openpgsvc
+Database Service: PostgreSQL_For_Odoo
+Command Line Tools Installation Directory: C:\ERP\PostgreSQL
+pgAdmin4 Installation Directory: C:\ERP\PostgreSQL\pgAdmin 4
+Stack Builder Installation Directory: C:\ERP\PostgreSQL\stackbuilder
+
+===== Installation completed at: 2024-06-13(YYYY-MM-DD) - 15:07:42(HH:MM:SS) =====
+                            
