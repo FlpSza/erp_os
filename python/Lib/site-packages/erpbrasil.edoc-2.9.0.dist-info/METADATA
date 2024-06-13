@@ -1,0 +1,196 @@
+Metadata-Version: 2.1
+Name: erpbrasil.edoc
+Version: 2.9.0
+Summary: Emissão de documentos fiscais e outras obrigações (NF-E, NFS-E, MDF-E, CT-E, REINF, E-SOCIAL)
+Home-page: https://github.com/erpbrasil/erpbrasil.edoc
+Author: Luis Felipe Mileo
+Author-email: mileo@kmee.com.br
+License: MIT
+Project-URL: Documentation, https://erpbrasiledoc.readthedocs.io/
+Project-URL: Changelog, https://erpbrasiledoc.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/erpbrasil/erpbrasil.edoc/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: erpbrasil.assinatura (>=1.2.0)
+Requires-Dist: erpbrasil.base (>=2.0.0)
+Requires-Dist: erpbrasil.transmissao (>=1.0.0)
+Provides-Extra: mdfelib
+Requires-Dist: mdfelib ; extra == 'mdfelib'
+Provides-Extra: nfelib
+Requires-Dist: nfselib ; extra == 'nfelib'
+Provides-Extra: nfselib.betha
+Requires-Dist: nfselib.betha ; extra == 'nfselib.betha'
+Provides-Extra: nfselib.dsf
+Requires-Dist: nfselib.dsf ; extra == 'nfselib.dsf'
+Provides-Extra: nfselib.ginfes
+Requires-Dist: nfselib.ginfes ; extra == 'nfselib.ginfes'
+Provides-Extra: nfselib.issnet
+Requires-Dist: nfselib.issnet ; extra == 'nfselib.issnet'
+Provides-Extra: nfselib.paulistana
+Requires-Dist: nfselib.paulistana ; extra == 'nfselib.paulistana'
+
+========
+Overview
+========
+
+
+
+Emissão de documentos fiscais e outras obrigações
+(NF-E, NFS-E, MDF-E, CT-E, REINF, E-SOCIAL)
+
+
+Documentação
+============
+
+https://erpbrasil.github.io/
+
+Créditos
+========
+
+Esta é uma biblioteca criada através do esforço das empresas:
+
+* Akretion https://akretion.com/pt-BR/
+* KMEE https://www.kmee.com.br
+
+Favor consultar a lista de contribuidores:
+
+https://github.com/erpbrasil/erpbrasil.edoc/graphs/contributors
+
+Licença
+~~~~~~~
+
+* Free software: MIT license
+
+Instalação
+==========
+
+Para permitir que a instalação do seu ERP cresça somente com a necessidade
+do cliente é possível instalar as dependências da biblioteca de forma opcional:
+
+::
+
+    pip install erpbrasil.edoc
+
+    # Documentos do Sefaz
+
+    pip install erpbrasil.edoc[nfelib] # Emissão de NF-e
+    pip install erpbrasil.edoc[mdfelib] # Emissão de Manifesto de Carga - MD
+    pip install erpbrasil.edoc[ctelib] # Emissão de CT-e
+    pip install erpbrasil.edoc[gnrelib] # Emissão de GNRE
+
+    # Notas de Serviço / Prefeituras
+
+    pip install erpbrasil.edoc[nfselib.ginfes] # Emissão de NFS-E GINFES
+    pip install erpbrasil.edoc[nfselib.betha] # Emissão de NFS-E Betha
+    pip install erpbrasil.edoc[nfselib.dsf] # Emissão de NFS-E DSF
+    pip install erpbrasil.edoc[nfselib.paulistana] # Emissão de NFS-E Paulistana
+    pip install erpbrasil.edoc[nfselib.issnet] # Emissão de NFS-E ISSNET
+
+Documentation
+=============
+
+https://erpbrasil.github.io/docs/
+
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2019-09-23)
+~~~~~~~~~~~~~~~~~~
+
+* First release on PyPI.
+
+1.0.0 (2020-11-21)
+~~~~~~~~~~~~~~~~~~
+
+* NF-e - Nota fiscal eletrônica;
+    * Status Serviço;
+    * Emissão;
+    * Cancelamento;
+    * Carta de correção;
+    * Consulta Chave;
+    * Consulta Distribuição;
+    * Manifestação do Destinatário;
+        * Confirmação de Operação;
+        * Ciência de Operação;
+        * Desconhecimento da operação;
+        * Operação não realizada;
+* MDF-e - Manifesto Eletrônico de Documentos Fiscais (Transporte):
+    * Status Serviço;
+    * Consulta Documento;
+    * Consulta Não Encerrados;
+    * Emissão;
+    * Cancelamento;
+* NFS-E - Base para o desenvolvimento de provedores:
+    * Status Serviço;
+    * Consulta Documento;
+    * Consulta NFS-e / RPS;
+    * Consulta Lote RPS;
+    * Emissão;
+    * Cancelamento;
+    * Suporte ao provedor:
+        * GINFES:
+* Implementação de testes automatizados;
+
+2.0.0 (2021-04-09)
+~~~~~~~~~~~~~~~~~~
+
+* Refatoração do módulo de NF-e
+
+2.1.0 (2021-05-01)
+~~~~~~~~~~~~~~~~~~
+
+- Manifestação do Destinatário
+- Consulta Cadastro
+
+2.2.0 (2021-05-26)
+~~~~~~~~~~~~~~~~~~
+
+- Nota Paulistana
+
+2.9.0 (2024-05-15)
+~~~~~~~~~~~~~~~~~~
+
+- Suporte para emissão de NF-e utilizando as Sefaz autorizadoras de contingência.
+
+

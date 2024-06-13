@@ -49,3 +49,1481 @@
 2024-06-13 17:00:47,426 15196 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\ERP\thirdparty\wkhtmltopdf.exe 
 2024-06-13 17:00:50,377 15196 INFO ? odoo.service.server: Initiating shutdown 
 2024-06-13 17:00:50,377 15196 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-06-13 17:01:33,722 11516 INFO ? odoo: Odoo version 16.0-20240527 
+2024-06-13 17:01:33,722 11516 INFO ? odoo: Using configuration file at C:\ERP\server\odoo.conf 
+2024-06-13 17:01:33,722 11516 INFO ? odoo: addons paths: ['C:\\ERP\\server\\odoo\\addons', 'c:\\erp\\sessions\\addons\\16.0', 'c:\\erp\\server\\odoo\\addons'] 
+2024-06-13 17:01:33,722 11516 INFO ? odoo: database: openpg@localhost:5432 
+2024-06-13 17:01:35,341 11516 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\ERP\thirdparty\wkhtmltopdf.exe 
+2024-06-13 17:01:36,075 11516 INFO ? odoo.service.server: HTTP service (werkzeug) running on Fellipe:8069 
+2024-06-13 17:01:40,179 11516 INFO ? odoo.sql_db: Connection to the database failed 
+2024-06-13 17:01:44,301 11516 INFO ? odoo.sql_db: Connection to the database failed 
+2024-06-13 17:08:40,006 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 17:08:39] "GET / HTTP/1.1" 303 - 1 0.042 0.268
+2024-06-13 17:08:40,123 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 17:08:40] "GET /web HTTP/1.1" 303 - 2 0.007 0.100
+2024-06-13 17:08:48,211 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 17:08:48] "GET /web/database/selector HTTP/1.1" 200 - 2 0.006 8.076
+2024-06-13 17:09:06,096 11516 INFO None odoo.service.db: Create database `erp_db`. 
+2024-06-13 17:09:08,895 11516 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-13 17:09:08,896 11516 INFO erp_db odoo.modules.loading: Loading module base (1/1) 
+2024-06-13 17:09:09,037 11516 INFO erp_db odoo.modules.registry: module base: creating or updating database tables 
+2024-06-13 17:09:09,786 11516 INFO erp_db odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-06-13 17:09:09,787 11516 INFO erp_db odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-06-13 17:09:09,787 11516 INFO erp_db odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-06-13 17:09:10,066 11516 INFO erp_db odoo.models: Prepare computation of res.partner.user_id 
+2024-06-13 17:09:10,066 11516 INFO erp_db odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-06-13 17:09:10,066 11516 INFO erp_db odoo.models: Prepare computation of res.partner.display_name 
+2024-06-13 17:09:10,066 11516 INFO erp_db odoo.models: Prepare computation of res.partner.company_registry 
+2024-06-13 17:09:10,066 11516 INFO erp_db odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-06-13 17:09:10,066 11516 INFO erp_db odoo.models: Prepare computation of res.partner.partner_share 
+2024-06-13 17:09:10,169 11516 INFO erp_db odoo.models: Prepare computation of res.currency.decimal_places 
+2024-06-13 17:09:10,242 11516 INFO erp_db odoo.models: Prepare computation of res.company.logo_web 
+2024-06-13 17:09:10,322 11516 INFO erp_db odoo.models: Prepare computation of res.users.signature 
+2024-06-13 17:09:10,322 11516 INFO erp_db odoo.models: Prepare computation of res.users.share 
+2024-06-13 17:09:13,565 11516 INFO erp_db odoo.modules.loading: loading base/data/res_bank.xml 
+2024-06-13 17:09:13,619 11516 INFO erp_db odoo.modules.loading: loading base/data/res.lang.csv 
+2024-06-13 17:09:13,697 11516 INFO erp_db odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-06-13 17:09:13,790 11516 INFO erp_db odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-06-13 17:09:13,918 11516 INFO erp_db odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-06-13 17:09:14,566 11516 INFO erp_db odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-06-13 17:09:14,600 11516 INFO erp_db odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-06-13 17:09:15,719 11516 INFO erp_db odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-06-13 17:09:15,745 11516 INFO erp_db odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-06-13 17:09:16,488 11516 INFO erp_db odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-06-13 17:09:16,532 11516 INFO erp_db odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2024-06-13 17:09:16,552 11516 INFO erp_db odoo.modules.loading: loading base/security/base_groups.xml 
+2024-06-13 17:09:16,845 11516 INFO erp_db odoo.modules.loading: loading base/security/base_security.xml 
+2024-06-13 17:09:17,253 11516 INFO erp_db odoo.modules.loading: loading base/views/base_menus.xml 
+2024-06-13 17:09:17,435 11516 INFO erp_db odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-06-13 17:09:17,486 11516 INFO erp_db odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-06-13 17:09:17,507 11516 INFO erp_db odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-06-13 17:09:19,078 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-06-13 17:09:19,270 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-06-13 17:09:19,308 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-06-13 17:09:19,345 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-06-13 17:09:19,403 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-06-13 17:09:19,438 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-06-13 17:09:19,479 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-06-13 17:09:19,518 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-06-13 17:09:19,756 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-06-13 17:09:19,798 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-06-13 17:09:19,849 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-06-13 17:09:19,890 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-06-13 17:09:19,933 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-06-13 17:09:20,011 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-06-13 17:09:20,051 11516 INFO erp_db odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-06-13 17:09:20,067 11516 INFO erp_db odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-06-13 17:09:20,083 11516 INFO erp_db odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-06-13 17:09:20,100 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-06-13 17:09:20,137 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-06-13 17:09:20,158 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-06-13 17:09:20,271 11516 INFO erp_db odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-06-13 17:09:20,378 11516 INFO erp_db odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-06-13 17:09:20,490 11516 INFO erp_db odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-06-13 17:09:20,503 11516 INFO erp_db odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-06-13 17:09:20,518 11516 INFO erp_db odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-06-13 17:09:20,546 11516 INFO erp_db odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-06-13 17:09:20,573 11516 INFO erp_db odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-06-13 17:09:20,599 11516 INFO erp_db odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-06-13 17:09:20,637 11516 INFO erp_db odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-06-13 17:09:20,655 11516 INFO erp_db odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-06-13 17:09:20,687 11516 INFO erp_db odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-06-13 17:09:20,717 11516 INFO erp_db odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2024-06-13 17:09:20,730 11516 INFO erp_db odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-06-13 17:09:20,763 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-06-13 17:09:20,807 11516 INFO erp_db odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-06-13 17:09:20,850 11516 INFO erp_db odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-06-13 17:09:20,894 11516 INFO erp_db odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-06-13 17:09:21,070 11516 INFO erp_db odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-06-13 17:09:21,129 11516 INFO erp_db odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-06-13 17:09:21,196 11516 INFO erp_db odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-06-13 17:09:21,263 11516 INFO erp_db odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-06-13 17:09:21,509 11516 INFO erp_db odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-06-13 17:09:21,567 11516 INFO erp_db odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-06-13 17:09:21,588 11516 INFO erp_db odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-06-13 17:09:21,665 11516 INFO erp_db odoo.modules.loading: loading base/views/onboarding_views.xml 
+2024-06-13 17:09:21,706 11516 INFO erp_db odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-06-13 17:09:21,885 11516 INFO erp_db odoo.modules.loading: Module base: loading demo 
+2024-06-13 17:09:21,885 11516 INFO erp_db odoo.modules.loading: loading base/data/res_company_demo.xml 
+2024-06-13 17:09:21,904 11516 INFO erp_db odoo.modules.loading: loading base/data/res_users_demo.xml 
+2024-06-13 17:09:23,085 11516 INFO erp_db odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2024-06-13 17:09:23,099 11516 INFO erp_db odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2024-06-13 17:09:23,505 11516 INFO erp_db odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2024-06-13 17:09:23,520 11516 INFO erp_db odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2024-06-13 17:09:23,906 11516 INFO erp_db odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2024-06-13 17:09:24,266 11516 INFO erp_db odoo.addons.base.models.ir_module: module base: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:24,567 11516 INFO erp_db odoo.addons.base.models.ir_module: module base: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:25,891 11516 INFO erp_db odoo.modules.loading: Module base loaded in 16.99s, 9070 queries (+9070 other) 
+2024-06-13 17:09:25,891 11516 INFO erp_db odoo.modules.loading: 1 modules loaded in 16.99s, 9070 queries (+9070 extra) 
+2024-06-13 17:09:25,937 11516 INFO erp_db odoo.addons.base.models.ir_module: module base: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:26,197 11516 INFO erp_db odoo.addons.base.models.ir_module: module base: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:26,959 11516 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-13 17:09:26,960 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-06-13 17:09:27,855 11516 INFO erp_db odoo.modules.loading: loading 8 modules... 
+2024-06-13 17:09:27,855 11516 INFO erp_db odoo.modules.loading: Loading module web (2/8) 
+2024-06-13 17:09:27,878 11516 INFO erp_db odoo.modules.registry: module web: creating or updating database tables 
+2024-06-13 17:09:28,568 11516 INFO erp_db odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-06-13 17:09:28,597 11516 INFO erp_db odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-06-13 17:09:28,729 11516 INFO erp_db odoo.modules.loading: loading web/views/report_templates.xml 
+2024-06-13 17:09:28,883 11516 INFO erp_db odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-06-13 17:09:28,909 11516 INFO erp_db odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-06-13 17:09:28,938 11516 INFO erp_db odoo.modules.loading: loading web/views/lazy_assets.xml 
+2024-06-13 17:09:28,955 11516 INFO erp_db odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-06-13 17:09:28,972 11516 INFO erp_db odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-06-13 17:09:28,991 11516 INFO erp_db odoo.modules.loading: loading web/data/report_layout.xml 
+2024-06-13 17:09:29,040 11516 INFO erp_db odoo.addons.base.models.ir_module: module web: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:29,169 11516 INFO erp_db odoo.addons.base.models.ir_module: module web: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:29,258 11516 INFO erp_db odoo.modules.loading: Module web loaded in 1.40s, 891 queries (+891 other) 
+2024-06-13 17:09:29,258 11516 INFO erp_db odoo.modules.loading: Loading module auth_totp (3/8) 
+2024-06-13 17:09:29,546 11516 INFO erp_db odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-06-13 17:09:29,643 11516 INFO erp_db odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-06-13 17:09:29,698 11516 INFO erp_db odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-06-13 17:09:29,718 11516 INFO erp_db odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-06-13 17:09:29,736 11516 INFO erp_db odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-06-13 17:09:29,784 11516 INFO erp_db odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-06-13 17:09:29,806 11516 INFO erp_db odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-06-13 17:09:29,831 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_totp: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:29,858 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_totp: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:29,900 11516 INFO erp_db odoo.modules.loading: Module auth_totp loaded in 0.64s, 181 queries (+181 other) 
+2024-06-13 17:09:29,900 11516 INFO erp_db odoo.modules.loading: Loading module base_import (4/8) 
+2024-06-13 17:09:30,018 11516 INFO erp_db odoo.modules.registry: module base_import: creating or updating database tables 
+2024-06-13 17:09:31,104 11516 INFO erp_db odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-06-13 17:09:31,153 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_import: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:31,183 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_import: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:31,223 11516 INFO erp_db odoo.modules.loading: Module base_import loaded in 1.32s, 895 queries (+895 other) 
+2024-06-13 17:09:31,223 11516 INFO erp_db odoo.modules.loading: Loading module bus (5/8) 
+2024-06-13 17:09:31,395 11516 INFO erp_db odoo.modules.registry: module bus: creating or updating database tables 
+2024-06-13 17:09:31,511 11516 INFO erp_db odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-06-13 17:09:31,545 11516 INFO erp_db odoo.addons.base.models.ir_module: module bus: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:31,568 11516 INFO erp_db odoo.addons.base.models.ir_module: module bus: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:31,590 11516 INFO erp_db odoo.modules.loading: Module bus loaded in 0.37s, 107 queries (+107 other) 
+2024-06-13 17:09:31,590 11516 INFO erp_db odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2024-06-13 17:09:31,629 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_kanban_gauge: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:31,647 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:31,666 11516 INFO erp_db odoo.modules.loading: Module web_kanban_gauge loaded in 0.08s, 13 queries (+13 other) 
+2024-06-13 17:09:31,666 11516 INFO erp_db odoo.modules.loading: Loading module web_tour (7/8) 
+2024-06-13 17:09:31,721 11516 INFO erp_db odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-06-13 17:09:31,790 11516 INFO erp_db odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-06-13 17:09:31,809 11516 INFO erp_db odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-06-13 17:09:31,830 11516 INFO erp_db odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-06-13 17:09:31,871 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_tour: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:31,893 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_tour: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:31,923 11516 INFO erp_db odoo.modules.loading: Module web_tour loaded in 0.26s, 108 queries (+108 other) 
+2024-06-13 17:09:31,923 11516 INFO erp_db odoo.modules.loading: Loading module web_editor (8/8) 
+2024-06-13 17:09:32,273 11516 INFO erp_db odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-06-13 17:09:33,110 11516 INFO erp_db odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-06-13 17:09:33,145 11516 INFO erp_db odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-06-13 17:09:33,161 11516 INFO erp_db odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-06-13 17:09:33,213 11516 INFO erp_db odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-06-13 17:09:33,279 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_editor: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:33,321 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_editor: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:33,389 11516 INFO erp_db odoo.modules.loading: Module web_editor loaded in 1.47s, 827 queries (+827 other) 
+2024-06-13 17:09:33,389 11516 INFO erp_db odoo.modules.loading: 8 modules loaded in 5.53s, 3022 queries (+3022 extra) 
+2024-06-13 17:09:33,681 11516 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-13 17:09:33,685 11516 INFO erp_db odoo.modules.registry: Registry loaded in 24.833s 
+2024-06-13 17:09:33,691 11516 INFO erp_db odoo.addons.base.models.ir_module: module base: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:34,001 11516 INFO erp_db odoo.addons.base.models.ir_module: module base: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:34,364 11516 INFO erp_db odoo.addons.base.models.ir_module: module web: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:34,412 11516 INFO erp_db odoo.addons.base.models.ir_module: module web: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:34,458 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_totp: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:34,464 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_totp: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:34,470 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_import: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:34,479 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_import: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:34,490 11516 INFO erp_db odoo.addons.base.models.ir_module: module bus: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:34,495 11516 INFO erp_db odoo.addons.base.models.ir_module: module bus: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:34,498 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_editor: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:34,521 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_editor: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:34,546 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_kanban_gauge: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:34,547 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:34,550 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_tour: loading base translation file pt for language pt_BR 
+2024-06-13 17:09:34,552 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_tour: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:09:35,957 11516 INFO erp_db odoo.addons.base.models.res_users: Login successful for db:erp_db login:ofellipe2023@gmail.com from 127.0.0.1 
+2024-06-13 17:09:35,972 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:09:35] "POST /web/database/create HTTP/1.1" 303 - 17151 14.427 17.494
+2024-06-13 17:09:36,318 11516 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-13 17:09:36,395 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:09:36] "GET /web HTTP/1.1" 303 - 6 0.005 0.082
+2024-06-13 17:09:51,017 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:09:51] "GET /web/login HTTP/1.1" 200 - 66 0.058 14.402
+2024-06-13 17:09:51,455 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:09:51] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.008 0.099
+2024-06-13 17:09:51,472 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:09:51] "GET /web/assets/190-a27ae35/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.014 0.111
+2024-06-13 17:09:51,850 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:09:51] "GET /web/assets/192-ac12788/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.004 0.244
+2024-06-13 17:09:52,924 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:09:52] "GET /web/webclient/translations/1718298592079 HTTP/1.1" 200 - 3 0.005 0.837
+2024-06-13 17:09:53,257 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:09:53] "GET /web/webclient/translations/1718298592937 HTTP/1.1" 200 - 3 0.005 0.007
+2024-06-13 17:10:23,431 11516 INFO erp_db odoo.addons.base.models.res_users: Login successful for db:erp_db login:ofellipe2023@gmail.com from 127.0.0.1 
+2024-06-13 17:10:23,444 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:23] "POST /web/login HTTP/1.1" 303 - 29 0.045 0.568
+2024-06-13 17:10:46,276 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:46] "GET /web HTTP/1.1" 200 - 94 0.131 22.696
+2024-06-13 17:10:46,787 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:46] "GET /web/webclient/load_menus/32138f6845cee56a8eb553bd16bb5d4faeeadf25705c40683507280911c744d3 HTTP/1.1" 200 - 1 0.001 0.143
+2024-06-13 17:10:46,787 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:46] "GET /web/assets/193-69a82d0/web.assets_common.min.css HTTP/1.1" 200 - 4 0.001 0.150
+2024-06-13 17:10:46,804 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:46] "GET /web/assets/194-d758d71/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.009 0.158
+2024-06-13 17:10:46,825 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:46] "GET /web/assets/197-246de93/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.002 0.182
+2024-06-13 17:10:46,857 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:46] "GET /web/assets/196-d758d71/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.007 0.209
+2024-06-13 17:10:46,986 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:46] "GET /web/assets/195-69a82d0/web.assets_common.min.js HTTP/1.1" 200 - 4 0.009 0.339
+2024-06-13 17:10:47,111 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:47] "GET /web/webclient/translations/92790d9380fcdefaa7f9f38967dd0c7aa3bb79ab?lang=pt_BR HTTP/1.1" 200 - 3 0.004 0.007
+2024-06-13 17:10:47,697 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:47] "POST /web/action/load HTTP/1.1" 200 - 11 0.023 0.011
+2024-06-13 17:10:47,739 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:47] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.039 0.022
+2024-06-13 17:10:47,772 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:47] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 9 0.018 0.073
+2024-06-13 17:10:48,029 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:48] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.077 0.025
+2024-06-13 17:10:48,105 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:48] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.033 0.018
+2024-06-13 17:10:48,107 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:48] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2024-06-13 17:10:48,116 11516 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-06-13 17:10:48,374 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:10:48] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.005
+2024-06-13 17:12:15,724 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:12:15] "POST /web/action/load HTTP/1.1" 200 - 25 0.018 0.013
+2024-06-13 17:12:16,059 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:12:16] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 45 0.063 0.041
+2024-06-13 17:12:16,104 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:12:16] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 14 0.018 0.006
+2024-06-13 17:12:16,392 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:12:16] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.003
+2024-06-13 17:12:24,486 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:12:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.007
+2024-06-13 17:12:24,513 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:12:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.031 0.012
+2024-06-13 17:12:27,441 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Vendas'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-13 17:12:27,441 11516 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-13 17:12:27,444 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Vendas'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-13 17:12:27,630 11516 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-13 17:12:27,637 11516 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-13 17:12:27,655 11516 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-13 17:12:27,657 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-13 17:12:28,894 11516 INFO erp_db odoo.modules.loading: loading 8 modules... 
+2024-06-13 17:12:28,902 11516 INFO erp_db odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-13 17:12:28,907 11516 INFO erp_db odoo.modules.loading: loading 50 modules... 
+2024-06-13 17:12:28,907 11516 INFO erp_db odoo.modules.loading: Loading module uom (2/50) 
+2024-06-13 17:12:28,965 11516 INFO erp_db odoo.modules.registry: module uom: creating or updating database tables 
+2024-06-13 17:12:29,128 11516 INFO erp_db odoo.modules.loading: loading uom/data/uom_data.xml 
+2024-06-13 17:12:29,307 11516 INFO erp_db odoo.modules.loading: loading uom/security/uom_security.xml 
+2024-06-13 17:12:29,391 11516 INFO erp_db odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2024-06-13 17:12:29,432 11516 INFO erp_db odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2024-06-13 17:12:29,518 11516 INFO erp_db odoo.addons.base.models.ir_module: module uom: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:29,551 11516 INFO erp_db odoo.addons.base.models.ir_module: module uom: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:29,601 11516 INFO erp_db odoo.modules.loading: Module uom loaded in 0.69s, 297 queries (+297 other) 
+2024-06-13 17:12:29,602 11516 INFO erp_db odoo.modules.loading: Loading module base_setup (6/50) 
+2024-06-13 17:12:29,843 11516 INFO erp_db odoo.modules.registry: module base_setup: creating or updating database tables 
+2024-06-13 17:12:29,921 11516 INFO erp_db odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2024-06-13 17:12:29,944 11516 INFO erp_db odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2024-06-13 17:12:30,060 11516 INFO erp_db odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2024-06-13 17:12:30,097 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_setup: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:30,137 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_setup: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:30,233 11516 INFO erp_db odoo.modules.loading: Module base_setup loaded in 0.63s, 161 queries (+161 other) 
+2024-06-13 17:12:30,233 11516 INFO erp_db odoo.modules.loading: Loading module http_routing (8/50) 
+2024-06-13 17:12:30,266 11516 INFO erp_db odoo.modules.registry: module http_routing: creating or updating database tables 
+2024-06-13 17:12:30,285 11516 INFO erp_db odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2024-06-13 17:12:30,364 11516 INFO erp_db odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2024-06-13 17:12:30,409 11516 INFO erp_db odoo.addons.base.models.ir_module: module http_routing: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:30,451 11516 INFO erp_db odoo.addons.base.models.ir_module: module http_routing: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:30,486 11516 INFO erp_db odoo.modules.loading: Module http_routing loaded in 0.25s, 81 queries (+81 other) 
+2024-06-13 17:12:30,486 11516 INFO erp_db odoo.modules.loading: Loading module resource (9/50) 
+2024-06-13 17:12:30,631 11516 INFO erp_db odoo.modules.registry: module resource: creating or updating database tables 
+2024-06-13 17:12:30,942 11516 INFO erp_db odoo.modules.loading: loading resource/data/resource_data.xml 
+2024-06-13 17:12:31,038 11516 INFO erp_db odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2024-06-13 17:12:31,063 11516 INFO erp_db odoo.modules.loading: loading resource/security/resource_security.xml 
+2024-06-13 17:12:31,115 11516 INFO erp_db odoo.modules.loading: loading resource/views/resource_views.xml 
+2024-06-13 17:12:31,285 11516 INFO erp_db odoo.addons.base.models.ir_module: module resource: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:31,294 11516 INFO erp_db odoo.addons.base.models.ir_module: module resource: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:31,724 11516 INFO erp_db odoo.modules.loading: Module resource loaded in 1.24s, 431 queries (+431 other) 
+2024-06-13 17:12:31,724 11516 INFO erp_db odoo.modules.loading: Loading module utm (10/50) 
+2024-06-13 17:12:31,849 11516 INFO erp_db odoo.modules.registry: module utm: creating or updating database tables 
+2024-06-13 17:12:32,155 11516 INFO erp_db odoo.modules.loading: loading utm/data/utm_medium_data.xml 
+2024-06-13 17:12:32,201 11516 INFO erp_db odoo.modules.loading: loading utm/data/utm_source_data.xml 
+2024-06-13 17:12:32,241 11516 INFO erp_db odoo.modules.loading: loading utm/data/utm_stage_data.xml 
+2024-06-13 17:12:32,255 11516 INFO erp_db odoo.modules.loading: loading utm/data/utm_tag_data.xml 
+2024-06-13 17:12:32,270 11516 INFO erp_db odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2024-06-13 17:12:32,324 11516 INFO erp_db odoo.modules.loading: loading utm/views/utm_medium_views.xml 
+2024-06-13 17:12:32,359 11516 INFO erp_db odoo.modules.loading: loading utm/views/utm_source_views.xml 
+2024-06-13 17:12:32,388 11516 INFO erp_db odoo.modules.loading: loading utm/views/utm_stage_views.xml 
+2024-06-13 17:12:32,417 11516 INFO erp_db odoo.modules.loading: loading utm/views/utm_tag_views.xml 
+2024-06-13 17:12:32,438 11516 INFO erp_db odoo.modules.loading: loading utm/views/utm_menus.xml 
+2024-06-13 17:12:32,502 11516 INFO erp_db odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2024-06-13 17:12:32,532 11516 INFO erp_db odoo.modules.loading: Module utm: loading demo 
+2024-06-13 17:12:32,532 11516 INFO erp_db odoo.modules.loading: loading utm/data/utm_campaign_demo.xml 
+2024-06-13 17:12:32,559 11516 INFO erp_db odoo.modules.loading: loading utm/data/utm_stage_demo.xml 
+2024-06-13 17:12:32,585 11516 INFO erp_db odoo.addons.base.models.ir_module: module utm: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:32,614 11516 INFO erp_db odoo.addons.base.models.ir_module: module utm: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:32,671 11516 INFO erp_db odoo.modules.loading: Module utm loaded in 0.95s, 447 queries (+447 other) 
+2024-06-13 17:12:32,671 11516 INFO erp_db odoo.modules.loading: Loading module iap (13/50) 
+2024-06-13 17:12:32,780 11516 INFO erp_db odoo.modules.registry: module iap: creating or updating database tables 
+2024-06-13 17:12:32,869 11516 INFO erp_db odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2024-06-13 17:12:32,886 11516 INFO erp_db odoo.modules.loading: loading iap/security/ir_rule.xml 
+2024-06-13 17:12:32,906 11516 INFO erp_db odoo.modules.loading: loading iap/views/iap_views.xml 
+2024-06-13 17:12:32,948 11516 INFO erp_db odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2024-06-13 17:12:32,991 11516 INFO erp_db odoo.addons.base.models.ir_module: module iap: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:33,021 11516 INFO erp_db odoo.addons.base.models.ir_module: module iap: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:33,068 11516 INFO erp_db odoo.modules.loading: Module iap loaded in 0.40s, 151 queries (+151 other) 
+2024-06-13 17:12:33,068 11516 INFO erp_db odoo.modules.loading: Loading module mail (14/50) 
+2024-06-13 17:12:34,242 11516 INFO erp_db odoo.modules.registry: module mail: creating or updating database tables 
+2024-06-13 17:12:35,012 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2024-06-13 17:12:35,012 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.template_id 
+2024-06-13 17:12:35,012 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2024-06-13 17:12:35,012 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2024-06-13 17:12:35,012 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2024-06-13 17:12:35,012 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2024-06-13 17:12:35,013 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2024-06-13 17:12:35,013 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2024-06-13 17:12:35,013 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2024-06-13 17:12:35,013 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2024-06-13 17:12:35,013 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.activity_note 
+2024-06-13 17:12:35,013 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2024-06-13 17:12:35,102 11516 INFO erp_db odoo.models: Prepare computation of res.partner.email_normalized 
+2024-06-13 17:12:35,113 11516 INFO erp_db odoo.models: Prepare computation of res.users.notification_type 
+2024-06-13 17:12:37,641 11516 INFO erp_db odoo.modules.loading: loading mail/data/mail_groups.xml 
+2024-06-13 17:12:37,740 11516 INFO erp_db odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2024-06-13 17:12:37,757 11516 INFO erp_db odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2024-06-13 17:12:37,791 11516 INFO erp_db odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2024-06-13 17:12:37,818 11516 INFO erp_db odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2024-06-13 17:12:37,842 11516 INFO erp_db odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2024-06-13 17:12:37,859 11516 INFO erp_db odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2024-06-13 17:12:37,883 11516 INFO erp_db odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2024-06-13 17:12:37,921 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2024-06-13 17:12:37,947 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2024-06-13 17:12:37,976 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2024-06-13 17:12:38,004 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2024-06-13 17:12:38,058 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2024-06-13 17:12:38,091 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2024-06-13 17:12:38,138 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2024-06-13 17:12:38,166 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2024-06-13 17:12:38,196 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_channel_member_views.xml 
+2024-06-13 17:12:38,224 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2024-06-13 17:12:38,258 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2024-06-13 17:12:38,276 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2024-06-13 17:12:38,327 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2024-06-13 17:12:38,354 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2024-06-13 17:12:38,443 11516 INFO erp_db odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2024-06-13 17:12:38,496 11516 INFO erp_db odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2024-06-13 17:12:38,548 11516 INFO erp_db odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2024-06-13 17:12:38,572 11516 INFO erp_db odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2024-06-13 17:12:38,604 11516 INFO erp_db odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2024-06-13 17:12:38,647 11516 INFO erp_db odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2024-06-13 17:12:38,673 11516 INFO erp_db odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2024-06-13 17:12:38,722 11516 INFO erp_db odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2024-06-13 17:12:38,763 11516 INFO erp_db odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2024-06-13 17:12:38,823 11516 INFO erp_db odoo.modules.loading: loading mail/security/mail_security.xml 
+2024-06-13 17:12:39,028 11516 INFO erp_db odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2024-06-13 17:12:39,118 11516 INFO erp_db odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2024-06-13 17:12:39,152 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2024-06-13 17:12:39,186 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2024-06-13 17:12:39,214 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2024-06-13 17:12:39,237 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2024-06-13 17:12:39,257 11516 INFO erp_db odoo.modules.loading: loading mail/views/res_users_views.xml 
+2024-06-13 17:12:39,293 11516 INFO erp_db odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2024-06-13 17:12:39,319 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2024-06-13 17:12:39,362 11516 INFO erp_db odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2024-06-13 17:12:39,385 11516 INFO erp_db odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2024-06-13 17:12:39,431 11516 INFO erp_db odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2024-06-13 17:12:39,531 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2024-06-13 17:12:39,566 11516 INFO erp_db odoo.modules.loading: loading mail/views/mail_menus.xml 
+2024-06-13 17:12:39,768 11516 INFO erp_db odoo.modules.loading: Module mail: loading demo 
+2024-06-13 17:12:39,769 11516 INFO erp_db odoo.modules.loading: loading mail/data/mail_channel_demo.xml 
+2024-06-13 17:12:39,863 11516 INFO erp_db odoo.addons.base.models.ir_module: module mail: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:40,137 11516 INFO erp_db odoo.addons.base.models.ir_module: module mail: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:40,687 11516 INFO erp_db odoo.modules.loading: Module mail loaded in 7.62s, 3598 queries (+3598 other) 
+2024-06-13 17:12:40,687 11516 INFO erp_db odoo.modules.loading: Loading module spreadsheet (15/50) 
+2024-06-13 17:12:40,772 11516 INFO erp_db odoo.modules.registry: module spreadsheet: creating or updating database tables 
+2024-06-13 17:12:40,879 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:40,944 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:41,019 11516 INFO erp_db odoo.modules.loading: Module spreadsheet loaded in 0.33s, 44 queries (+44 other) 
+2024-06-13 17:12:41,019 11516 INFO erp_db odoo.modules.loading: Loading module analytic (17/50) 
+2024-06-13 17:12:41,158 11516 INFO erp_db odoo.modules.registry: module analytic: creating or updating database tables 
+2024-06-13 17:12:41,689 11516 INFO erp_db odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2024-06-13 17:12:41,791 11516 INFO erp_db odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2024-06-13 17:12:41,817 11516 INFO erp_db odoo.modules.loading: loading analytic/views/analytic_line_views.xml 
+2024-06-13 17:12:41,907 11516 INFO erp_db odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2024-06-13 17:12:41,970 11516 INFO erp_db odoo.modules.loading: loading analytic/views/analytic_plan_views.xml 
+2024-06-13 17:12:42,007 11516 INFO erp_db odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml 
+2024-06-13 17:12:42,034 11516 INFO erp_db odoo.modules.loading: loading analytic/data/analytic_data.xml 
+2024-06-13 17:12:42,051 11516 INFO erp_db odoo.modules.loading: Module analytic: loading demo 
+2024-06-13 17:12:42,052 11516 INFO erp_db odoo.modules.loading: loading analytic/data/analytic_account_demo.xml 
+2024-06-13 17:12:42,880 11516 INFO erp_db odoo.addons.base.models.ir_module: module analytic: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:42,913 11516 INFO erp_db odoo.addons.base.models.ir_module: module analytic: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:42,977 11516 INFO erp_db odoo.modules.loading: Module analytic loaded in 1.96s, 538 queries (+538 other) 
+2024-06-13 17:12:42,977 11516 INFO erp_db odoo.modules.loading: Loading module auth_signup (18/50) 
+2024-06-13 17:12:43,110 11516 INFO erp_db odoo.modules.registry: module auth_signup: creating or updating database tables 
+2024-06-13 17:12:43,217 11516 INFO erp_db odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2024-06-13 17:12:43,232 11516 INFO erp_db odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2024-06-13 17:12:43,257 11516 INFO erp_db odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2024-06-13 17:12:43,294 11516 INFO erp_db odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2024-06-13 17:12:43,323 11516 INFO erp_db odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2024-06-13 17:12:43,368 11516 INFO erp_db odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2024-06-13 17:12:43,411 11516 INFO erp_db odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2024-06-13 17:12:43,445 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_signup: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:43,478 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_signup: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:43,543 11516 INFO erp_db odoo.modules.loading: Module auth_signup loaded in 0.57s, 203 queries (+203 other) 
+2024-06-13 17:12:43,543 11516 INFO erp_db odoo.modules.loading: Loading module auth_totp_mail (19/50) 
+2024-06-13 17:12:43,629 11516 INFO erp_db odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2024-06-13 17:12:43,675 11516 INFO erp_db odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2024-06-13 17:12:43,711 11516 INFO erp_db odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2024-06-13 17:12:43,730 11516 INFO erp_db odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2024-06-13 17:12:43,779 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_totp_mail: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:43,803 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_totp_mail: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:43,838 11516 INFO erp_db odoo.modules.loading: Module auth_totp_mail loaded in 0.29s, 100 queries (+100 other) 
+2024-06-13 17:12:43,839 11516 INFO erp_db odoo.modules.loading: Loading module base_install_request (20/50) 
+2024-06-13 17:12:43,947 11516 INFO erp_db odoo.modules.registry: module base_install_request: creating or updating database tables 
+2024-06-13 17:12:44,078 11516 INFO erp_db odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2024-06-13 17:12:44,102 11516 INFO erp_db odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2024-06-13 17:12:44,136 11516 INFO erp_db odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2024-06-13 17:12:44,156 11516 INFO erp_db odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2024-06-13 17:12:44,174 11516 INFO erp_db odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2024-06-13 17:12:44,209 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_install_request: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:44,239 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_install_request: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:44,307 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Project', 'Email Marketing', 'Employees', 'Surveys'] to user __system__ #1 via 127.0.0.1 
+2024-06-13 17:12:44,411 11516 INFO erp_db odoo.modules.loading: Module base_install_request loaded in 0.57s, 199 queries (+199 other) 
+2024-06-13 17:12:44,412 11516 INFO erp_db odoo.modules.loading: Loading module google_gmail (21/50) 
+2024-06-13 17:12:44,570 11516 INFO erp_db odoo.modules.registry: module google_gmail: creating or updating database tables 
+2024-06-13 17:12:44,660 11516 INFO erp_db odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2024-06-13 17:12:44,692 11516 INFO erp_db odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2024-06-13 17:12:44,721 11516 INFO erp_db odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2024-06-13 17:12:44,787 11516 INFO erp_db odoo.addons.base.models.ir_module: module google_gmail: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:44,817 11516 INFO erp_db odoo.addons.base.models.ir_module: module google_gmail: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:44,858 11516 INFO erp_db odoo.modules.loading: Module google_gmail loaded in 0.45s, 129 queries (+129 other) 
+2024-06-13 17:12:44,858 11516 INFO erp_db odoo.modules.loading: Loading module iap_mail (22/50) 
+2024-06-13 17:12:44,940 11516 INFO erp_db odoo.modules.registry: module iap_mail: creating or updating database tables 
+2024-06-13 17:12:44,969 11516 INFO erp_db odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2024-06-13 17:12:45,008 11516 INFO erp_db odoo.addons.base.models.ir_module: module iap_mail: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:45,044 11516 INFO erp_db odoo.addons.base.models.ir_module: module iap_mail: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:45,081 11516 INFO erp_db odoo.modules.loading: Module iap_mail loaded in 0.22s, 39 queries (+39 other) 
+2024-06-13 17:12:45,081 11516 INFO erp_db odoo.modules.loading: Loading module mail_bot (23/50) 
+2024-06-13 17:12:45,212 11516 INFO erp_db odoo.modules.registry: module mail_bot: creating or updating database tables 
+2024-06-13 17:12:45,448 11516 INFO erp_db odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2024-06-13 17:12:45,491 11516 INFO erp_db odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2024-06-13 17:12:45,505 11516 INFO erp_db odoo.modules.loading: Module mail_bot: loading demo 
+2024-06-13 17:12:45,505 11516 INFO erp_db odoo.modules.loading: loading mail_bot/data/mailbot_demo.xml 
+2024-06-13 17:12:45,521 11516 INFO erp_db odoo.addons.base.models.ir_module: module mail_bot: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:45,590 11516 INFO erp_db odoo.addons.base.models.ir_module: module mail_bot: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:45,628 11516 INFO erp_db odoo.modules.loading: Module mail_bot loaded in 0.55s, 148 queries (+148 other) 
+2024-06-13 17:12:45,628 11516 INFO erp_db odoo.modules.loading: Loading module phone_validation (24/50) 
+2024-06-13 17:12:45,824 11516 INFO erp_db odoo.modules.registry: module phone_validation: creating or updating database tables 
+2024-06-13 17:12:46,036 11516 INFO erp_db odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2024-06-13 17:12:46,057 11516 INFO erp_db odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2024-06-13 17:12:46,111 11516 INFO erp_db odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2024-06-13 17:12:46,132 11516 INFO erp_db odoo.addons.base.models.ir_module: module phone_validation: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:46,157 11516 INFO erp_db odoo.addons.base.models.ir_module: module phone_validation: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:46,200 11516 INFO erp_db odoo.modules.loading: Module phone_validation loaded in 0.57s, 173 queries (+173 other) 
+2024-06-13 17:12:46,200 11516 INFO erp_db odoo.modules.loading: Loading module privacy_lookup (25/50) 
+2024-06-13 17:12:46,310 11516 INFO erp_db odoo.modules.registry: module privacy_lookup: creating or updating database tables 
+2024-06-13 17:12:46,538 11516 INFO erp_db odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2024-06-13 17:12:46,588 11516 INFO erp_db odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2024-06-13 17:12:46,632 11516 INFO erp_db odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2024-06-13 17:12:46,657 11516 INFO erp_db odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2024-06-13 17:12:46,680 11516 INFO erp_db odoo.addons.base.models.ir_module: module privacy_lookup: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:46,704 11516 INFO erp_db odoo.addons.base.models.ir_module: module privacy_lookup: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:46,753 11516 INFO erp_db odoo.modules.loading: Module privacy_lookup loaded in 0.55s, 233 queries (+233 other) 
+2024-06-13 17:12:46,753 11516 INFO erp_db odoo.modules.loading: Loading module product (26/50) 
+2024-06-13 17:12:47,946 11516 INFO erp_db odoo.modules.registry: module product: creating or updating database tables 
+2024-06-13 17:12:49,146 11516 INFO erp_db odoo.modules.loading: loading product/data/product_data.xml 
+2024-06-13 17:12:49,192 11516 INFO erp_db odoo.modules.loading: loading product/security/product_security.xml 
+2024-06-13 17:12:49,340 11516 INFO erp_db odoo.modules.loading: loading product/security/ir.model.access.csv 
+2024-06-13 17:12:49,389 11516 INFO erp_db odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2024-06-13 17:12:49,414 11516 INFO erp_db odoo.modules.loading: loading product/views/product_views.xml 
+2024-06-13 17:12:49,537 11516 INFO erp_db odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2024-06-13 17:12:49,587 11516 INFO erp_db odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2024-06-13 17:12:49,643 11516 INFO erp_db odoo.modules.loading: loading product/views/product_category_views.xml 
+2024-06-13 17:12:49,677 11516 INFO erp_db odoo.modules.loading: loading product/views/product_packaging_views.xml 
+2024-06-13 17:12:49,726 11516 INFO erp_db odoo.modules.loading: loading product/views/product_pricelist_item_views.xml 
+2024-06-13 17:12:49,796 11516 INFO erp_db odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2024-06-13 17:12:49,844 11516 INFO erp_db odoo.modules.loading: loading product/views/product_supplierinfo_views.xml 
+2024-06-13 17:12:49,889 11516 INFO erp_db odoo.modules.loading: loading product/views/product_template_views.xml 
+2024-06-13 17:12:49,951 11516 INFO erp_db odoo.modules.loading: loading product/views/product_tag_views.xml 
+2024-06-13 17:12:49,977 11516 INFO erp_db odoo.modules.loading: loading product/views/res_country_group_views.xml 
+2024-06-13 17:12:49,994 11516 INFO erp_db odoo.modules.loading: loading product/views/res_partner_views.xml 
+2024-06-13 17:12:50,017 11516 INFO erp_db odoo.modules.loading: loading product/report/product_reports.xml 
+2024-06-13 17:12:50,051 11516 INFO erp_db odoo.modules.loading: loading product/report/product_product_templates.xml 
+2024-06-13 17:12:50,094 11516 INFO erp_db odoo.modules.loading: loading product/report/product_template_templates.xml 
+2024-06-13 17:12:50,112 11516 INFO erp_db odoo.modules.loading: loading product/report/product_packaging.xml 
+2024-06-13 17:12:50,128 11516 INFO erp_db odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2024-06-13 17:12:50,150 11516 INFO erp_db odoo.modules.loading: Module product: loading demo 
+2024-06-13 17:12:50,151 11516 INFO erp_db odoo.modules.loading: loading product/data/product_demo.xml 
+2024-06-13 17:12:50,821 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.message records with IDs: [45] 
+2024-06-13 17:12:50,843 11516 INFO erp_db odoo.models.unlink: User #1 deleted ir.property records with IDs: [9] 
+2024-06-13 17:12:50,843 11516 INFO erp_db odoo.models.unlink: User #1 deleted product.product records with IDs: [9] 
+2024-06-13 17:12:50,922 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.message records with IDs: [47, 46] 
+2024-06-13 17:12:50,932 11516 INFO erp_db odoo.models.unlink: User #1 deleted product.product records with IDs: [11, 10] 
+2024-06-13 17:12:51,746 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.message records with IDs: [65] 
+2024-06-13 17:12:51,760 11516 INFO erp_db odoo.models.unlink: User #1 deleted ir.property records with IDs: [19] 
+2024-06-13 17:12:51,760 11516 INFO erp_db odoo.models.unlink: User #1 deleted product.product records with IDs: [22] 
+2024-06-13 17:12:52,326 11516 INFO erp_db odoo.addons.base.models.ir_module: module product: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:52,371 11516 INFO erp_db odoo.addons.base.models.ir_module: module product: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:52,950 11516 INFO erp_db odoo.modules.loading: Module product loaded in 6.20s, 2963 queries (+2963 other) 
+2024-06-13 17:12:52,950 11516 INFO erp_db odoo.modules.loading: Loading module sales_team (27/50) 
+2024-06-13 17:12:53,063 11516 INFO erp_db odoo.modules.registry: module sales_team: creating or updating database tables 
+2024-06-13 17:12:53,134 11516 INFO erp_db odoo.models: Prepare computation of res.users.sale_team_id 
+2024-06-13 17:12:53,316 11516 INFO erp_db odoo.modules.loading: loading sales_team/security/sales_team_security.xml 
+2024-06-13 17:12:53,580 11516 INFO erp_db odoo.modules.loading: loading sales_team/security/ir.model.access.csv 
+2024-06-13 17:12:53,606 11516 INFO erp_db odoo.modules.loading: loading sales_team/data/crm_team_data.xml 
+2024-06-13 17:12:53,679 11516 INFO erp_db odoo.modules.loading: loading sales_team/views/crm_tag_views.xml 
+2024-06-13 17:12:53,706 11516 INFO erp_db odoo.modules.loading: loading sales_team/views/crm_team_views.xml 
+2024-06-13 17:12:53,770 11516 INFO erp_db odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml 
+2024-06-13 17:12:53,837 11516 INFO erp_db odoo.modules.loading: loading sales_team/views/mail_activity_views.xml 
+2024-06-13 17:12:53,849 11516 INFO erp_db odoo.modules.loading: loading sales_team/views/res_partner_views.xml 
+2024-06-13 17:12:53,875 11516 INFO erp_db odoo.modules.loading: Module sales_team: loading demo 
+2024-06-13 17:12:53,875 11516 INFO erp_db odoo.modules.loading: loading sales_team/data/crm_team_demo.xml 
+2024-06-13 17:12:53,941 11516 INFO erp_db odoo.modules.loading: loading sales_team/data/crm_tag_demo.xml 
+2024-06-13 17:12:53,979 11516 INFO erp_db odoo.addons.base.models.ir_module: module sales_team: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:54,006 11516 INFO erp_db odoo.addons.base.models.ir_module: module sales_team: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:54,099 11516 INFO erp_db odoo.modules.loading: Module sales_team loaded in 1.15s, 734 queries (+734 other) 
+2024-06-13 17:12:54,100 11516 INFO erp_db odoo.modules.loading: Loading module spreadsheet_dashboard (28/50) 
+2024-06-13 17:12:54,176 11516 INFO erp_db odoo.modules.registry: module spreadsheet_dashboard: creating or updating database tables 
+2024-06-13 17:12:54,287 11516 INFO erp_db odoo.modules.loading: loading spreadsheet_dashboard/security/security.xml 
+2024-06-13 17:12:54,305 11516 INFO erp_db odoo.modules.loading: loading spreadsheet_dashboard/security/ir.model.access.csv 
+2024-06-13 17:12:54,325 11516 INFO erp_db odoo.modules.loading: loading spreadsheet_dashboard/views/spreadsheet_dashboard_views.xml 
+2024-06-13 17:12:54,356 11516 INFO erp_db odoo.modules.loading: loading spreadsheet_dashboard/views/menu_views.xml 
+2024-06-13 17:12:54,419 11516 INFO erp_db odoo.modules.loading: loading spreadsheet_dashboard/data/dashboard.xml 
+2024-06-13 17:12:54,449 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_dashboard: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:54,474 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_dashboard: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:54,510 11516 INFO erp_db odoo.modules.loading: Module spreadsheet_dashboard loaded in 0.41s, 193 queries (+193 other) 
+2024-06-13 17:12:54,510 11516 INFO erp_db odoo.modules.loading: Loading module web_unsplash (29/50) 
+2024-06-13 17:12:54,645 11516 INFO erp_db odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2024-06-13 17:12:54,733 11516 INFO erp_db odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2024-06-13 17:12:54,786 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_unsplash: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:54,812 11516 INFO erp_db odoo.addons.base.models.ir_module: module web_unsplash: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:54,839 11516 INFO erp_db odoo.modules.loading: Module web_unsplash loaded in 0.33s, 100 queries (+100 other) 
+2024-06-13 17:12:54,839 11516 INFO erp_db odoo.modules.loading: Loading module partner_autocomplete (30/50) 
+2024-06-13 17:12:55,099 11516 INFO erp_db odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2024-06-13 17:12:55,237 11516 INFO erp_db odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2024-06-13 17:12:55,257 11516 INFO erp_db odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2024-06-13 17:12:55,296 11516 INFO erp_db odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2024-06-13 17:12:55,315 11516 INFO erp_db odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2024-06-13 17:12:55,341 11516 INFO erp_db odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2024-06-13 17:12:55,367 11516 INFO erp_db odoo.addons.base.models.ir_module: module partner_autocomplete: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:55,394 11516 INFO erp_db odoo.addons.base.models.ir_module: module partner_autocomplete: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:55,425 11516 INFO erp_db odoo.modules.loading: Module partner_autocomplete loaded in 0.59s, 180 queries (+180 other) 
+2024-06-13 17:12:55,425 11516 INFO erp_db odoo.modules.loading: Loading module portal (31/50) 
+2024-06-13 17:12:55,672 11516 INFO erp_db odoo.modules.registry: module portal: creating or updating database tables 
+2024-06-13 17:12:56,029 11516 INFO erp_db odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2024-06-13 17:12:56,048 11516 INFO erp_db odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2024-06-13 17:12:56,067 11516 INFO erp_db odoo.modules.loading: loading portal/data/mail_templates.xml 
+2024-06-13 17:12:56,084 11516 INFO erp_db odoo.modules.loading: loading portal/views/portal_templates.xml 
+2024-06-13 17:12:56,252 11516 INFO erp_db odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2024-06-13 17:12:56,284 11516 INFO erp_db odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2024-06-13 17:12:56,307 11516 INFO erp_db odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2024-06-13 17:12:56,340 11516 INFO erp_db odoo.addons.base.models.ir_module: module portal: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:56,374 11516 INFO erp_db odoo.addons.base.models.ir_module: module portal: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:56,451 11516 INFO erp_db odoo.modules.loading: Module portal loaded in 1.03s, 481 queries (+481 other) 
+2024-06-13 17:12:56,451 11516 INFO erp_db odoo.modules.loading: Loading module sms (32/50) 
+2024-06-13 17:12:56,848 11516 INFO erp_db odoo.modules.registry: module sms: creating or updating database tables 
+2024-06-13 17:12:56,860 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2024-06-13 17:12:56,860 11516 INFO erp_db odoo.models: Prepare computation of ir.actions.server.sms_method 
+2024-06-13 17:12:56,898 11516 INFO erp_db odoo.models: Prepare computation of res.partner.phone_sanitized 
+2024-06-13 17:12:57,312 11516 INFO erp_db odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
+2024-06-13 17:12:57,553 11516 INFO erp_db odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2024-06-13 17:12:57,574 11516 INFO erp_db odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2024-06-13 17:12:57,601 11516 INFO erp_db odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2024-06-13 17:12:57,625 11516 INFO erp_db odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2024-06-13 17:12:57,649 11516 INFO erp_db odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2024-06-13 17:12:57,670 11516 INFO erp_db odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2024-06-13 17:12:57,698 11516 INFO erp_db odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2024-06-13 17:12:57,727 11516 INFO erp_db odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2024-06-13 17:12:57,755 11516 INFO erp_db odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2024-06-13 17:12:57,879 11516 INFO erp_db odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2024-06-13 17:12:58,000 11516 INFO erp_db odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2024-06-13 17:12:58,043 11516 INFO erp_db odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2024-06-13 17:12:58,078 11516 INFO erp_db odoo.modules.loading: loading sms/security/sms_security.xml 
+2024-06-13 17:12:58,095 11516 INFO erp_db odoo.modules.loading: Module sms: loading demo 
+2024-06-13 17:12:58,096 11516 INFO erp_db odoo.modules.loading: loading sms/data/sms_demo.xml 
+2024-06-13 17:12:58,110 11516 INFO erp_db odoo.modules.loading: loading sms/data/mail_demo.xml 
+2024-06-13 17:12:58,183 11516 INFO erp_db odoo.addons.base.models.ir_module: module sms: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:58,216 11516 INFO erp_db odoo.addons.base.models.ir_module: module sms: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:58,303 11516 INFO erp_db odoo.modules.loading: Module sms loaded in 1.85s, 734 queries (+734 other) 
+2024-06-13 17:12:58,303 11516 INFO erp_db odoo.modules.loading: Loading module snailmail (33/50) 
+2024-06-13 17:12:58,511 11516 INFO erp_db odoo.modules.registry: module snailmail: creating or updating database tables 
+2024-06-13 17:12:58,972 11516 INFO erp_db odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2024-06-13 17:12:58,998 11516 INFO erp_db odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2024-06-13 17:12:59,031 11516 INFO erp_db odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2024-06-13 17:12:59,076 11516 INFO erp_db odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2024-06-13 17:12:59,094 11516 INFO erp_db odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2024-06-13 17:12:59,118 11516 INFO erp_db odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2024-06-13 17:12:59,143 11516 INFO erp_db odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2024-06-13 17:12:59,178 11516 INFO erp_db odoo.addons.base.models.ir_module: module snailmail: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:59,207 11516 INFO erp_db odoo.addons.base.models.ir_module: module snailmail: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:59,278 11516 INFO erp_db odoo.modules.loading: Module snailmail loaded in 0.97s, 422 queries (+422 other) 
+2024-06-13 17:12:59,278 11516 INFO erp_db odoo.modules.loading: Loading module auth_totp_portal (34/50) 
+2024-06-13 17:12:59,348 11516 INFO erp_db odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2024-06-13 17:12:59,393 11516 INFO erp_db odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2024-06-13 17:12:59,427 11516 INFO erp_db odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2024-06-13 17:12:59,458 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_totp_portal: loading base translation file pt for language pt_BR 
+2024-06-13 17:12:59,477 11516 INFO erp_db odoo.addons.base.models.ir_module: module auth_totp_portal: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:12:59,501 11516 INFO erp_db odoo.modules.loading: Module auth_totp_portal loaded in 0.22s, 72 queries (+72 other) 
+2024-06-13 17:12:59,501 11516 INFO erp_db odoo.modules.loading: Loading module digest (35/50) 
+2024-06-13 17:12:59,635 11516 INFO erp_db odoo.modules.registry: module digest: creating or updating database tables 
+2024-06-13 17:12:59,836 11516 INFO erp_db odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2024-06-13 17:12:59,857 11516 INFO erp_db odoo.modules.loading: loading digest/data/digest_data.xml 
+2024-06-13 17:12:59,899 11516 INFO erp_db odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2024-06-13 17:12:59,939 11516 INFO erp_db odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2024-06-13 17:12:59,957 11516 INFO erp_db odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2024-06-13 17:12:59,976 11516 INFO erp_db odoo.modules.loading: loading digest/views/digest_views.xml 
+2024-06-13 17:13:00,062 11516 INFO erp_db odoo.modules.loading: loading digest/views/digest_templates.xml 
+2024-06-13 17:13:00,078 11516 INFO erp_db odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2024-06-13 17:13:00,122 11516 INFO erp_db odoo.addons.base.models.ir_module: module digest: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:00,158 11516 INFO erp_db odoo.addons.base.models.ir_module: module digest: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:00,230 11516 INFO erp_db odoo.modules.loading: Module digest loaded in 0.73s, 310 queries (+310 other) 
+2024-06-13 17:13:00,230 11516 INFO erp_db odoo.modules.loading: Loading module payment (36/50) 
+2024-06-13 17:13:00,567 11516 INFO erp_db odoo.modules.registry: module payment: creating or updating database tables 
+2024-06-13 17:13:01,289 11516 INFO erp_db odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2024-06-13 17:13:02,076 11516 INFO erp_db odoo.modules.loading: loading payment/data/payment_provider_data.xml 
+2024-06-13 17:13:02,944 11516 INFO erp_db odoo.modules.loading: loading payment/data/payment_cron.xml 
+2024-06-13 17:13:02,966 11516 INFO erp_db odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2024-06-13 17:13:03,026 11516 INFO erp_db odoo.modules.loading: loading payment/views/payment_templates.xml 
+2024-06-13 17:13:03,095 11516 INFO erp_db odoo.modules.loading: loading payment/views/payment_provider_views.xml 
+2024-06-13 17:13:03,163 11516 INFO erp_db odoo.modules.loading: loading payment/views/payment_icon_views.xml 
+2024-06-13 17:13:03,197 11516 INFO erp_db odoo.modules.loading: loading payment/views/payment_transaction_views.xml 
+2024-06-13 17:13:03,250 11516 INFO erp_db odoo.modules.loading: loading payment/views/payment_token_views.xml 
+2024-06-13 17:13:03,291 11516 INFO erp_db odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2024-06-13 17:13:03,322 11516 INFO erp_db odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2024-06-13 17:13:03,591 11516 INFO erp_db odoo.modules.loading: loading payment/security/payment_security.xml 
+2024-06-13 17:13:03,663 11516 INFO erp_db odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2024-06-13 17:13:03,801 11516 INFO erp_db odoo.modules.loading: loading payment/wizards/payment_onboarding_views.xml 
+2024-06-13 17:13:03,825 11516 INFO erp_db odoo.modules.loading: Module payment: loading demo 
+2024-06-13 17:13:03,826 11516 INFO erp_db odoo.modules.loading: loading payment/data/payment_demo.xml 
+2024-06-13 17:13:03,844 11516 INFO erp_db odoo.addons.base.models.ir_module: module payment: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:03,871 11516 INFO erp_db odoo.addons.base.models.ir_module: module payment: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:04,019 11516 INFO erp_db odoo.modules.loading: Module payment loaded in 3.79s, 867 queries (+867 other) 
+2024-06-13 17:13:04,019 11516 INFO erp_db odoo.modules.loading: Loading module account (37/50) 
+2024-06-13 17:13:05,712 11516 INFO erp_db odoo.modules.registry: module account: creating or updating database tables 
+2024-06-13 17:13:07,671 11516 INFO erp_db odoo.models: Prepare computation of res.company.account_fiscal_country_id 
+2024-06-13 17:13:07,671 11516 INFO erp_db odoo.models: Prepare computation of res.company.early_pay_discount_computation 
+2024-06-13 17:13:07,671 11516 INFO erp_db odoo.models: Prepare computation of res.company.invoice_terms_html 
+2024-06-13 17:13:13,219 11516 INFO erp_db odoo.modules.loading: loading account/security/account_security.xml 
+2024-06-13 17:13:14,018 11516 INFO erp_db odoo.modules.loading: loading account/security/ir.model.access.csv 
+2024-06-13 17:13:14,177 11516 INFO erp_db odoo.modules.loading: loading account/data/account_data.xml 
+2024-06-13 17:13:14,323 11516 INFO erp_db odoo.modules.loading: loading account/data/digest_data.xml 
+2024-06-13 17:13:14,345 11516 INFO erp_db odoo.modules.loading: loading account/views/account_report.xml 
+2024-06-13 17:13:14,389 11516 INFO erp_db odoo.modules.loading: loading account/data/mail_template_data.xml 
+2024-06-13 17:13:14,415 11516 INFO erp_db odoo.modules.loading: loading account/views/account_payment_view.xml 
+2024-06-13 17:13:14,541 11516 INFO erp_db odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2024-06-13 17:13:14,567 11516 INFO erp_db odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2024-06-13 17:13:14,591 11516 INFO erp_db odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2024-06-13 17:13:14,619 11516 INFO erp_db odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2024-06-13 17:13:14,640 11516 INFO erp_db odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2024-06-13 17:13:14,663 11516 INFO erp_db odoo.modules.loading: loading account/views/account_move_views.xml 
+2024-06-13 17:13:15,213 11516 INFO erp_db odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2024-06-13 17:13:15,250 11516 INFO erp_db odoo.modules.loading: loading account/views/account_account_views.xml 
+2024-06-13 17:13:15,322 11516 INFO erp_db odoo.modules.loading: loading account/views/account_group_views.xml 
+2024-06-13 17:13:15,360 11516 INFO erp_db odoo.modules.loading: loading account/views/account_journal_views.xml 
+2024-06-13 17:13:15,470 11516 INFO erp_db odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2024-06-13 17:13:15,508 11516 INFO erp_db odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2024-06-13 17:13:15,576 11516 INFO erp_db odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2024-06-13 17:13:15,711 11516 INFO erp_db odoo.modules.loading: loading account/views/account_tax_views.xml 
+2024-06-13 17:13:15,854 11516 INFO erp_db odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2024-06-13 17:13:15,877 11516 INFO erp_db odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2024-06-13 17:13:15,930 11516 INFO erp_db odoo.modules.loading: loading account/views/account_chart_template_views.xml 
+2024-06-13 17:13:16,000 11516 INFO erp_db odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2024-06-13 17:13:16,032 11516 INFO erp_db odoo.modules.loading: loading account/views/report_statement.xml 
+2024-06-13 17:13:16,088 11516 INFO erp_db odoo.modules.loading: loading account/views/terms_template.xml 
+2024-06-13 17:13:16,118 11516 INFO erp_db odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2024-06-13 17:13:16,147 11516 INFO erp_db odoo.modules.loading: loading account/views/res_company_views.xml 
+2024-06-13 17:13:16,181 11516 INFO erp_db odoo.modules.loading: loading account/views/product_view.xml 
+2024-06-13 17:13:16,243 11516 INFO erp_db odoo.modules.loading: loading account/views/account_analytic_plan_views.xml 
+2024-06-13 17:13:16,265 11516 INFO erp_db odoo.modules.loading: loading account/views/account_analytic_account_views.xml 
+2024-06-13 17:13:16,300 11516 INFO erp_db odoo.modules.loading: loading account/views/account_analytic_distribution_model_views.xml 
+2024-06-13 17:13:16,331 11516 INFO erp_db odoo.modules.loading: loading account/views/account_analytic_line_views.xml 
+2024-06-13 17:13:16,398 11516 INFO erp_db odoo.modules.loading: loading account/views/report_invoice.xml 
+2024-06-13 17:13:16,453 11516 INFO erp_db odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2024-06-13 17:13:16,541 11516 INFO erp_db odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2024-06-13 17:13:16,580 11516 INFO erp_db odoo.modules.loading: loading account/views/ir_module_views.xml 
+2024-06-13 17:13:16,604 11516 INFO erp_db odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2024-06-13 17:13:16,676 11516 INFO erp_db odoo.modules.loading: loading account/views/partner_view.xml 
+2024-06-13 17:13:16,801 11516 INFO erp_db odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2024-06-13 17:13:16,838 11516 INFO erp_db odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2024-06-13 17:13:16,903 11516 INFO erp_db odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2024-06-13 17:13:16,925 11516 INFO erp_db odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2024-06-13 17:13:17,011 11516 INFO erp_db odoo.modules.loading: loading account/data/service_cron.xml 
+2024-06-13 17:13:17,030 11516 INFO erp_db odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2024-06-13 17:13:17,069 11516 INFO erp_db odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2024-06-13 17:13:17,112 11516 INFO erp_db odoo.modules.loading: loading account/views/digest_views.xml 
+2024-06-13 17:13:17,128 11516 INFO erp_db odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2024-06-13 17:13:17,162 11516 INFO erp_db odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2024-06-13 17:13:17,185 11516 INFO erp_db odoo.modules.loading: loading account/views/res_currency.xml 
+2024-06-13 17:13:17,211 11516 INFO erp_db odoo.modules.loading: loading account/views/account_menuitem.xml 
+2024-06-13 17:13:17,582 11516 INFO erp_db odoo.modules.loading: loading account/wizard/account_tour_upload_bill.xml 
+2024-06-13 17:13:17,608 11516 INFO erp_db odoo.modules.loading: loading account/wizard/accrued_orders.xml 
+2024-06-13 17:13:17,628 11516 INFO erp_db odoo.modules.loading: loading account/views/bill_preview_template.xml 
+2024-06-13 17:13:17,654 11516 INFO erp_db odoo.modules.loading: loading account/data/account_reports_data.xml 
+2024-06-13 17:13:17,699 11516 INFO erp_db odoo.modules.loading: Module account: loading demo 
+2024-06-13 17:13:17,699 11516 INFO erp_db odoo.modules.loading: loading account/demo/account_demo.xml 
+2024-06-13 17:13:18,123 11516 INFO erp_db odoo.addons.base.models.ir_module: module account: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:18,384 11516 INFO erp_db odoo.addons.base.models.ir_module: module account: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:18,973 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Brazilian - Accounting'] to user __system__ #1 via 127.0.0.1 
+2024-06-13 17:13:19,183 11516 INFO erp_db odoo.modules.loading: Module account loaded in 15.16s, 6458 queries (+6458 other) 
+2024-06-13 17:13:19,183 11516 INFO erp_db odoo.modules.loading: Loading module account_edi (38/50) 
+2024-06-13 17:13:19,418 11516 INFO erp_db odoo.modules.registry: module account_edi: creating or updating database tables 
+2024-06-13 17:13:19,920 11516 INFO erp_db odoo.modules.loading: loading account_edi/security/ir.model.access.csv 
+2024-06-13 17:13:19,948 11516 INFO erp_db odoo.modules.loading: loading account_edi/views/account_edi_document_views.xml 
+2024-06-13 17:13:19,967 11516 INFO erp_db odoo.modules.loading: loading account_edi/views/account_move_views.xml 
+2024-06-13 17:13:20,113 11516 INFO erp_db odoo.modules.loading: loading account_edi/views/account_payment_views.xml 
+2024-06-13 17:13:20,149 11516 INFO erp_db odoo.modules.loading: loading account_edi/views/account_journal_views.xml 
+2024-06-13 17:13:20,171 11516 INFO erp_db odoo.modules.loading: loading account_edi/data/cron.xml 
+2024-06-13 17:13:20,209 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_edi: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:20,234 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_edi: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:20,288 11516 INFO erp_db odoo.modules.loading: Module account_edi loaded in 1.11s, 321 queries (+321 other) 
+2024-06-13 17:13:20,290 11516 INFO erp_db odoo.modules.loading: Loading module account_payment (39/50) 
+2024-06-13 17:13:20,633 11516 INFO erp_db odoo.modules.registry: module account_payment: creating or updating database tables 
+2024-06-13 17:13:21,166 11516 INFO erp_db odoo.modules.loading: loading account_payment/security/ir.model.access.csv 
+2024-06-13 17:13:21,193 11516 INFO erp_db odoo.modules.loading: loading account_payment/security/ir_rules.xml 
+2024-06-13 17:13:21,241 11516 INFO erp_db odoo.modules.loading: loading account_payment/views/account_payment_menus.xml 
+2024-06-13 17:13:21,299 11516 INFO erp_db odoo.modules.loading: loading account_payment/views/account_portal_templates.xml 
+2024-06-13 17:13:21,377 11516 INFO erp_db odoo.modules.loading: loading account_payment/views/payment_templates.xml 
+2024-06-13 17:13:21,411 11516 INFO erp_db odoo.modules.loading: loading account_payment/views/account_move_views.xml 
+2024-06-13 17:13:21,452 11516 INFO erp_db odoo.modules.loading: loading account_payment/views/account_journal_views.xml 
+2024-06-13 17:13:21,482 11516 INFO erp_db odoo.modules.loading: loading account_payment/views/account_payment_views.xml 
+2024-06-13 17:13:21,516 11516 INFO erp_db odoo.modules.loading: loading account_payment/views/payment_provider_views.xml 
+2024-06-13 17:13:21,540 11516 INFO erp_db odoo.modules.loading: loading account_payment/views/payment_transaction_views.xml 
+2024-06-13 17:13:21,564 11516 INFO erp_db odoo.modules.loading: loading account_payment/wizards/account_payment_register_views.xml 
+2024-06-13 17:13:21,590 11516 INFO erp_db odoo.modules.loading: loading account_payment/wizards/payment_link_wizard_views.xml 
+2024-06-13 17:13:21,608 11516 INFO erp_db odoo.modules.loading: loading account_payment/wizards/payment_refund_wizard_views.xml 
+2024-06-13 17:13:21,637 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_payment: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:21,666 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_payment: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:21,725 11516 INFO erp_db odoo.modules.loading: Module account_payment loaded in 1.44s, 428 queries (+428 other) 
+2024-06-13 17:13:21,726 11516 INFO erp_db odoo.modules.loading: Loading module account_sequence (40/50) 
+2024-06-13 17:13:21,937 11516 INFO erp_db odoo.modules.registry: module account_sequence: creating or updating database tables 
+2024-06-13 17:13:22,026 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_sequence: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:22,045 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_sequence: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:22,086 11516 INFO erp_db odoo.modules.loading: Module account_sequence loaded in 0.36s, 60 queries (+60 other) 
+2024-06-13 17:13:22,086 11516 INFO erp_db odoo.modules.loading: Loading module snailmail_account (41/50) 
+2024-06-13 17:13:22,249 11516 INFO erp_db odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2024-06-13 17:13:22,406 11516 INFO erp_db odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2024-06-13 17:13:22,447 11516 INFO erp_db odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2024-06-13 17:13:22,469 11516 INFO erp_db odoo.modules.loading: loading snailmail_account/security/ir.model.access.csv 
+2024-06-13 17:13:22,489 11516 INFO erp_db odoo.addons.base.models.ir_module: module snailmail_account: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:22,511 11516 INFO erp_db odoo.addons.base.models.ir_module: module snailmail_account: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:22,540 11516 INFO erp_db odoo.modules.loading: Module snailmail_account loaded in 0.45s, 116 queries (+116 other) 
+2024-06-13 17:13:22,540 11516 INFO erp_db odoo.modules.loading: Loading module spreadsheet_account (42/50) 
+2024-06-13 17:13:22,668 11516 INFO erp_db odoo.modules.registry: module spreadsheet_account: creating or updating database tables 
+2024-06-13 17:13:22,836 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_account: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:23,215 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_account: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:23,419 11516 INFO erp_db odoo.modules.loading: Module spreadsheet_account loaded in 0.88s, 51 queries (+51 other) 
+2024-06-13 17:13:23,420 11516 INFO erp_db odoo.modules.loading: Loading module spreadsheet_dashboard_account (43/50) 
+2024-06-13 17:13:23,552 11516 INFO erp_db odoo.modules.loading: loading spreadsheet_dashboard_account/data/dashboards.xml 
+2024-06-13 17:13:23,634 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_dashboard_account: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:23,661 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_dashboard_account: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:23,681 11516 INFO erp_db odoo.modules.loading: Module spreadsheet_dashboard_account loaded in 0.26s, 27 queries (+27 other) 
+2024-06-13 17:13:23,681 11516 INFO erp_db odoo.modules.loading: Loading module account_edi_ubl_cii (44/50) 
+2024-06-13 17:13:25,180 11516 INFO erp_db odoo.modules.registry: module account_edi_ubl_cii: creating or updating database tables 
+2024-06-13 17:13:25,257 11516 INFO erp_db odoo.modules.loading: loading account_edi_ubl_cii/data/account_edi_data.xml 
+2024-06-13 17:13:25,293 11516 INFO erp_db odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
+2024-06-13 17:13:25,337 11516 INFO erp_db odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_20_templates.xml 
+2024-06-13 17:13:25,409 11516 INFO erp_db odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_21_templates.xml 
+2024-06-13 17:13:25,444 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_edi_ubl_cii: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:25,467 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_edi_ubl_cii: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:25,499 11516 INFO erp_db odoo.modules.loading: Module account_edi_ubl_cii loaded in 1.82s, 190 queries (+190 other) 
+2024-06-13 17:13:25,499 11516 INFO erp_db odoo.modules.loading: Loading module account_payment_invoice_online_payment_patch (45/50) 
+2024-06-13 17:13:25,630 11516 INFO erp_db odoo.modules.registry: module account_payment_invoice_online_payment_patch: creating or updating database tables 
+2024-06-13 17:13:25,732 11516 INFO erp_db odoo.modules.loading: loading account_payment_invoice_online_payment_patch/data/ir_config_parameter.xml 
+2024-06-13 17:13:25,748 11516 INFO erp_db odoo.modules.loading: loading account_payment_invoice_online_payment_patch/views/account_portal_templates.xml 
+2024-06-13 17:13:25,782 11516 INFO erp_db odoo.modules.loading: loading account_payment_invoice_online_payment_patch/wizards/res_config_settings_views.xml 
+2024-06-13 17:13:25,860 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_payment_invoice_online_payment_patch: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:25,883 11516 INFO erp_db odoo.addons.base.models.ir_module: module account_payment_invoice_online_payment_patch: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:25,913 11516 INFO erp_db odoo.modules.loading: Module account_payment_invoice_online_payment_patch loaded in 0.41s, 135 queries (+135 other) 
+2024-06-13 17:13:25,913 11516 INFO erp_db odoo.modules.loading: Loading module sale (46/50) 
+2024-06-13 17:13:26,505 11516 INFO erp_db odoo.modules.registry: module sale: creating or updating database tables 
+2024-06-13 17:13:26,716 11516 INFO erp_db odoo.models: Prepare computation of product.template.service_type 
+2024-06-13 17:13:26,716 11516 INFO erp_db odoo.models: Prepare computation of product.template.expense_policy 
+2024-06-13 17:13:26,716 11516 INFO erp_db odoo.models: Prepare computation of product.template.invoice_policy 
+2024-06-13 17:13:27,770 11516 INFO erp_db odoo.modules.loading: loading sale/security/ir.model.access.csv 
+2024-06-13 17:13:27,852 11516 INFO erp_db odoo.modules.loading: loading sale/security/res_groups.xml 
+2024-06-13 17:13:27,936 11516 INFO erp_db odoo.modules.loading: loading sale/security/ir_rules.xml 
+2024-06-13 17:13:28,138 11516 INFO erp_db odoo.modules.loading: loading sale/report/account_invoice_report_views.xml 
+2024-06-13 17:13:28,172 11516 INFO erp_db odoo.modules.loading: loading sale/report/ir_actions_report_templates.xml 
+2024-06-13 17:13:28,204 11516 INFO erp_db odoo.modules.loading: loading sale/report/ir_actions_report.xml 
+2024-06-13 17:13:28,227 11516 INFO erp_db odoo.modules.loading: loading sale/report/sale_report_views.xml 
+2024-06-13 17:13:28,280 11516 INFO erp_db odoo.modules.loading: loading sale/data/ir_sequence_data.xml 
+2024-06-13 17:13:28,298 11516 INFO erp_db odoo.modules.loading: loading sale/data/mail_activity_type_data.xml 
+2024-06-13 17:13:28,317 11516 INFO erp_db odoo.modules.loading: loading sale/data/mail_message_subtype_data.xml 
+2024-06-13 17:13:28,352 11516 INFO erp_db odoo.modules.loading: loading sale/data/mail_template_data.xml 
+2024-06-13 17:13:28,380 11516 INFO erp_db odoo.modules.loading: loading sale/data/sale_data.xml 
+2024-06-13 17:13:28,411 11516 INFO erp_db odoo.modules.loading: loading sale/wizard/account_accrued_orders_wizard_views.xml 
+2024-06-13 17:13:28,428 11516 INFO erp_db odoo.modules.loading: loading sale/wizard/payment_link_wizard_views.xml 
+2024-06-13 17:13:28,439 11516 INFO erp_db odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml 
+2024-06-13 17:13:28,462 11516 INFO erp_db odoo.modules.loading: loading sale/wizard/sale_order_cancel_views.xml 
+2024-06-13 17:13:28,479 11516 INFO erp_db odoo.modules.loading: loading sale/views/sale_order_views.xml 
+2024-06-13 17:13:28,704 11516 INFO erp_db odoo.modules.loading: loading sale/views/account_views.xml 
+2024-06-13 17:13:28,774 11516 INFO erp_db odoo.modules.loading: loading sale/views/crm_team_views.xml 
+2024-06-13 17:13:28,831 11516 INFO erp_db odoo.modules.loading: loading sale/views/mail_activity_views.xml 
+2024-06-13 17:13:28,843 11516 INFO erp_db odoo.modules.loading: loading sale/views/payment_templates.xml 
+2024-06-13 17:13:28,874 11516 INFO erp_db odoo.modules.loading: loading sale/views/payment_views.xml 
+2024-06-13 17:13:28,909 11516 INFO erp_db odoo.modules.loading: loading sale/views/product_packaging_views.xml 
+2024-06-13 17:13:28,935 11516 INFO erp_db odoo.modules.loading: loading sale/views/product_views.xml 
+2024-06-13 17:13:28,998 11516 INFO erp_db odoo.modules.loading: loading sale/views/res_config_settings_views.xml 
+2024-06-13 17:13:29,063 11516 INFO erp_db odoo.modules.loading: loading sale/views/res_partner_views.xml 
+2024-06-13 17:13:29,152 11516 INFO erp_db odoo.modules.loading: loading sale/views/variant_templates.xml 
+2024-06-13 17:13:29,175 11516 INFO erp_db odoo.modules.loading: loading sale/views/sale_onboarding_views.xml 
+2024-06-13 17:13:29,211 11516 INFO erp_db odoo.modules.loading: loading sale/views/sale_order_line_views.xml 
+2024-06-13 17:13:29,248 11516 INFO erp_db odoo.modules.loading: loading sale/views/sale_portal_templates.xml 
+2024-06-13 17:13:29,319 11516 INFO erp_db odoo.modules.loading: loading sale/views/utm_campaign_views.xml 
+2024-06-13 17:13:29,352 11516 INFO erp_db odoo.modules.loading: loading sale/views/sale_menus.xml 
+2024-06-13 17:13:29,526 11516 INFO erp_db odoo.modules.loading: Module sale: loading demo 
+2024-06-13 17:13:29,527 11516 INFO erp_db odoo.modules.loading: loading sale/data/product_demo.xml 
+2024-06-13 17:13:30,044 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.message records with IDs: [51] 
+2024-06-13 17:13:30,069 11516 INFO erp_db odoo.models.unlink: User #1 deleted product.product records with IDs: [15] 
+2024-06-13 17:13:30,217 11516 INFO erp_db odoo.modules.loading: loading sale/data/sale_demo.xml 
+2024-06-13 17:13:31,821 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:13:31,822 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 1 and Message-Id '<222559511512961.1718298811.723233699798584-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:13:31,852 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [1] 
+2024-06-13 17:13:31,852 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:13:31,919 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:13:31,920 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 2 and Message-Id '<627636904887478.1718298811.884183883666992-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:13:31,934 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [2] 
+2024-06-13 17:13:31,935 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:13:32,003 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:13:32,004 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 3 and Message-Id '<093993188908332.1718298811.964024066925049-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:13:32,017 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [3] 
+2024-06-13 17:13:32,018 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:13:32,073 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:13:32,074 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 4 and Message-Id '<235816109220213.1718298812.042042732238770-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:13:32,086 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [4] 
+2024-06-13 17:13:32,086 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:13:32,145 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:13:32,146 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 5 and Message-Id '<288266364631239.1718298812.112907409667969-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:13:32,156 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [5] 
+2024-06-13 17:13:32,156 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:13:32,210 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:13:32,210 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 6 and Message-Id '<939579781039350.1718298812.179503440856934-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:13:32,226 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [6] 
+2024-06-13 17:13:32,227 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:13:32,281 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:13:32,281 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 7 and Message-Id '<335423046980189.1718298812.248863935470581-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:13:32,292 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [7] 
+2024-06-13 17:13:32,292 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:13:32,349 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:13:32,350 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 8 and Message-Id '<587403611714265.1718298812.319378376007080-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:13:32,360 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [8] 
+2024-06-13 17:13:32,361 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:13:32,372 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:32,410 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:32,786 11516 INFO erp_db odoo.modules.loading: Module sale loaded in 6.87s, 4157 queries (+4160 other) 
+2024-06-13 17:13:32,787 11516 INFO erp_db odoo.modules.loading: Loading module sale_management (47/50) 
+2024-06-13 17:13:33,116 11516 INFO erp_db odoo.modules.registry: module sale_management: creating or updating database tables 
+2024-06-13 17:13:33,774 11516 INFO erp_db odoo.modules.loading: loading sale_management/data/digest_data.xml 
+2024-06-13 17:13:33,801 11516 INFO erp_db odoo.modules.loading: loading sale_management/security/ir.model.access.csv 
+2024-06-13 17:13:33,833 11516 INFO erp_db odoo.modules.loading: loading sale_management/security/sale_management_security.xml 
+2024-06-13 17:13:33,885 11516 INFO erp_db odoo.modules.loading: loading sale_management/report/sale_report_templates.xml 
+2024-06-13 17:13:33,907 11516 INFO erp_db odoo.modules.loading: loading sale_management/views/sale_order_template_views.xml 
+2024-06-13 17:13:33,949 11516 INFO erp_db odoo.modules.loading: loading sale_management/views/digest_views.xml 
+2024-06-13 17:13:33,970 11516 INFO erp_db odoo.modules.loading: loading sale_management/views/res_config_settings_views.xml 
+2024-06-13 17:13:34,070 11516 INFO erp_db odoo.modules.loading: loading sale_management/views/sale_order_views.xml 
+2024-06-13 17:13:34,105 11516 INFO erp_db odoo.modules.loading: loading sale_management/views/sale_portal_templates.xml 
+2024-06-13 17:13:34,126 11516 INFO erp_db odoo.modules.loading: loading sale_management/views/sale_management_menus.xml 
+2024-06-13 17:13:34,150 11516 INFO erp_db odoo.modules.loading: Module sale_management: loading demo 
+2024-06-13 17:13:34,150 11516 INFO erp_db odoo.modules.loading: loading sale_management/data/sale_order_template_demo.xml 
+2024-06-13 17:13:34,224 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale_management: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:34,254 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale_management: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:34,337 11516 INFO erp_db odoo.modules.loading: Module sale_management loaded in 1.55s, 524 queries (+524 other) 
+2024-06-13 17:13:34,337 11516 INFO erp_db odoo.modules.loading: Loading module sale_product_configurator (48/50) 
+2024-06-13 17:13:34,475 11516 INFO erp_db odoo.modules.registry: module sale_product_configurator: creating or updating database tables 
+2024-06-13 17:13:34,591 11516 INFO erp_db odoo.modules.loading: loading sale_product_configurator/views/product_template_views.xml 
+2024-06-13 17:13:34,616 11516 INFO erp_db odoo.modules.loading: loading sale_product_configurator/views/sale_order_views.xml 
+2024-06-13 17:13:34,644 11516 INFO erp_db odoo.modules.loading: loading sale_product_configurator/views/templates.xml 
+2024-06-13 17:13:34,687 11516 INFO erp_db odoo.modules.loading: Module sale_product_configurator: loading demo 
+2024-06-13 17:13:34,688 11516 INFO erp_db odoo.modules.loading: loading sale_product_configurator/data/sale_demo.xml 
+2024-06-13 17:13:34,842 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale_product_configurator: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:34,864 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale_product_configurator: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:34,905 11516 INFO erp_db odoo.modules.loading: Module sale_product_configurator loaded in 0.57s, 227 queries (+227 other) 
+2024-06-13 17:13:34,905 11516 INFO erp_db odoo.modules.loading: Loading module sale_sms (49/50) 
+2024-06-13 17:13:35,003 11516 INFO erp_db odoo.modules.loading: loading sale_sms/security/ir.model.access.csv 
+2024-06-13 17:13:35,038 11516 INFO erp_db odoo.modules.loading: loading sale_sms/security/security.xml 
+2024-06-13 17:13:35,062 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale_sms: no translation for language pt_BR 
+2024-06-13 17:13:35,069 11516 INFO erp_db odoo.modules.loading: Module sale_sms loaded in 0.16s, 35 queries (+35 other) 
+2024-06-13 17:13:35,069 11516 INFO erp_db odoo.modules.loading: Loading module spreadsheet_dashboard_sale (50/50) 
+2024-06-13 17:13:35,170 11516 INFO erp_db odoo.modules.loading: loading spreadsheet_dashboard_sale/data/dashboards.xml 
+2024-06-13 17:13:35,240 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_dashboard_sale: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:35,262 11516 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_dashboard_sale: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:35,282 11516 INFO erp_db odoo.modules.loading: Module spreadsheet_dashboard_sale loaded in 0.21s, 31 queries (+31 other) 
+2024-06-13 17:13:35,283 11516 INFO erp_db odoo.modules.loading: 50 modules loaded in 66.38s, 26788 queries (+26791 extra) 
+2024-06-13 17:13:35,286 11516 INFO erp_db odoo.modules.loading: loading 69 modules... 
+2024-06-13 17:13:35,286 11516 INFO erp_db odoo.modules.loading: Loading module social_media (2/69) 
+2024-06-13 17:13:35,390 11516 INFO erp_db odoo.modules.registry: module social_media: creating or updating database tables 
+2024-06-13 17:13:35,471 11516 INFO erp_db odoo.modules.loading: loading social_media/views/res_company_views.xml 
+2024-06-13 17:13:35,497 11516 INFO erp_db odoo.modules.loading: Module social_media: loading demo 
+2024-06-13 17:13:35,498 11516 INFO erp_db odoo.modules.loading: loading social_media/demo/res_company_demo.xml 
+2024-06-13 17:13:35,527 11516 INFO erp_db odoo.addons.base.models.ir_module: module social_media: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:35,546 11516 INFO erp_db odoo.addons.base.models.ir_module: module social_media: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:35,576 11516 INFO erp_db odoo.modules.loading: Module social_media loaded in 0.29s, 94 queries (+94 other) 
+2024-06-13 17:13:35,576 11516 INFO erp_db odoo.modules.loading: Loading module contacts (22/69) 
+2024-06-13 17:13:35,682 11516 INFO erp_db odoo.modules.registry: module contacts: creating or updating database tables 
+2024-06-13 17:13:35,819 11516 INFO erp_db odoo.modules.loading: loading contacts/views/contact_views.xml 
+2024-06-13 17:13:35,967 11516 INFO erp_db odoo.addons.base.models.ir_module: module contacts: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:35,987 11516 INFO erp_db odoo.addons.base.models.ir_module: module contacts: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:36,013 11516 INFO erp_db odoo.modules.loading: Module contacts loaded in 0.44s, 224 queries (+224 other) 
+2024-06-13 17:13:36,013 11516 INFO erp_db odoo.modules.loading: Loading module gamification (23/69) 
+2024-06-13 17:13:36,269 11516 INFO erp_db odoo.modules.registry: module gamification: creating or updating database tables 
+2024-06-13 17:13:36,965 11516 INFO erp_db odoo.modules.loading: loading gamification/wizard/update_goal.xml 
+2024-06-13 17:13:36,982 11516 INFO erp_db odoo.modules.loading: loading gamification/wizard/grant_badge.xml 
+2024-06-13 17:13:37,009 11516 INFO erp_db odoo.modules.loading: loading gamification/views/res_users_views.xml 
+2024-06-13 17:13:37,042 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_karma_rank_views.xml 
+2024-06-13 17:13:37,078 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_karma_tracking_views.xml 
+2024-06-13 17:13:37,109 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_badge_views.xml 
+2024-06-13 17:13:37,156 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_badge_user_views.xml 
+2024-06-13 17:13:37,172 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_goal_views.xml 
+2024-06-13 17:13:37,225 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_goal_definition_views.xml 
+2024-06-13 17:13:37,260 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_challenge_views.xml 
+2024-06-13 17:13:37,312 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_challenge_line_views.xml 
+2024-06-13 17:13:37,327 11516 INFO erp_db odoo.modules.loading: loading gamification/views/gamification_menus.xml 
+2024-06-13 17:13:37,381 11516 INFO erp_db odoo.modules.loading: loading gamification/security/gamification_security.xml 
+2024-06-13 17:13:37,422 11516 INFO erp_db odoo.modules.loading: loading gamification/security/ir.model.access.csv 
+2024-06-13 17:13:37,469 11516 INFO erp_db odoo.modules.loading: loading gamification/data/ir_cron_data.xml 
+2024-06-13 17:13:37,495 11516 INFO erp_db odoo.modules.loading: loading gamification/data/mail_template_data.xml 
+2024-06-13 17:13:37,529 11516 INFO erp_db odoo.modules.loading: loading gamification/data/gamification_badge_data.xml 
+2024-06-13 17:13:37,635 11516 INFO erp_db odoo.modules.loading: loading gamification/data/gamification_challenge_data.xml 
+2024-06-13 17:13:37,712 11516 INFO erp_db odoo.modules.loading: loading gamification/data/gamification_karma_rank_data.xml 
+2024-06-13 17:13:37,834 11516 INFO erp_db odoo.modules.loading: Module gamification: loading demo 
+2024-06-13 17:13:37,835 11516 INFO erp_db odoo.modules.loading: loading gamification/data/gamification_karma_rank_demo.xml 
+2024-06-13 17:13:37,860 11516 INFO erp_db odoo.modules.loading: loading gamification/data/gamification_karma_tracking_demo.xml 
+2024-06-13 17:13:38,163 11516 INFO erp_db odoo.models.unlink: User #1 deleted gamification.karma.tracking records with IDs: [8] 
+2024-06-13 17:13:38,194 11516 INFO erp_db odoo.models.unlink: User #1 deleted gamification.karma.tracking records with IDs: [14] 
+2024-06-13 17:13:38,210 11516 INFO erp_db odoo.models.unlink: User #1 deleted gamification.karma.tracking records with IDs: [2] 
+2024-06-13 17:13:38,215 11516 INFO erp_db odoo.addons.base.models.ir_module: module gamification: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:38,258 11516 INFO erp_db odoo.addons.base.models.ir_module: module gamification: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:38,396 11516 INFO erp_db odoo.modules.loading: Module gamification loaded in 2.38s, 1068 queries (+1068 other) 
+2024-06-13 17:13:38,396 11516 INFO erp_db odoo.modules.loading: Loading module hr (25/69) 
+2024-06-13 17:13:38,830 11516 INFO erp_db odoo.modules.registry: module hr: creating or updating database tables 
+2024-06-13 17:13:41,857 11516 INFO erp_db odoo.modules.loading: loading hr/security/hr_security.xml 
+2024-06-13 17:13:42,161 11516 INFO erp_db odoo.modules.loading: loading hr/security/ir.model.access.csv 
+2024-06-13 17:13:42,203 11516 INFO erp_db odoo.modules.loading: loading hr/wizard/hr_plan_wizard_views.xml 
+2024-06-13 17:13:42,228 11516 INFO erp_db odoo.modules.loading: loading hr/wizard/hr_departure_wizard_views.xml 
+2024-06-13 17:13:42,248 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_departure_reason_views.xml 
+2024-06-13 17:13:42,274 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_contract_type_views.xml 
+2024-06-13 17:13:42,301 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_job_views.xml 
+2024-06-13 17:13:42,342 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_plan_views.xml 
+2024-06-13 17:13:42,396 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_employee_category_views.xml 
+2024-06-13 17:13:42,419 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_employee_public_views.xml 
+2024-06-13 17:13:42,471 11516 INFO erp_db odoo.modules.loading: loading hr/report/hr_employee_badge.xml 
+2024-06-13 17:13:42,497 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_employee_views.xml 
+2024-06-13 17:13:42,604 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_department_views.xml 
+2024-06-13 17:13:42,656 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_work_location_views.xml 
+2024-06-13 17:13:42,685 11516 INFO erp_db odoo.modules.loading: loading hr/views/hr_views.xml 
+2024-06-13 17:13:42,821 11516 INFO erp_db odoo.modules.loading: loading hr/views/res_config_settings_views.xml 
+2024-06-13 17:13:42,877 11516 INFO erp_db odoo.modules.loading: loading hr/views/mail_channel_views.xml 
+2024-06-13 17:13:42,893 11516 INFO erp_db odoo.modules.loading: loading hr/views/res_users.xml 
+2024-06-13 17:13:43,000 11516 INFO erp_db odoo.modules.loading: loading hr/views/res_partner_views.xml 
+2024-06-13 17:13:43,028 11516 INFO erp_db odoo.modules.loading: loading hr/data/hr_data.xml 
+2024-06-13 17:13:43,281 11516 INFO erp_db odoo.modules.loading: Module hr: loading demo 
+2024-06-13 17:13:43,281 11516 INFO erp_db odoo.modules.loading: loading hr/data/hr_demo.xml 
+2024-06-13 17:13:44,614 11516 INFO erp_db odoo.addons.base.models.ir_module: module hr: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:44,648 11516 INFO erp_db odoo.addons.base.models.ir_module: module hr: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:45,162 11516 INFO erp_db odoo.modules.loading: Module hr loaded in 6.77s, 4340 queries (+4340 other) 
+2024-06-13 17:13:45,163 11516 INFO erp_db odoo.modules.loading: Loading module link_tracker (27/69) 
+2024-06-13 17:13:45,353 11516 INFO erp_db odoo.modules.registry: module link_tracker: creating or updating database tables 
+2024-06-13 17:13:45,705 11516 INFO erp_db odoo.modules.loading: loading link_tracker/views/link_tracker_views.xml 
+2024-06-13 17:13:45,793 11516 INFO erp_db odoo.modules.loading: loading link_tracker/views/utm_campaign_views.xml 
+2024-06-13 17:13:45,828 11516 INFO erp_db odoo.modules.loading: loading link_tracker/security/ir.model.access.csv 
+2024-06-13 17:13:45,864 11516 INFO erp_db odoo.addons.base.models.ir_module: module link_tracker: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:45,889 11516 INFO erp_db odoo.addons.base.models.ir_module: module link_tracker: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:45,935 11516 INFO erp_db odoo.modules.loading: Module link_tracker loaded in 0.77s, 273 queries (+273 other) 
+2024-06-13 17:13:45,935 11516 INFO erp_db odoo.modules.loading: Loading module rating (32/69) 
+2024-06-13 17:13:46,181 11516 INFO erp_db odoo.modules.registry: module rating: creating or updating database tables 
+2024-06-13 17:13:46,715 11516 INFO erp_db odoo.modules.loading: loading rating/views/rating_rating_views.xml 
+2024-06-13 17:13:46,814 11516 INFO erp_db odoo.modules.loading: loading rating/views/rating_templates.xml 
+2024-06-13 17:13:46,837 11516 INFO erp_db odoo.modules.loading: loading rating/views/mail_message_views.xml 
+2024-06-13 17:13:46,854 11516 INFO erp_db odoo.modules.loading: loading rating/security/ir.model.access.csv 
+2024-06-13 17:13:46,884 11516 INFO erp_db odoo.addons.base.models.ir_module: module rating: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:46,911 11516 INFO erp_db odoo.addons.base.models.ir_module: module rating: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:46,963 11516 INFO erp_db odoo.modules.loading: Module rating loaded in 1.03s, 530 queries (+530 other) 
+2024-06-13 17:13:46,963 11516 INFO erp_db odoo.modules.loading: Loading module hr_gamification (36/69) 
+2024-06-13 17:13:47,129 11516 INFO erp_db odoo.modules.registry: module hr_gamification: creating or updating database tables 
+2024-06-13 17:13:47,291 11516 INFO erp_db odoo.modules.loading: loading hr_gamification/security/gamification_security.xml 
+2024-06-13 17:13:47,309 11516 INFO erp_db odoo.modules.loading: loading hr_gamification/security/ir.model.access.csv 
+2024-06-13 17:13:47,329 11516 INFO erp_db odoo.modules.loading: loading hr_gamification/wizard/gamification_badge_user_wizard_views.xml 
+2024-06-13 17:13:47,362 11516 INFO erp_db odoo.modules.loading: loading hr_gamification/views/gamification_views.xml 
+2024-06-13 17:13:47,434 11516 INFO erp_db odoo.modules.loading: loading hr_gamification/views/hr_employee_views.xml 
+2024-06-13 17:13:47,477 11516 INFO erp_db odoo.addons.base.models.ir_module: module hr_gamification: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:47,508 11516 INFO erp_db odoo.addons.base.models.ir_module: module hr_gamification: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:47,552 11516 INFO erp_db odoo.modules.loading: Module hr_gamification loaded in 0.59s, 263 queries (+263 other) 
+2024-06-13 17:13:47,552 11516 INFO erp_db odoo.modules.loading: Loading module hr_org_chart (37/69) 
+2024-06-13 17:13:47,720 11516 INFO erp_db odoo.modules.registry: module hr_org_chart: creating or updating database tables 
+2024-06-13 17:13:47,803 11516 INFO erp_db odoo.modules.loading: loading hr_org_chart/views/hr_views.xml 
+2024-06-13 17:13:47,871 11516 INFO erp_db odoo.addons.base.models.ir_module: module hr_org_chart: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:47,909 11516 INFO erp_db odoo.addons.base.models.ir_module: module hr_org_chart: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:47,937 11516 INFO erp_db odoo.modules.loading: Module hr_org_chart loaded in 0.39s, 95 queries (+95 other) 
+2024-06-13 17:13:47,938 11516 INFO erp_db odoo.modules.loading: Loading module mail_bot_hr (38/69) 
+2024-06-13 17:13:48,165 11516 INFO erp_db odoo.modules.loading: loading mail_bot_hr/views/res_users_views.xml 
+2024-06-13 17:13:48,259 11516 INFO erp_db odoo.addons.base.models.ir_module: module mail_bot_hr: no translation for language pt_BR 
+2024-06-13 17:13:48,266 11516 INFO erp_db odoo.modules.loading: Module mail_bot_hr loaded in 0.33s, 57 queries (+57 other) 
+2024-06-13 17:13:48,266 11516 INFO erp_db odoo.modules.loading: Loading module survey (43/69) 
+2024-06-13 17:13:48,577 11516 INFO erp_db odoo.modules.registry: module survey: creating or updating database tables 
+2024-06-13 17:13:48,715 11516 INFO erp_db odoo.models: Prepare computation of gamification.badge.survey_id 
+2024-06-13 17:13:49,231 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_report_templates.xml 
+2024-06-13 17:13:49,264 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_reports.xml 
+2024-06-13 17:13:49,286 11516 INFO erp_db odoo.modules.loading: loading survey/data/mail_template_data.xml 
+2024-06-13 17:13:49,310 11516 INFO erp_db odoo.modules.loading: loading survey/security/survey_security.xml 
+2024-06-13 17:13:49,687 11516 INFO erp_db odoo.modules.loading: loading survey/security/ir.model.access.csv 
+2024-06-13 17:13:49,723 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_menus.xml 
+2024-06-13 17:13:49,757 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_survey_views.xml 
+2024-06-13 17:13:49,834 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_user_views.xml 
+2024-06-13 17:13:49,913 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_question_views.xml 
+2024-06-13 17:13:50,004 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_templates.xml 
+2024-06-13 17:13:50,137 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_templates_management.xml 
+2024-06-13 17:13:50,194 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_templates_print.xml 
+2024-06-13 17:13:50,218 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_templates_statistics.xml 
+2024-06-13 17:13:50,302 11516 INFO erp_db odoo.modules.loading: loading survey/views/survey_templates_user_input_session.xml 
+2024-06-13 17:13:50,352 11516 INFO erp_db odoo.modules.loading: loading survey/views/gamification_badge_views.xml 
+2024-06-13 17:13:50,368 11516 INFO erp_db odoo.modules.loading: loading survey/wizard/survey_invite_views.xml 
+2024-06-13 17:13:50,387 11516 INFO erp_db odoo.modules.loading: loading survey/views/res_partner_views.xml 
+2024-06-13 17:13:50,422 11516 INFO erp_db odoo.modules.loading: Module survey: loading demo 
+2024-06-13 17:13:50,422 11516 INFO erp_db odoo.modules.loading: loading survey/data/gamification_badge_demo.xml 
+2024-06-13 17:13:50,456 11516 INFO erp_db odoo.modules.loading: loading survey/data/res_users_demo.xml 
+2024-06-13 17:13:50,518 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_feedback.xml 
+2024-06-13 17:13:50,658 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_feedback_user_input.xml 
+2024-06-13 17:13:50,718 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_feedback_user_input_line.xml 
+2024-06-13 17:13:50,836 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_certification.xml 
+2024-06-13 17:13:51,175 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_certification_user_input.xml 
+2024-06-13 17:13:51,232 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_certification_user_input_line.xml 
+2024-06-13 17:13:51,459 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_quiz.xml 
+2024-06-13 17:13:51,973 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_quiz_user_input.xml 
+2024-06-13 17:13:52,143 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_quiz_user_input_line.xml 
+2024-06-13 17:13:52,387 11516 INFO erp_db odoo.modules.loading: loading survey/data/survey_demo_conditional.xml 
+2024-06-13 17:13:52,707 11516 INFO erp_db odoo.addons.base.models.ir_module: module survey: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:52,755 11516 INFO erp_db odoo.addons.base.models.ir_module: module survey: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:53,080 11516 INFO erp_db odoo.modules.loading: Module survey loaded in 4.81s, 3190 queries (+3190 other) 
+2024-06-13 17:13:53,080 11516 INFO erp_db odoo.modules.loading: Loading module portal_rating (47/69) 
+2024-06-13 17:13:53,299 11516 INFO erp_db odoo.modules.registry: module portal_rating: creating or updating database tables 
+2024-06-13 17:13:53,406 11516 INFO erp_db odoo.modules.loading: loading portal_rating/views/rating_rating_views.xml 
+2024-06-13 17:13:53,427 11516 INFO erp_db odoo.modules.loading: loading portal_rating/views/portal_templates.xml 
+2024-06-13 17:13:53,444 11516 INFO erp_db odoo.modules.loading: loading portal_rating/views/rating_templates.xml 
+2024-06-13 17:13:53,474 11516 INFO erp_db odoo.addons.base.models.ir_module: module portal_rating: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:53,498 11516 INFO erp_db odoo.addons.base.models.ir_module: module portal_rating: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:53,527 11516 INFO erp_db odoo.modules.loading: Module portal_rating loaded in 0.45s, 107 queries (+107 other) 
+2024-06-13 17:13:53,528 11516 INFO erp_db odoo.modules.loading: Loading module mass_mailing (49/69) 
+2024-06-13 17:13:54,055 11516 INFO erp_db odoo.modules.registry: module mass_mailing: creating or updating database tables 
+2024-06-13 17:13:54,280 11516 INFO erp_db odoo.models: Prepare computation of utm.campaign.ab_testing_total_pc 
+2024-06-13 17:13:55,405 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/security/res_groups_data.xml 
+2024-06-13 17:13:55,530 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/security/ir.model.access.csv 
+2024-06-13 17:13:55,585 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/digest_data.xml 
+2024-06-13 17:13:55,603 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/ir_attachment_data.xml 
+2024-06-13 17:13:55,694 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/ir_config_parameter_data.xml 
+2024-06-13 17:13:55,705 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/ir_cron_data.xml 
+2024-06-13 17:13:55,734 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/ir_module_data.xml 
+2024-06-13 17:13:55,747 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/mailing_data_templates.xml 
+2024-06-13 17:13:55,784 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/mailing_list_data.xml 
+2024-06-13 17:13:55,821 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/res_users_data.xml 
+2024-06-13 17:13:55,952 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/wizard/mail_compose_message_views.xml 
+2024-06-13 17:13:55,975 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_import_views.xml 
+2024-06-13 17:13:55,999 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_to_list_views.xml 
+2024-06-13 17:13:56,017 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/wizard/mailing_list_merge_views.xml 
+2024-06-13 17:13:56,039 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_test_views.xml 
+2024-06-13 17:13:56,059 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_schedule_date_views.xml 
+2024-06-13 17:13:56,078 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/report/mailing_trace_report_views.xml 
+2024-06-13 17:13:56,116 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_filter_views.xml 
+2024-06-13 17:13:56,150 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_trace_views.xml 
+2024-06-13 17:13:56,207 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/link_tracker_views.xml 
+2024-06-13 17:13:56,272 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_contact_views.xml 
+2024-06-13 17:13:56,323 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_contact_subscription_views.xml 
+2024-06-13 17:13:56,351 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_list_views.xml 
+2024-06-13 17:13:56,402 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_mailing_views.xml 
+2024-06-13 17:13:56,544 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/res_config_settings_views.xml 
+2024-06-13 17:13:56,597 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/utm_campaign_views.xml 
+2024-06-13 17:13:56,641 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_menus.xml 
+2024-06-13 17:13:56,764 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/assets.xml 
+2024-06-13 17:13:56,790 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_layouts.xml 
+2024-06-13 17:13:56,807 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_management.xml 
+2024-06-13 17:13:56,833 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_unsubscribe.xml 
+2024-06-13 17:13:56,871 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/themes_templates.xml 
+2024-06-13 17:13:56,906 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets_themes.xml 
+2024-06-13 17:13:57,039 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_alert.xml 
+2024-06-13 17:13:57,073 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_blockquote.xml 
+2024-06-13 17:13:57,090 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_call_to_action.xml 
+2024-06-13 17:13:57,104 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_coupon_code.xml 
+2024-06-13 17:13:57,121 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_cover.xml 
+2024-06-13 17:13:57,135 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_color_blocks_2.xml 
+2024-06-13 17:13:57,153 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_company_team.xml 
+2024-06-13 17:13:57,170 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_comparisons.xml 
+2024-06-13 17:13:57,187 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_event.xml 
+2024-06-13 17:13:57,205 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_features.xml 
+2024-06-13 17:13:57,221 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_features_grid.xml 
+2024-06-13 17:13:57,242 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_hr.xml 
+2024-06-13 17:13:57,276 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_image_text.xml 
+2024-06-13 17:13:57,292 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_masonry_block.xml 
+2024-06-13 17:13:57,395 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_media_list.xml 
+2024-06-13 17:13:57,413 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_numbers.xml 
+2024-06-13 17:13:57,430 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_picture.xml 
+2024-06-13 17:13:57,446 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_product_list.xml 
+2024-06-13 17:13:57,463 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_rating.xml 
+2024-06-13 17:13:57,498 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_references.xml 
+2024-06-13 17:13:57,513 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_showcase.xml 
+2024-06-13 17:13:57,531 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_text_block.xml 
+2024-06-13 17:13:57,546 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_text_highlight.xml 
+2024-06-13 17:13:57,562 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_text_image.xml 
+2024-06-13 17:13:57,576 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_three_columns.xml 
+2024-06-13 17:13:57,592 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/views/snippets/s_title.xml 
+2024-06-13 17:13:57,606 11516 INFO erp_db odoo.modules.loading: Module mass_mailing: loading demo 
+2024-06-13 17:13:57,607 11516 INFO erp_db odoo.modules.loading: loading mass_mailing/data/mass_mailing_demo.xml 
+2024-06-13 17:13:57,826 11516 INFO erp_db odoo.addons.base.models.ir_module: module mass_mailing: loading base translation file pt for language pt_BR 
+2024-06-13 17:13:57,888 11516 INFO erp_db odoo.addons.base.models.ir_module: module mass_mailing: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:13:58,090 11516 INFO erp_db odoo.modules.loading: Module mass_mailing loaded in 4.56s, 2527 queries (+2527 other) 
+2024-06-13 17:13:58,090 11516 INFO erp_db odoo.modules.loading: Loading module project (50/69) 
+2024-06-13 17:13:58,554 11516 INFO erp_db odoo.modules.registry: module project: creating or updating database tables 
+2024-06-13 17:13:59,694 11516 INFO erp_db odoo.modules.loading: loading project/security/project_security.xml 
+2024-06-13 17:14:00,397 11516 INFO erp_db odoo.modules.loading: loading project/security/ir.model.access.csv 
+2024-06-13 17:14:00,459 11516 INFO erp_db odoo.modules.loading: loading project/security/ir.model.access.xml 
+2024-06-13 17:14:00,472 11516 INFO erp_db odoo.modules.loading: loading project/data/digest_data.xml 
+2024-06-13 17:14:00,494 11516 INFO erp_db odoo.modules.loading: loading project/report/project_report_views.xml 
+2024-06-13 17:14:00,540 11516 INFO erp_db odoo.modules.loading: loading project/report/project_task_burndown_chart_report_views.xml 
+2024-06-13 17:14:00,570 11516 INFO erp_db odoo.modules.loading: loading project/views/analytic_views.xml 
+2024-06-13 17:14:00,589 11516 INFO erp_db odoo.modules.loading: loading project/views/digest_views.xml 
+2024-06-13 17:14:00,610 11516 INFO erp_db odoo.modules.loading: loading project/views/rating_rating_views.xml 
+2024-06-13 17:14:00,731 11516 INFO erp_db odoo.modules.loading: loading project/views/project_update_views.xml 
+2024-06-13 17:14:00,775 11516 INFO erp_db odoo.modules.loading: loading project/views/project_update_templates.xml 
+2024-06-13 17:14:00,799 11516 INFO erp_db odoo.modules.loading: loading project/views/project_project_stage_views.xml 
+2024-06-13 17:14:00,853 11516 INFO erp_db odoo.modules.loading: loading project/wizard/project_share_wizard_views.xml 
+2024-06-13 17:14:00,876 11516 INFO erp_db odoo.modules.loading: loading project/views/project_collaborator_views.xml 
+2024-06-13 17:14:00,902 11516 INFO erp_db odoo.modules.loading: loading project/views/project_views.xml 
+2024-06-13 17:14:01,489 11516 INFO erp_db odoo.modules.loading: loading project/views/project_milestone_views.xml 
+2024-06-13 17:14:01,518 11516 INFO erp_db odoo.modules.loading: loading project/views/res_partner_views.xml 
+2024-06-13 17:14:01,550 11516 INFO erp_db odoo.modules.loading: loading project/views/res_config_settings_views.xml 
+2024-06-13 17:14:01,629 11516 INFO erp_db odoo.modules.loading: loading project/views/mail_activity_views.xml 
+2024-06-13 17:14:01,650 11516 INFO erp_db odoo.modules.loading: loading project/views/project_sharing_views.xml 
+2024-06-13 17:14:01,739 11516 INFO erp_db odoo.modules.loading: loading project/views/project_portal_templates.xml 
+2024-06-13 17:14:01,822 11516 INFO erp_db odoo.modules.loading: loading project/views/project_task_templates.xml 
+2024-06-13 17:14:01,836 11516 INFO erp_db odoo.modules.loading: loading project/views/project_sharing_templates.xml 
+2024-06-13 17:14:01,871 11516 INFO erp_db odoo.modules.loading: loading project/data/ir_cron_data.xml 
+2024-06-13 17:14:01,896 11516 INFO erp_db odoo.modules.loading: loading project/data/mail_message_subtype_data.xml 
+2024-06-13 17:14:01,959 11516 INFO erp_db odoo.modules.loading: loading project/data/mail_template_data.xml 
+2024-06-13 17:14:01,986 11516 INFO erp_db odoo.modules.loading: loading project/data/project_data.xml 
+2024-06-13 17:14:02,006 11516 INFO erp_db odoo.modules.loading: loading project/wizard/project_task_type_delete_views.xml 
+2024-06-13 17:14:02,037 11516 INFO erp_db odoo.modules.loading: Module project: loading demo 
+2024-06-13 17:14:02,037 11516 INFO erp_db odoo.modules.loading: loading project/data/mail_template_demo.xml 
+2024-06-13 17:14:02,051 11516 INFO erp_db odoo.modules.loading: loading project/data/project_demo.xml 
+2024-06-13 17:14:02,570 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:02,571 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 9 and Message-Id '<811868301382142.1718298842.500150680541992-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:02,600 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [9] 
+2024-06-13 17:14:02,600 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:02,841 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:02,842 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 10 and Message-Id '<546979206506309.1718298842.809217453002930-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:02,844 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:02,929 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:02,929 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 11 and Message-Id '<894559798276946.1718298842.903038740158081-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:02,930 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:03,061 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:03,061 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 12 and Message-Id '<006539092033716.1718298843.036019086837769-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:03,063 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:03,110 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:03,110 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 13 and Message-Id '<189771240206586.1718298843.085355043411255-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:03,334 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [13] 
+2024-06-13 17:14:03,335 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:03,417 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:03,418 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 14 and Message-Id '<659594390187883.1718298843.385164260864258-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:03,419 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:03,469 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:03,469 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 15 and Message-Id '<011452318065509.1718298843.445461273193359-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:03,511 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [15] 
+2024-06-13 17:14:03,512 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:03,591 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:03,592 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 16 and Message-Id '<223616516057462.1718298843.561663389205933-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:03,594 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:03,669 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:03,670 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 17 and Message-Id '<276568089958442.1718298843.645029306411743-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:03,671 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:03,752 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:03,752 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 18 and Message-Id '<227275654236520.1718298843.726761817932129-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:03,754 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:03,795 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:03,796 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 19 and Message-Id '<778162926006282.1718298843.769401311874390-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:03,892 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [19] 
+2024-06-13 17:14:03,892 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,192 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,192 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 20 and Message-Id '<218177221906428.1718298844.166262388229370-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,194 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,219 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,220 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 21 and Message-Id '<755939931084573.1718298844.195540428161621-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,222 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,306 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,306 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 22 and Message-Id '<708826208213658.1718298844.281583547592163-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,308 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,388 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,388 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 23 and Message-Id '<909232855019154.1718298844.363376379013062-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,390 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,414 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,415 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 24 and Message-Id '<451139433363728.1718298844.390670537948608-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,416 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,508 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,509 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 25 and Message-Id '<407820123081696.1718298844.482211589813232-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,510 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,579 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,579 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 26 and Message-Id '<821531118288771.1718298844.555608272552490-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,582 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,696 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,696 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 27 and Message-Id '<741459922627584.1718298844.671907424926758-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,699 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,724 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,724 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 28 and Message-Id '<489020512306859.1718298844.700430154800415-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,726 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,831 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,832 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 29 and Message-Id '<362337521439183.1718298844.809314966201782-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,833 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,856 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,856 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 30 and Message-Id '<059311986823249.1718298844.834331035614014-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,859 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,948 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,949 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 31 and Message-Id '<947869880940044.1718298844.923406839370728-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,950 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:04,974 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:04,974 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 32 and Message-Id '<176618105756955.1718298844.951175212860107-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:04,976 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,089 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,090 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 33 and Message-Id '<624209925045027.1718298845.063556194305420-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,092 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,148 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,149 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 34 and Message-Id '<952636307302745.1718298845.126262664794922-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,150 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,210 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,211 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 35 and Message-Id '<747443383385880.1718298845.187225580215454-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,212 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,293 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,294 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 36 and Message-Id '<331356668870988.1718298845.268025636672974-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,295 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,355 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,355 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 37 and Message-Id '<074553318865594.1718298845.329349040985107-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,356 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,412 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,412 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 38 and Message-Id '<345671743881428.1718298845.388163566589355-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,414 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,466 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,466 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 39 and Message-Id '<539806534674728.1718298845.443548440933228-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,468 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,520 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,521 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 40 and Message-Id '<632143438976447.1718298845.497112989425659-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,522 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,576 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,577 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 41 and Message-Id '<214580385624736.1718298845.555219411849976-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,578 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:05,631 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:05,631 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 42 and Message-Id '<714784996788387.1718298845.606374979019165-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:05,632 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:06,211 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:06,211 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 43 and Message-Id '<805058111653890.1718298846.180571794509888-openerp-3-project.task@Fellipe>' successfully sent 
+2024-06-13 17:14:06,228 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [43] 
+2024-06-13 17:14:06,228 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:06,293 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:06,294 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 44 and Message-Id '<474946252003055.1718298846.255808591842651-openerp-22-project.task@Fellipe>' successfully sent 
+2024-06-13 17:14:06,310 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [44] 
+2024-06-13 17:14:06,310 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:06,368 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:06,369 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 45 and Message-Id '<781022095056227.1718298846.329528331756592-openerp-4-project.task@Fellipe>' successfully sent 
+2024-06-13 17:14:06,383 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [45] 
+2024-06-13 17:14:06,383 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:06,439 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:06,439 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 46 and Message-Id '<981229049874813.1718298846.403071641921997-openerp-2-project.task@Fellipe>' successfully sent 
+2024-06-13 17:14:06,454 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [46] 
+2024-06-13 17:14:06,454 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:06,550 11516 INFO erp_db odoo.addons.base.models.ir_module: module project: loading base translation file pt for language pt_BR 
+2024-06-13 17:14:06,606 11516 INFO erp_db odoo.addons.base.models.ir_module: module project: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:14:06,984 11516 INFO erp_db odoo.modules.loading: Module project loaded in 8.89s, 5385 queries (+5388 other) 
+2024-06-13 17:14:06,984 11516 INFO erp_db odoo.modules.loading: Loading module base_vat (54/69) 
+2024-06-13 17:14:07,237 11516 INFO erp_db odoo.modules.registry: module base_vat: creating or updating database tables 
+2024-06-13 17:14:07,506 11516 INFO erp_db odoo.modules.loading: loading base_vat/views/res_config_settings_views.xml 
+2024-06-13 17:14:07,577 11516 INFO erp_db odoo.modules.loading: loading base_vat/views/res_partner_views.xml 
+2024-06-13 17:14:07,611 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_vat: loading base translation file pt for language pt_BR 
+2024-06-13 17:14:07,616 11516 INFO erp_db odoo.addons.base.models.ir_module: module base_vat: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:14:07,635 11516 INFO erp_db odoo.modules.loading: Module base_vat loaded in 0.65s, 118 queries (+118 other) 
+2024-06-13 17:14:07,635 11516 INFO erp_db odoo.modules.loading: Loading module mass_mailing_themes (55/69) 
+2024-06-13 17:14:07,789 11516 INFO erp_db odoo.modules.loading: loading mass_mailing_themes/views/mass_mailing_themes_templates.xml 
+2024-06-13 17:14:07,900 11516 INFO erp_db odoo.addons.base.models.ir_module: module mass_mailing_themes: loading base translation file pt for language pt_BR 
+2024-06-13 17:14:07,928 11516 INFO erp_db odoo.addons.base.models.ir_module: module mass_mailing_themes: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:14:07,977 11516 INFO erp_db odoo.modules.loading: Module mass_mailing_themes loaded in 0.34s, 61 queries (+61 other) 
+2024-06-13 17:14:07,977 11516 INFO erp_db odoo.modules.loading: Loading module project_sms (56/69) 
+2024-06-13 17:14:08,153 11516 INFO erp_db odoo.modules.registry: module project_sms: creating or updating database tables 
+2024-06-13 17:14:08,277 11516 INFO erp_db odoo.modules.loading: loading project_sms/views/project_stage_views.xml 
+2024-06-13 17:14:08,315 11516 INFO erp_db odoo.modules.loading: loading project_sms/views/project_task_type_views.xml 
+2024-06-13 17:14:08,352 11516 INFO erp_db odoo.modules.loading: loading project_sms/views/project_views.xml 
+2024-06-13 17:14:08,375 11516 INFO erp_db odoo.modules.loading: loading project_sms/security/ir.model.access.csv 
+2024-06-13 17:14:08,392 11516 INFO erp_db odoo.modules.loading: loading project_sms/security/project_sms_security.xml 
+2024-06-13 17:14:08,415 11516 INFO erp_db odoo.addons.base.models.ir_module: module project_sms: loading base translation file pt for language pt_BR 
+2024-06-13 17:14:08,435 11516 INFO erp_db odoo.addons.base.models.ir_module: module project_sms: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:14:08,461 11516 INFO erp_db odoo.modules.loading: Module project_sms loaded in 0.48s, 179 queries (+179 other) 
+2024-06-13 17:14:08,461 11516 INFO erp_db odoo.modules.loading: Loading module l10n_br (62/69) 
+2024-06-13 17:14:08,652 11516 INFO erp_db odoo.modules.registry: module l10n_br: creating or updating database tables 
+2024-06-13 17:14:08,987 11516 INFO erp_db odoo.modules.loading: loading l10n_br/data/l10n_br_chart_data.xml 
+2024-06-13 17:14:09,358 11516 INFO erp_db odoo.modules.loading: loading l10n_br/data/account.account.template.csv 
+2024-06-13 17:14:11,399 11516 INFO erp_db odoo.modules.loading: loading l10n_br/data/account_chart_template_data.xml 
+2024-06-13 17:14:11,436 11516 INFO erp_db odoo.modules.loading: loading l10n_br/data/account_tax_group_data.xml 
+2024-06-13 17:14:11,638 11516 INFO erp_db odoo.modules.loading: loading l10n_br/data/account_tax_report_data.xml 
+2024-06-13 17:14:11,943 11516 INFO erp_db odoo.modules.loading: loading l10n_br/data/account_tax_template_data.xml 
+2024-06-13 17:14:17,154 11516 INFO erp_db odoo.modules.loading: loading l10n_br/data/fiscal_templates_data.xml 
+2024-06-13 17:14:17,191 11516 INFO erp_db odoo.modules.loading: loading l10n_br/data/account_fiscal_position_tax_template_data.xml 
+2024-06-13 17:14:17,243 11516 INFO erp_db odoo.modules.loading: loading l10n_br/views/account_view.xml 
+2024-06-13 17:14:17,273 11516 INFO erp_db odoo.modules.loading: loading l10n_br/views/account_fiscal_position_views.xml 
+2024-06-13 17:14:17,293 11516 INFO erp_db odoo.modules.loading: loading l10n_br/views/res_company_views.xml 
+2024-06-13 17:14:17,314 11516 INFO erp_db odoo.modules.loading: loading l10n_br/views/res_partner_views.xml 
+2024-06-13 17:14:17,342 11516 INFO erp_db odoo.modules.loading: Module l10n_br: loading demo 
+2024-06-13 17:14:17,342 11516 INFO erp_db odoo.modules.loading: loading l10n_br/demo/demo_company.xml 
+2024-06-13 17:14:22,076 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:22,077 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 51 and Message-Id '<093586925910853.1718298861.986933469772339-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:22,124 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [51] 
+2024-06-13 17:14:22,124 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:22,198 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:22,199 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 52 and Message-Id '<972133184654243.1718298862.133774757385254-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:22,210 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [52] 
+2024-06-13 17:14:22,210 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:22,289 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:22,289 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 53 and Message-Id '<517268265716037.1718298862.221650123596191-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:22,301 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [53] 
+2024-06-13 17:14:22,301 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:22,347 11516 INFO erp_db odoo.tests: skip sending email in test mode 
+2024-06-13 17:14:22,348 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Mail with ID 54 and Message-Id '<018711533681695.1718298862.312710046768188-openerp-message-notify@Fellipe>' successfully sent 
+2024-06-13 17:14:22,358 11516 INFO erp_db odoo.models.unlink: User #1 deleted mail.mail records with IDs: [54] 
+2024-06-13 17:14:22,358 11516 INFO erp_db odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2024-06-13 17:14:22,375 11516 INFO erp_db odoo.addons.base.models.ir_module: module l10n_br: no translation for language pt_BR 
+2024-06-13 17:14:22,574 11516 INFO erp_db odoo.modules.loading: Module l10n_br loaded in 14.11s, 6391 queries (+6393 other) 
+2024-06-13 17:14:22,574 11516 INFO erp_db odoo.modules.loading: Loading module mass_mailing_sale (64/69) 
+2024-06-13 17:14:22,726 11516 INFO erp_db odoo.modules.registry: module mass_mailing_sale: creating or updating database tables 
+2024-06-13 17:14:22,823 11516 INFO erp_db odoo.modules.loading: loading mass_mailing_sale/views/mailing_mailing_views.xml 
+2024-06-13 17:14:22,851 11516 INFO erp_db odoo.modules.loading: Module mass_mailing_sale: loading demo 
+2024-06-13 17:14:22,851 11516 INFO erp_db odoo.modules.loading: loading mass_mailing_sale/data/mass_mailing_demo.xml 
+2024-06-13 17:14:22,912 11516 INFO erp_db odoo.addons.base.models.ir_module: module mass_mailing_sale: loading base translation file pt for language pt_BR 
+2024-06-13 17:14:22,938 11516 INFO erp_db odoo.addons.base.models.ir_module: module mass_mailing_sale: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:14:22,975 11516 INFO erp_db odoo.modules.loading: Module mass_mailing_sale loaded in 0.40s, 128 queries (+128 other) 
+2024-06-13 17:14:22,975 11516 INFO erp_db odoo.modules.loading: Loading module sale_project (69/69) 
+2024-06-13 17:14:23,246 11516 INFO erp_db odoo.modules.registry: module sale_project: creating or updating database tables 
+2024-06-13 17:14:23,298 11516 INFO erp_db odoo.models: Prepare computation of project.project.sale_line_id 
+2024-06-13 17:14:23,324 11516 INFO erp_db odoo.models: Prepare computation of project.task.sale_order_id 
+2024-06-13 17:14:23,324 11516 INFO erp_db odoo.models: Prepare computation of project.task.sale_line_id 
+2024-06-13 17:14:23,707 11516 INFO erp_db odoo.modules.loading: loading sale_project/security/ir.model.access.csv 
+2024-06-13 17:14:23,726 11516 INFO erp_db odoo.modules.loading: loading sale_project/security/sale_project_security.xml 
+2024-06-13 17:14:23,746 11516 INFO erp_db odoo.modules.loading: loading sale_project/report/project_report_views.xml 
+2024-06-13 17:14:23,766 11516 INFO erp_db odoo.modules.loading: loading sale_project/views/product_views.xml 
+2024-06-13 17:14:23,793 11516 INFO erp_db odoo.modules.loading: loading sale_project/views/project_task_views.xml 
+2024-06-13 17:14:23,906 11516 INFO erp_db odoo.modules.loading: loading sale_project/views/sale_order_views.xml 
+2024-06-13 17:14:23,937 11516 INFO erp_db odoo.modules.loading: loading sale_project/views/sale_project_portal_templates.xml 
+2024-06-13 17:14:23,956 11516 INFO erp_db odoo.modules.loading: loading sale_project/views/project_sharing_views.xml 
+2024-06-13 17:14:23,987 11516 INFO erp_db odoo.modules.loading: loading sale_project/views/project_views.xml 
+2024-06-13 17:14:24,015 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale_project: loading base translation file pt for language pt_BR 
+2024-06-13 17:14:24,048 11516 INFO erp_db odoo.addons.base.models.ir_module: module sale_project: loading translation file pt_BR for language pt_BR 
+2024-06-13 17:14:24,094 11516 INFO erp_db odoo.modules.loading: Module sale_project loaded in 1.12s, 459 queries (+459 other) 
+2024-06-13 17:14:24,095 11516 INFO erp_db odoo.modules.loading: 69 modules loaded in 48.81s, 25489 queries (+25494 extra) 
+2024-06-13 17:14:25,085 11516 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-13 17:14:25,120 11516 INFO erp_db odoo.modules.registry: Registry loaded in 117.522s 
+2024-06-13 17:14:25,120 11516 INFO erp_db odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-06-13 17:14:25,145 11516 INFO erp_db odoo.modules.registry: Registry changed, signaling through the database 
+2024-06-13 17:14:25,148 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:25] "POST /web/dataset/call_button HTTP/1.1" 200 - 54602 52.493 65.221
+2024-06-13 17:14:25,484 11516 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-13 17:14:47,346 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:47] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 20 0.088 0.031
+2024-06-13 17:14:51,741 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:51] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.019 0.006
+2024-06-13 17:14:55,707 11516 INFO erp_db odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-13 17:14:55,709 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:55] "GET /web HTTP/1.1" 200 - 174 0.456 29.773
+2024-06-13 17:14:56,095 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:56] "GET /web/assets/736-cda96d5/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 9 0.012 0.026
+2024-06-13 17:14:56,100 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:56] "GET /web/assets/732-df495de/web.assets_common.min.css HTTP/1.1" 200 - 7 0.023 0.024
+2024-06-13 17:14:56,101 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:56] "GET /web/assets/733-54a05a6/web.assets_backend.min.css HTTP/1.1" 200 - 7 0.019 0.028
+2024-06-13 17:14:56,187 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:56] "GET /web/webclient/load_menus/a69554d4ec35630854dd5334bbfd2a315f22724be021e832bd142474bfcdd91a HTTP/1.1" 200 - 31 0.072 0.056
+2024-06-13 17:14:56,250 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:56] "GET /web/assets/735-54a05a6/web.assets_backend.min.js HTTP/1.1" 200 - 7 0.029 0.163
+2024-06-13 17:14:56,384 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:56] "GET /web/assets/734-df495de/web.assets_common.min.js HTTP/1.1" 200 - 6 0.015 0.315
+2024-06-13 17:14:56,419 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:56] "GET /web/webclient/translations/a166bfd6ab943c4ff5653434dc1bfdf80f5f0c32?lang=pt_BR HTTP/1.1" 200 - 2 0.001 0.017
+2024-06-13 17:14:57,284 11516 INFO erp_db odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company YourCompany (1) 
+2024-06-13 17:14:57,341 11516 INFO erp_db odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-13 17:14:57,343 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 20 0.057 0.021
+2024-06-13 17:14:57,447 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.021
+2024-06-13 17:14:57,453 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "POST /web/action/load HTTP/1.1" 200 - 8 0.017 0.011
+2024-06-13 17:14:57,465 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 10 0.023 0.019
+2024-06-13 17:14:57,478 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "POST /mail/init_messaging HTTP/1.1" 200 - 65 0.123 0.028
+2024-06-13 17:14:57,497 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 38 0.111 0.025
+2024-06-13 17:14:57,685 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.024 0.005
+2024-06-13 17:14:57,813 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.026 0.007
+2024-06-13 17:14:57,871 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "GET /web/image/mail.channel/1/avatar_128?unique=107263fc148379af7b11d6182784b810ee5eda479fa617d96165b3fd3333fbfc76ac734276168101655059ca67d8c6c0ebdc9dcd2ac4c7d0f95eb6b49833147e HTTP/1.1" 200 - 4 0.006 0.007
+2024-06-13 17:14:57,876 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:57] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.004 0.012
+2024-06-13 17:14:58,290 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:58] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.005
+2024-06-13 17:14:59,985 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:14:59] "POST /web/action/load HTTP/1.1" 200 - 10 0.023 0.010
+2024-06-13 17:15:00,428 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:00] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 44 0.027 0.091
+2024-06-13 17:15:00,717 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:00] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 143 0.112 0.044
+2024-06-13 17:15:00,848 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:00] "POST /base_setup/demo_active HTTP/1.1" 200 - 3 0.007 0.005
+2024-06-13 17:15:01,160 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:01] "POST /base_setup/data HTTP/1.1" 200 - 6 0.001 0.005
+2024-06-13 17:15:07,457 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:07] "GET /web?debug=1 HTTP/1.1" 200 - 81 0.070 1.016
+2024-06-13 17:15:07,495 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:07] "GET /web/webclient/load_menus/ce47e0da8c9f77303bf8709b0df4d4d22091c25695ce9d49e4f00ffbd289536c HTTP/1.1" 200 - 1 0.001 0.013
+2024-06-13 17:15:07,922 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:07] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.007
+2024-06-13 17:15:08,342 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:08] "POST /web/action/load HTTP/1.1" 200 - 8 0.017 0.015
+2024-06-13 17:15:08,355 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:08] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.028
+2024-06-13 17:15:08,360 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:08] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.079 0.022
+2024-06-13 17:15:08,363 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:08] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.023 0.028
+2024-06-13 17:15:08,366 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:08] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 15 0.030 0.030
+2024-06-13 17:15:08,367 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:08] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.037
+2024-06-13 17:15:08,551 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:08] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.021 0.006
+2024-06-13 17:15:08,740 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:15:08] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.007 0.009
+2024-06-13 17:30:35,207 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:30:35] "POST /web/action/load HTTP/1.1" 200 - 9 0.012 0.078
+2024-06-13 17:30:35,471 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:30:35] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 1 0.000 0.121
+2024-06-13 17:30:35,793 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:30:35] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 28 0.075 0.150
+2024-06-13 17:30:36,269 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:30:36] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.004 0.007
+2024-06-13 17:30:36,292 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 17:30:36] "POST /base_setup/data HTTP/1.1" 200 - 5 0.009 0.012
+2024-06-13 18:07:38,210 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:07:38] "POST /web/action/load HTTP/1.1" 200 - 11 0.035 0.115
+2024-06-13 18:07:38,562 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:07:38] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 41 0.074 0.205
+2024-06-13 18:07:38,686 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:07:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 47 0.042 0.033
+2024-06-13 18:07:38,942 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:07:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.012
+2024-06-13 18:14:57,170 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:14:57] "POST /web/action/load HTTP/1.1" 200 - 10 0.037 0.054
+2024-06-13 18:14:57,360 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:14:57] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 9 0.047 0.020
+2024-06-13 18:14:57,517 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:14:57] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.019 0.011
+2024-06-13 18:14:58,816 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:14:58] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 4 0.010 0.016
+2024-06-13 18:14:59,144 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:14:59] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.013 0.009
+2024-06-13 18:14:59,395 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-13 18:15:00,614 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:00] "POST /web/dataset/call_button HTTP/1.1" 200 - 1177 0.610 0.618
+2024-06-13 18:15:02,585 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:02] "POST /web/dataset/call_kw/ir.module.module/web_read_group HTTP/1.1" 200 - 2 0.006 0.010
+2024-06-13 18:15:02,616 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:02] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.025 0.024
+2024-06-13 18:15:02,841 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:02] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.004
+2024-06-13 18:15:02,923 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:02] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.010
+2024-06-13 18:15:02,960 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:02] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.038 0.009
+2024-06-13 18:15:03,197 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_read_group HTTP/1.1" 200 - 2 0.001 0.007
+2024-06-13 18:15:03,224 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.004
+2024-06-13 18:15:03,542 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.008
+2024-06-13 18:15:03,552 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.016
+2024-06-13 18:15:03,554 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.016
+2024-06-13 18:15:03,557 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.019
+2024-06-13 18:15:03,561 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.019
+2024-06-13 18:15:03,562 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.000 0.020
+2024-06-13 18:15:03,871 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.005
+2024-06-13 18:15:03,873 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.006
+2024-06-13 18:15:03,878 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.013 0.005
+2024-06-13 18:15:04,307 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:04] "GET /l10n_fr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.052
+2024-06-13 18:15:04,695 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:04] "POST /web/dataset/call_kw/ir.module.module/web_read_group HTTP/1.1" 200 - 3 0.007 0.024
+2024-06-13 18:15:05,028 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:15:05] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.007 0.006
+2024-06-13 18:16:02,905 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:02] "GET /l10n_br_base/static/description/icon.png HTTP/1.1" 404 - 115 0.652 57.994
+2024-06-13 18:16:02,906 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:02] "GET /l10n_br_zip/static/description/icon.png HTTP/1.1" 418 - 94 0.362 58.272
+2024-06-13 18:16:02,928 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:02] "GET /l10n_br_nfe_spec/static/description/icon.png HTTP/1.1" 418 - 93 0.255 58.422
+2024-06-13 18:16:03,006 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:03] "GET /l10n_br_fiscal_certificate/static/description/icon.png HTTP/1.1" 404 - 116 0.384 58.369
+2024-06-13 18:16:03,272 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 12 0.026 0.022
+2024-06-13 18:16:03,277 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 8 0.027 0.018
+2024-06-13 18:16:03,278 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:03] "GET /l10n_br/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.029
+2024-06-13 18:16:03,988 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:03] "GET /l10n_br_coa/static/description/icon.png HTTP/1.1" 404 - 102 0.331 58.311
+2024-06-13 18:16:04,406 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:04] "GET /l10n_th/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.075
+2024-06-13 18:16:04,735 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:04] "GET /l10n_fi/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2024-06-13 18:16:05,603 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:05] "GET /currency_old_rate_notify/static/description/icon.png HTTP/1.1" 418 - 138 0.782 60.569
+2024-06-13 18:16:37,983 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:37] "GET /l10n_br_account_due_list/static/description/icon.png HTTP/1.1" 404 - 122 0.470 34.187
+2024-06-13 18:16:39,390 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:39] "GET /l10n_br_currency_rate_update/static/description/icon.png HTTP/1.1" 404 - 104 0.146 35.657
+2024-06-13 18:16:39,390 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:39] "GET /l10n_br_crm/static/description/icon.png HTTP/1.1" 404 - 90 0.141 35.664
+2024-06-13 18:16:39,399 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 18:16:39] "GET /l10n_br_coa_simple/static/description/icon.png HTTP/1.1" 404 - 85 0.170 35.646
+2024-06-13 19:20:39,678 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:39] "GET /web?debug=1 HTTP/1.1" 200 - 88 0.260 3.120
+2024-06-13 19:20:39,800 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:39] "GET /web/assets/733-54a05a6/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.013 0.090
+2024-06-13 19:20:39,808 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:39] "GET /web/assets/732-df495de/web.assets_common.min.css HTTP/1.1" 200 - 4 0.013 0.099
+2024-06-13 19:20:40,034 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:40] "GET /web/webclient/load_menus/ce47e0da8c9f77303bf8709b0df4d4d22091c25695ce9d49e4f00ffbd289536c HTTP/1.1" 200 - 2 0.006 0.015
+2024-06-13 19:20:40,290 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:40] "GET /web/assets/736-cda96d5/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.002 0.280
+2024-06-13 19:20:40,388 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:40] "GET /web/assets/735-54a05a6/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.011 0.370
+2024-06-13 19:20:40,521 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:40] "GET /web/assets/734-df495de/web.assets_common.min.js HTTP/1.1" 200 - 4 0.038 0.478
+2024-06-13 19:20:41,399 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.032
+2024-06-13 19:20:41,470 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "POST /web/action/load HTTP/1.1" 200 - 11 0.073 0.068
+2024-06-13 19:20:41,488 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.035 0.040
+2024-06-13 19:20:41,525 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.028 0.041
+2024-06-13 19:20:41,567 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "POST /mail/init_messaging HTTP/1.1" 200 - 52 0.152 0.078
+2024-06-13 19:20:41,604 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 37 0.176 0.068
+2024-06-13 19:20:41,868 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2024-06-13 19:20:41,927 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.064 0.056
+2024-06-13 19:20:41,944 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:41] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.040 0.014
+2024-06-13 19:20:42,275 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:42] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.003 0.005
+2024-06-13 19:20:42,323 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 5 0.011 0.048
+2024-06-13 19:20:42,331 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 47 0.044 0.024
+2024-06-13 19:20:45,848 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:45] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.014 0.008
+2024-06-13 19:20:45,873 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:45] "GET /sms/static/img/sms_failure.svg HTTP/1.1" 200 - 0 0.000 0.029
+2024-06-13 19:20:45,874 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:45] "GET /mail/static/src/img/smiley/mailfailure.jpg HTTP/1.1" 200 - 0 0.000 0.027
+2024-06-13 19:20:45,879 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:45] "GET /web/image/mail.channel/1/avatar_128?unique=107263fc148379af7b11d6182784b810ee5eda479fa617d96165b3fd3333fbfc76ac734276168101655059ca67d8c6c0ebdc9dcd2ac4c7d0f95eb6b49833147e HTTP/1.1" 200 - 4 0.015 0.013
+2024-06-13 19:20:45,892 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:45] "POST /web/dataset/call_kw/mail.channel/channel_fetch_preview HTTP/1.1" 200 - 37 0.119 0.037
+2024-06-13 19:20:45,904 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:45] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.029 0.031
+2024-06-13 19:20:48,295 11516 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:48] "GET /sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.014
+2024-06-13 19:20:48,315 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:48] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 15 0.018 0.018
+2024-06-13 19:20:58,480 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:58] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 5 0.022 0.018
+2024-06-13 19:20:58,497 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.040 0.017
+2024-06-13 19:20:59,107 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.045 0.018
+2024-06-13 19:20:59,367 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:20:59] "POST /web/dataset/call_kw/ir.module.module/web_read_group HTTP/1.1" 200 - 3 0.006 0.005
+2024-06-13 19:21:02,524 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:21:02] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.008
+2024-06-13 19:21:08,650 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:21:08] "POST /web/action/load HTTP/1.1" 200 - 12 0.024 0.014
+2024-06-13 19:21:08,896 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Módulo fiscal brasileiro', 'Brazilian Account Due List', 'Plano de Contas do Simples ITG 1000', 'Brazilian Localization CRM', 'Currency Rate Update BR', 'A1 fiscal certificate management for Brazil', 'nfe spec', 'Brazilian Localisation ZIP Codes'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-13 19:21:08,896 11516 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-13 19:21:08,901 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Módulo fiscal brasileiro', 'Brazilian Account Due List', 'Plano de Contas do Simples ITG 1000', 'Brazilian Localization CRM', 'Currency Rate Update BR', 'A1 fiscal certificate management for Brazil', 'nfe spec', 'Brazilian Localisation ZIP Codes'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-13 19:21:09,066 11516 WARNING erp_db odoo.modules.module: DistributionNotFound: The 'erpbrasil.base>=2.3.0' distribution was not found and is required by the application 
+2024-06-13 19:21:09,270 11516 WARNING erp_db odoo.http: O módulo "l10n_br_base" não pode ser instalado porque uma dependência externa não foi encontrada: Python library not installed: erpbrasil.base>=2.3.0 
+2024-06-13 19:21:09,270 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:21:09] "POST /web/action/run HTTP/1.1" 200 - 27 0.040 0.352
+2024-06-13 19:26:03,655 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:26:03] "POST /web/action/load HTTP/1.1" 200 - 10 0.040 0.035
+2024-06-13 19:26:03,921 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:26:03] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 9 0.034 0.047
+2024-06-13 19:26:04,045 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:26:04] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.005 0.011
+2024-06-13 19:26:05,783 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:26:05] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 4 0.010 0.012
+2024-06-13 19:26:06,034 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:26:06] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.011 0.006
+2024-06-13 19:26:06,121 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-13 19:26:07,449 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:26:07] "POST /web/dataset/call_button HTTP/1.1" 200 - 1175 0.557 0.782
+2024-06-13 19:26:14,115 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Módulo fiscal brasileiro', 'Brazilian Account Due List', 'Plano de Contas do Simples ITG 1000', 'Brazilian Localization CRM', 'Currency Rate Update BR', 'A1 fiscal certificate management for Brazil', 'nfe spec', 'Brazilian Localisation ZIP Codes'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-13 19:26:14,115 11516 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-13 19:26:14,120 11516 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Módulo fiscal brasileiro', 'Brazilian Account Due List', 'Plano de Contas do Simples ITG 1000', 'Brazilian Localization CRM', 'Currency Rate Update BR', 'A1 fiscal certificate management for Brazil', 'nfe spec', 'Brazilian Localisation ZIP Codes'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-13 19:26:14,395 11516 WARNING erp_db odoo.modules.module: get_distribution(erpbrasil.assinatura>=1.7.0) failed: [Errno 2] No such file or directory: 'c:\\erp\\python\\lib\\site-packages\\chardet-4.0.0.dist-info\\METADATA' 
+2024-06-13 19:26:14,403 11516 WARNING erp_db odoo.http: O módulo "l10n_br_fiscal_certificate" não pode ser instalado porque uma dependência externa não foi encontrada: Error finding python library erpbrasil.assinatura>=1.7.0 
+2024-06-13 19:26:14,403 11516 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:26:14] "POST /web/action/run HTTP/1.1" 200 - 66 0.059 0.261
+2024-06-13 19:27:38,681 11516 INFO ? odoo.service.server: Initiating shutdown 
+2024-06-13 19:27:38,684 11516 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-06-13 19:27:39,154 11516 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  

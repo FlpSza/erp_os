@@ -1,0 +1,173 @@
+Metadata-Version: 2.1
+Name: brazilcep
+Version: 6.3.1
+Summary: Minimalist and easy-to-use python library designed to query CEP (brazilian zip codes) data
+Author-email: Michell Stuttgart <michellstut@gmail.com>
+License: 
+        MIT License
+        
+        Copyright (c) 2016-2024, Michell Stuttgart
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+        
+Project-URL: Documentation, https://github.com/mstuttgart/brazilcep/tree/main#readme
+Project-URL: Source, https://github.com/mstuttgart/brazilcep
+Project-URL: Tracker, https://github.com/mstuttgart/brazilcep/issues
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Portuguese (Brazilian)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: zeep >=4.2.1
+Requires-Dist: requests >=2.28.2
+Provides-Extra: coverage
+Requires-Dist: coveralls >=3.3.1 ; extra == 'coverage'
+Requires-Dist: pytest-cov >=4.0.0 ; extra == 'coverage'
+Requires-Dist: requests-mock >=1.10.0 ; extra == 'coverage'
+Provides-Extra: dev
+Requires-Dist: nox >=2022.11.21 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs-material >=9.1.6 ; extra == 'docs'
+Requires-Dist: mkdocs >=1.4.2 ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: pylint ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest >=7.3.1 ; extra == 'test'
+Requires-Dist: requests-mock >=1.10.0 ; extra == 'test'
+
+
+<h2 align="center">
+  <a href="https://pypi.org/project/brazilcep/">
+    <img src="https://github.com/mstuttgart/brazilcep/assets/8174740/fb7c86c8-6261-4300-b2e0-65877084d865" width="15%">
+  </a>
+  <br>
+      BrazilCEP
+</h2>
+
+<p align="center">
+
+  <a href="https://github.com/mstuttgart/brazilcep/actions?query=workflow%3A%22Github+CI%22">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/mstuttgart/brazilcep/test.yml?color=fcd800&branch=main">
+  </a>
+
+ <a href="https://codecov.io/gh/mstuttgart/brazilcep" > 
+ <img alt="Codecov" src="https://img.shields.io/codecov/c/github/mstuttgart/brazilcep?color=fcd800">
+ </a>
+
+  <a href="https://www.codefactor.io/repository/github/mstuttgart/brazilcep">
+    <img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/mstuttgart/brazilcep/main?color=fcd800">
+  </a>
+
+  <a href="https://pypi.org/project/brazilcep">
+    <img src="https://img.shields.io/pypi/dm/brazilcep?color=fcd800" alt="Downloads">
+  </a>
+
+  <a href="https://pypi.org/project/brazilcep">
+    <img src="https://img.shields.io/pypi/v/brazilcep.svg?" alt="Ratings">
+  </a>
+
+  <a href="https://pypi.org/project/brazilcep/">
+    <img src="https://img.shields.io/pypi/pyversions/brazilcep.svg" alt="Version">
+  </a>
+
+</p>
+
+<p align="center">
+  <a href="#about">About</a> |
+  <a href="#install">Install</a> |
+  <a href="#how-to-use">How to Use</a> |
+  <a href="#documentation">Documentation</a> |
+  <a href="#contribute">Contribute</a> |
+  <a href="#credits">Credits</a>
+</p>
+
+## About
+
+**BrazilCEP** is a minimalist and easy-to-use python library designed to query CEP (brazilian zip codes) data.
+
+Its objective is to provide a common query interface to all these search services, facilitating
+the integration of Python applications with these services.
+
+Currently supports several CEP API's:
+
+- [ViaCEP](https://viacep.com.br)
+- [ApiCEP (WideNet)](https://apicep.com)
+
+> [!NOTE]
+> **BrazilCEP** is the new name of former **PyCEPCorreio** python library.
+  If you want to migrate the old code to the new version, please see the [migrate](https://brazilcep.readthedocs.io/en/latest/migrate/) section in docs.
+
+## Install
+
+The recommended way to get BrazilCEP is to **install the latest stable release**
+via [pip](http://pip-installer.org>):
+
+```sh
+pip install brazilcep
+```
+
+> [!NOTE]
+> We currently support **Python 3.8+ only**. Users on older interpreter versions are urged to upgrade.
+
+## How to Use
+
+Making a request is very simple. Begin by importing the BrazilCEP module:
+
+```python
+>>> import brazilcep
+```
+
+Now, call the `get_address_from_cep` to query any CEP:
+
+```python
+>>> address = brazilcep.get_address_from_cep('37503-130')
+```
+
+Now, we have a *dict* object called ``address``. We can
+get all the address information we need from this object:
+
+```python
+ >>> address
+{
+    'district': 'rua abc',
+    'cep': '37503130',
+    'city': 'city ABC',
+    'street': 'str',
+    'uf': 'str',
+    'complement': 'str',
+}
+```
+
+The CEP always must be a string.
+
+## Documentation
+
+Documentation for the current version of BrazilCEP is available from the official docs [here](https://brazilcep.readthedocs.io/en/stable).
+
+## Contribute
+
+See this *guideline* [here](https://github.com/mstuttgart/brazilcep/blob/develop/CONTRIBUTING.md).
+
+## Credits
+
+Copyright (C) 2016-2024 by Michell Stuttgart

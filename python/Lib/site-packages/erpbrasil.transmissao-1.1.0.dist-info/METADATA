@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: erpbrasil.transmissao
+Version: 1.1.0
+Summary: Infraestrutura de transmissao de documentos eletronicos
+Home-page: https://github.com/erpbrasil/erpbrasil.transmissao
+Author: Luis Felipe Mileo
+Author-email: mileo@kmee.com.br
+License: MIT
+Project-URL: Documentation, https://erpbrasiltransmissao.readthedocs.io/
+Project-URL: Changelog, https://erpbrasiltransmissao.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/erpbrasil/erpbrasil.transmissao/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5, !=2.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: erpbrasil.assinatura
+Requires-Dist: zeep (==3.4.0) ; python_version == "3.4"
+Requires-Dist: zeep ; python_version > "3.4"
+
+========
+Overview
+========
+
+
+
+Infraestrutura de transmissao de documentos eletronicos em Python
+
+* Transmissão de SOAP-XML e HTTP com certificado digital de maneira segura e prática.
+
+Documentação
+============
+
+https://erpbrasil.github.io/
+
+Créditos
+========
+
+Esta é uma biblioteca criada atravês do esforço de das empresas:
+
+* Akretion https://akretion.com/pt-BR/
+* KMEE https://www.kmee.com.br
+
+Parte do código foi extraido da localização brasileira do Odoo: https://github.com/oca/l10n-brazil/ favor consultar a lista de contribuidores:
+
+https://github.com/erpbrasil/erpbrasil.base/graphs/contributors
+
+Licença
+~~~~~~~
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install erpbrasil.transmissao
+
+Documentation
+=============
+
+
+https://erpbrasiltransmissao.readthedocs.io/
+
+
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2019-09-17)
+~~~~~~~~~~~~~~~~~~
+
+* First release on PyPI.
+
+
+1.0.0 (2020-11-10)
+~~~~~~~~~~~~~~~~~~
+
+* Fim do suporte ao python2
+* Estabilização dos testes
+
+

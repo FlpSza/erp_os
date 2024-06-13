@@ -1,0 +1,3 @@
+[console_scripts]
+erpbrasil.transmissao = erpbrasil.transmissao.cli:main
+
