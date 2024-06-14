@@ -2336,3 +2336,1345 @@
 2024-06-13 19:31:54,348 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Currency Rates Update (OCA) daily` done. 
 2024-06-13 19:32:27,826 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:32:27] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.005
 2024-06-13 19:32:31,474 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 19:32:31] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.008 0.004
+2024-06-13 19:33:54,713 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 19:33:54,854 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 19:43:06,075 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 19:43:06,135 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 19:53:16,467 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 19:53:16,523 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 20:01:55,395 14804 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:55] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.238
+2024-06-13 20:01:55,442 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:55] "POST /web/action/load HTTP/1.1" 200 - 11 0.228 0.432
+2024-06-13 20:01:55,587 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:55] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 10 0.136 0.252
+2024-06-13 20:01:55,707 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:55] "POST /mail/init_messaging HTTP/1.1" 200 - 52 0.446 0.171
+2024-06-13 20:01:55,752 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:55] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 49 0.487 0.170
+2024-06-13 20:01:55,822 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:55] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.075 0.958
+2024-06-13 20:01:55,970 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:55] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 47 0.089 0.098
+2024-06-13 20:01:56,054 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:56] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.011 0.012
+2024-06-13 20:01:56,158 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:56] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.014
+2024-06-13 20:01:56,316 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:56] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.003 0.011
+2024-06-13 20:01:56,367 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:56] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.021 0.045
+2024-06-13 20:01:56,400 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:01:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 47 0.080 0.022
+2024-06-13 20:02:05,089 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:02:05] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.001 0.017
+2024-06-13 20:02:05,381 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:02:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.024 0.021
+2024-06-13 20:02:05,433 14804 INFO erp_db werkzeug: 127.0.0.1 - - [13/Jun/2024 20:02:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.009 0.009
+2024-06-13 20:03:26,816 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 20:03:26,845 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 20:12:55,553 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-13 20:12:55,572 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-13 20:12:55,584 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-13 20:12:55,602 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-13 20:12:55,613 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-13 20:13:12,146 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-13 20:13:37,126 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-13 20:13:37,143 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-13 20:13:37,154 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-13 20:13:37,175 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-13 20:13:37,187 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 20:13:37,193 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 20:23:12,334 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 20:23:12,351 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 20:31:12,454 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-13 20:31:12,488 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-13 20:33:12,525 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 20:33:12,530 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 20:43:05,517 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 20:43:05,539 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 20:53:11,363 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 20:53:11,386 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 21:03:11,640 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 21:03:11,667 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 21:13:11,838 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-13 21:13:11,855 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-13 21:13:11,872 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-13 21:13:11,906 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-13 21:13:11,920 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-13 21:13:11,933 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-13 21:13:11,944 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-13 21:13:11,952 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-13 21:13:11,963 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 21:13:11,969 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 21:13:11,978 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-13 21:13:11,990 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-13 21:23:12,133 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 21:23:12,142 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 21:31:12,237 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-13 21:31:12,301 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-13 21:33:12,338 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 21:33:12,343 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 21:43:06,159 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 21:43:06,167 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 21:53:12,550 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 21:53:12,558 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 22:03:12,708 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 22:03:12,744 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 22:13:12,847 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-13 22:13:12,881 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-13 22:13:12,894 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-13 22:13:12,912 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-13 22:13:12,926 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-13 22:13:12,940 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-13 22:13:12,948 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 22:13:12,953 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 22:13:12,963 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-13 22:13:12,974 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-13 22:13:12,985 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-13 22:13:12,990 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-13 22:23:13,108 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 22:23:13,112 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 22:31:13,205 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-13 22:31:13,243 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-13 22:33:13,275 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 22:33:13,281 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 22:43:06,718 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 22:43:06,725 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 22:53:13,470 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 22:53:13,482 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 23:03:13,603 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 23:03:13,611 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 23:13:13,728 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-13 23:13:13,734 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-13 23:13:13,747 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-13 23:13:13,755 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-13 23:13:13,765 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-13 23:13:13,769 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-13 23:13:13,779 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-13 23:13:13,794 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-13 23:13:13,803 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-13 23:13:13,820 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-13 23:13:13,829 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 23:13:13,833 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 23:23:13,952 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 23:23:13,956 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 23:31:14,055 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-13 23:31:14,100 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-13 23:33:14,132 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 23:33:14,136 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 23:43:07,222 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 23:43:07,228 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-13 23:53:14,355 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-13 23:53:14,366 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 00:01:14,465 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Currency Rates Update (OCA) daily`. 
+2024-06-14 00:01:14,485 14804 INFO erp_db odoo.addons.currency_rate_update.models.res_currency_rate_provider: Scheduled currency rates update... 
+2024-06-14 00:01:14,517 14804 INFO erp_db odoo.addons.currency_rate_update.models.res_currency_rate_provider: Scheduled currency rates update complete. 
+2024-06-14 00:01:14,519 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Currency Rates Update (OCA) daily` done. 
+2024-06-14 00:03:14,546 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 00:03:14,551 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 00:13:14,650 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 00:13:14,656 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 00:13:14,667 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 00:13:14,681 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 00:13:14,693 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 00:13:14,712 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 00:13:14,721 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 00:13:14,731 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 00:13:14,740 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 00:13:14,748 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 00:13:14,757 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 00:13:14,779 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 00:23:14,900 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 00:23:14,906 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 00:31:14,997 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 00:31:15,039 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 00:33:15,074 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 00:33:15,078 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 00:43:07,750 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 00:43:07,757 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 00:53:15,312 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 00:53:15,318 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 01:03:15,456 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 01:03:15,464 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 01:13:15,590 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 01:13:15,613 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 01:13:15,625 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 01:13:15,631 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 01:13:15,640 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 01:13:15,644 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 01:13:15,657 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 01:13:15,661 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 01:13:15,670 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 01:13:15,677 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 01:13:15,687 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 01:13:15,692 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 01:23:15,850 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 01:23:15,863 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 01:31:15,987 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 01:31:16,001 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 01:33:16,028 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 01:33:16,047 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 01:43:08,328 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 01:43:08,334 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 01:53:16,252 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 01:53:16,258 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 02:00:25,812 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Account: Post draft entries with auto_post enabled and accounting date up to today`. 
+2024-06-14 02:00:26,003 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Account: Post draft entries with auto_post enabled and accounting date up to today` done. 
+2024-06-14 02:03:16,356 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 02:03:16,368 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 12:13:38,147 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 12:13:38,431 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 12:13:38,515 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 12:13:38,820 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 12:13:38,937 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 12:13:38,959 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 12:13:38,986 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 12:13:39,123 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 12:13:39,212 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 12:13:39,243 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 12:13:39,322 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 12:13:39,367 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 12:13:39,396 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Project: Create Recurring Tasks`. 
+2024-06-14 12:13:39,535 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Project: Create Recurring Tasks` done. 
+2024-06-14 12:13:39,619 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 12:13:39,692 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 12:23:17,211 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 12:23:17,237 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 12:31:17,424 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 12:31:17,451 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 12:33:17,500 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 12:33:17,513 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 12:43:09,726 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 12:43:09,746 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 12:53:17,811 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 12:53:17,829 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 13:03:18,325 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 13:03:18,347 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 13:12:39,610 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 13:12:39,629 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 13:12:39,659 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 13:12:39,691 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 13:13:18,523 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 13:13:18,533 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 13:13:18,546 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 13:13:18,557 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 13:13:18,568 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 13:13:18,575 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 13:13:18,587 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 13:13:18,593 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 13:23:18,753 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 13:23:18,765 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 13:31:18,932 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 13:31:18,957 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 13:33:18,996 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 13:33:19,002 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 13:43:10,591 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 13:43:10,601 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 13:53:19,232 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 13:53:19,243 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 14:03:19,397 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 14:03:19,417 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 14:12:40,460 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 14:12:40,495 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 14:12:40,569 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 14:12:40,580 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 14:13:19,547 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 14:13:19,578 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 14:13:19,596 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 14:13:19,668 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 14:13:19,686 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 14:13:19,695 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 14:13:19,709 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 14:13:19,717 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 14:23:19,898 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 14:23:19,912 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 14:30:59,128 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 14:30:59,157 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 14:33:20,077 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 14:33:20,090 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 14:43:11,503 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 14:43:11,518 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 14:53:20,318 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 14:53:20,329 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 14:56:38,619 14804 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:38] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.111
+2024-06-14 14:56:38,646 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:38] "POST /web/action/load HTTP/1.1" 200 - 10 0.182 0.329
+2024-06-14 14:56:38,771 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:38] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.077 0.562
+2024-06-14 14:56:38,837 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.144 0.170
+2024-06-14 14:56:38,884 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:38] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.239 0.179
+2024-06-14 14:56:38,960 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:38] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 18 0.347 0.130
+2024-06-14 14:56:39,032 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:39] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.014 0.033
+2024-06-14 14:56:39,177 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:39] "GET /websocket HTTP/1.1" 101 - 1 0.002 0.016
+2024-06-14 14:56:39,316 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:39] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.069 0.030
+2024-06-14 14:56:39,392 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:39] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.018 0.014
+2024-06-14 14:56:39,428 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.053 0.017
+2024-06-14 14:56:55,802 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:55] "POST /web/action/load HTTP/1.1" 200 - 13 0.042 0.077
+2024-06-14 14:56:56,507 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:56] "POST /web/dataset/call_kw/account.move/get_views HTTP/1.1" 200 - 111 0.196 0.380
+2024-06-14 14:56:56,672 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:56] "POST /web/dataset/call_kw/account.move/web_search_read HTTP/1.1" 200 - 20 0.096 0.045
+2024-06-14 14:56:56,848 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:56] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.002
+2024-06-14 14:56:57,512 14804 INFO erp_db odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-14 14:56:57,514 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:57] "POST /account/account_invoice_onboarding HTTP/1.1" 200 - 56 0.131 0.229
+2024-06-14 14:56:57,571 14804 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:57] "GET /account/static/src/img/account_invoice_onboarding_bg.jpg HTTP/1.1" 200 - 0 0.000 0.031
+2024-06-14 14:56:57,918 14804 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2024 14:56:57] "GET /base/static/img/onboarding_confetti.svg HTTP/1.1" 200 - 0 0.000 0.032
+2024-06-14 15:03:20,466 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 15:03:20,473 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 15:12:41,255 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 15:12:41,265 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 15:12:41,276 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 15:12:41,311 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 15:13:20,586 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 15:13:20,595 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 15:13:20,603 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 15:13:20,621 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 15:13:20,630 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 15:13:20,636 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 15:13:20,644 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 15:13:20,648 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 15:23:20,776 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 15:23:20,783 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 15:30:59,794 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 15:30:59,829 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 15:33:20,894 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 15:33:20,903 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 15:43:12,126 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 15:43:12,131 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 15:53:21,111 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 15:53:21,123 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 16:03:21,237 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 16:03:21,258 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 16:12:41,869 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 16:12:41,876 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 16:12:41,884 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 16:12:41,900 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 16:13:21,367 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 16:13:21,382 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 16:13:21,393 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 16:13:21,398 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 16:13:21,407 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 16:13:21,411 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 16:13:21,420 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 16:13:21,424 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 16:23:21,616 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 16:23:21,625 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 16:25:41,297 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 16:25:41] "GET /websocket HTTP/1.1" 101 - 4 0.032 0.046
+2024-06-14 16:31:00,382 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 16:31:00,406 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 16:33:02,467 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 16:33:02,472 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 16:43:12,726 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 16:43:12,733 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 16:53:21,919 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 16:53:21,927 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 17:03:22,050 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 17:03:22,055 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 17:09:22,114 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-06-14 17:09:22,452 14804 INFO erp_db odoo.addons.base.models.ir_attachment: filestore gc 18 checked, 2 removed 
+2024-06-14 17:09:22,835 14804 INFO erp_db odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2024-06-14 17:09:22,958 14804 INFO erp_db odoo.models.unlink: User #1 deleted base.module.update records with IDs: [2] 
+2024-06-14 17:09:23,037 14804 INFO erp_db odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-06-14 17:09:23,145 14804 INFO erp_db odoo.models.unlink: User #1 deleted bus.bus records with IDs: [87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233] 
+2024-06-14 17:09:24,276 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2024-06-14 17:12:42,515 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 17:12:42,529 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 17:12:42,539 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 17:12:42,549 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 17:12:42,557 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2024-06-14 17:12:42,573 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2024-06-14 17:13:24,321 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2024-06-14 17:13:24,358 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2024-06-14 17:13:24,368 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 17:13:24,374 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 17:13:24,384 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 17:13:24,389 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 17:13:24,396 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 17:13:24,400 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 17:13:24,407 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 17:13:24,410 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 17:13:43,601 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Gamification: Goal Challenge Check`. 
+2024-06-14 17:13:43,958 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Gamification: Goal Challenge Check` done. 
+2024-06-14 17:13:43,966 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `HR Employee: check work permit validity`. 
+2024-06-14 17:13:43,991 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `HR Employee: check work permit validity` done. 
+2024-06-14 17:14:24,426 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail Marketing: Process queue`. 
+2024-06-14 17:14:24,445 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail Marketing: Process queue` done. 
+2024-06-14 17:14:24,455 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Project: Send rating`. 
+2024-06-14 17:14:24,464 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Project: Send rating` done. 
+2024-06-14 17:23:24,542 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 17:23:24,547 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 17:30:11,238 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:30:11] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2024-06-14 17:31:01,420 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-06-14 17:31:01,435 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-06-14 17:33:03,493 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 17:33:03,501 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 17:43:13,739 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 17:43:13,744 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 17:52:45,379 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:52:45] "GET / HTTP/1.1" 303 - 2 0.002 0.058
+2024-06-14 17:53:24,022 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 17:53:24,041 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 17:53:27,315 14804 INFO erp_db odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-14 17:53:27,319 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:27] "GET /web HTTP/1.1" 200 - 129 0.694 41.241
+2024-06-14 17:53:27,737 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:27] "GET /web/assets/792-4ea67dd/web.assets_backend.min.css HTTP/1.1" 200 - 6 0.008 0.014
+2024-06-14 17:53:27,792 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:27] "GET /web/webclient/translations/8d5eeee9296e8fcc1b33b0d20b2c3b94f34c0afa?lang=pt_BR HTTP/1.1" 200 - 2 0.002 0.024
+2024-06-14 17:53:27,880 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:27] "GET /web/webclient/load_menus/2935deb43eb29c4ffc9629039b98cc79c86cd4c1bc928e846ff03ebbd8e9364c HTTP/1.1" 200 - 29 0.059 0.059
+2024-06-14 17:53:27,889 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:27] "GET /web/assets/793-4ea67dd/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.003 0.125
+2024-06-14 17:53:29,030 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:29] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.030 0.031
+2024-06-14 17:53:29,317 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:29] "POST /web/action/load HTTP/1.1" 200 - 8 0.014 0.014
+2024-06-14 17:53:29,469 14804 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:29] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.017
+2024-06-14 17:53:29,556 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:29] "POST /mail/init_messaging HTTP/1.1" 200 - 50 0.091 0.036
+2024-06-14 17:53:29,584 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:29] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 50 0.106 0.046
+2024-06-14 17:53:29,937 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:29] "POST /mail/load_message_failures HTTP/1.1" 200 - 13 0.040 0.019
+2024-06-14 17:53:29,946 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:29] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.062 0.007
+2024-06-14 17:53:34,390 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:34] "POST /web/action/load HTTP/1.1" 200 - 11 0.031 0.011
+2024-06-14 17:53:34,715 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:34] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 46 0.064 0.040
+2024-06-14 17:53:34,780 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 48 0.025 0.017
+2024-06-14 17:53:35,055 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:35] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.005
+2024-06-14 17:53:37,177 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:37] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.012
+2024-06-14 17:53:37,446 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:37] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 9 0.009 0.011
+2024-06-14 17:53:37,500 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:37] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.001 0.008
+2024-06-14 17:53:38,648 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:38] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 4 0.007 0.007
+2024-06-14 17:53:38,964 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:38] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.005 0.006
+2024-06-14 17:53:39,222 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:53:40,372 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:40] "POST /web/dataset/call_button HTTP/1.1" 200 - 1195 0.589 0.564
+2024-06-14 17:53:46,912 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.030
+2024-06-14 17:53:46,945 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 48 0.029 0.039
+2024-06-14 17:53:47,337 14804 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:47] "GET /l10n_ar_website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-06-14 17:53:54,594 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/ir.module.module/web_read_group HTTP/1.1" 200 - 2 0.003 0.009
+2024-06-14 17:53:54,607 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.004 0.016
+2024-06-14 17:53:54,609 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/ir.module.module/web_read_group HTTP/1.1" 200 - 3 0.009 0.016
+2024-06-14 17:53:54,653 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 48 0.053 0.059
+2024-06-14 17:53:54,927 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 6 0.009 0.007
+2024-06-14 17:53:54,927 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 7 0.009 0.009
+2024-06-14 17:53:54,939 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.008
+2024-06-14 17:53:54,947 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.012 0.009
+2024-06-14 17:53:54,976 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-06-14 17:53:55,248 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.007
+2024-06-14 17:53:55,249 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.008
+2024-06-14 17:53:55,261 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.006
+2024-06-14 17:53:55,263 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.006
+2024-06-14 17:53:55,290 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.007
+2024-06-14 17:53:58,722 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:58] "POST /web/dataset/call_kw/ir.module.module/web_read_group HTTP/1.1" 200 - 5 0.002 0.006
+2024-06-14 17:53:58,765 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 50 0.031 0.022
+2024-06-14 17:53:58,994 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:53:58] "GET /muk_web_theme/static/description/icon.png HTTP/1.1" 404 - 117 0.253 11.603
+2024-06-14 17:54:00,388 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:54:00] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 15 0.013 0.010
+2024-06-14 17:54:01,741 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:54:01] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 11 0.012 0.052
+2024-06-14 17:54:01,937 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:54:01] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.008 0.005
+2024-06-14 17:54:02,073 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:54:02] "POST /web/dataset/call_kw/ir.module.module.exclusion/read HTTP/1.1" 200 - 3 0.005 0.005
+2024-06-14 17:54:04,737 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:54:04] "GET /web/bundle/web_editor.assets_wysiwyg?lang=pt_BR&debug=1 HTTP/1.1" 200 - 21 0.024 2.608
+2024-06-14 17:54:05,075 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:54:05] "GET /web/assets/796-df6141a/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 5 0.004 0.019
+2024-06-14 17:54:05,192 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:54:05] "GET /web/assets/797-df6141a/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 5 0.004 0.133
+2024-06-14 17:54:05,330 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:54:05] "GET /web/image?model=ir.module.module&id=589&field=icon_image&unique=1718387619000 HTTP/1.1" 200 - 4 0.003 0.007
+2024-06-14 17:55:00,815 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:00] "GET /muk_web_theme/static/description/logo.png HTTP/1.1" 404 - 103 0.353 54.873
+2024-06-14 17:55:00,821 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:00] "GET /muk_web_theme/static/description/screenshot.png HTTP/1.1" 404 - 111 0.381 54.850
+2024-06-14 17:55:00,822 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:00] "GET /muk_web_theme/static/description/screenshot_mobile_apps.png HTTP/1.1" 404 - 101 0.372 54.856
+2024-06-14 17:55:00,823 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:00] "GET /muk_web_theme/static/description/screenshot_apps.png HTTP/1.1" 404 - 93 0.355 54.877
+2024-06-14 17:55:00,836 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:00] "GET /muk_web_theme/static/description/screenshot_mobile_form.png HTTP/1.1" 404 - 89 0.280 54.917
+2024-06-14 17:55:00,914 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:00] "GET /muk_web_theme/static/description/screenshot_chatter.png HTTP/1.1" 404 - 107 0.563 54.758
+2024-06-14 17:55:01,163 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:55:01,163 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 17:55:01,171 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:55:01,258 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:01] "GET /muk_web_theme/static/description//service_development.png HTTP/1.1" 301 - 1 0.002 0.020
+2024-06-14 17:55:01,407 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:55:01,416 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 17:55:01,455 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 17:55:01,475 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 17:55:02,741 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:55:02,817 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.08s, 0 queries (+0 extra) 
+2024-06-14 17:55:02,820 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 17:55:02,820 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 17:55:03,051 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:55:03,152 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 17:55:18,341 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 17:55:18,343 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 17:55:18,344 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 17:55:18,443 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:55:18,448 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 17:55:18,461 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:55:18,528 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.07s, 0 queries (+0 extra) 
+2024-06-14 17:55:18,667 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:55:18,728 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 17:55:18,734 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.305s 
+2024-06-14 17:55:18,740 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, 4 tries left, try again in 0.9725 sec... 
+2024-06-14 17:55:18,740 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 17:55:18,938 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:18] "GET /muk_web_theme/static/description//service_integration.png HTTP/1.1" 301 - 1 0.002 17.360
+2024-06-14 17:55:19,257 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:19] "GET /muk_web_theme/static/description//service_infrastructure.png HTTP/1.1" 301 - 1 0.000 0.005
+2024-06-14 17:55:19,575 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:19] "GET /muk_web_theme/static/description//service_training.png HTTP/1.1" 301 - 1 0.001 0.004
+2024-06-14 17:55:19,894 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:55:19,896 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 17:55:19,901 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:55:19,905 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:55:19] "GET /muk_web_theme/static/description//service_support.png HTTP/1.1" 301 - 1 0.001 0.008
+2024-06-14 17:55:20,018 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:55:20,024 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-06-14 17:55:20,046 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 17:55:20,049 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 17:55:51,367 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:55:51,436 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.07s, 0 queries (+0 extra) 
+2024-06-14 17:55:51,438 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 17:55:51,438 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 17:55:51,587 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:55:51,653 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 17:56:06,705 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 17:56:06,716 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 17:56:06,717 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 17:56:06,725 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:56:06,733 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 17:56:06,744 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:56:06,820 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.08s, 0 queries (+0 extra) 
+2024-06-14 17:56:07,173 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:56:07,251 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 17:56:07,257 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.539s 
+2024-06-14 17:56:07,262 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 17:56:07,263 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, 3 tries left, try again in 3.1017 sec... 
+2024-06-14 17:56:16,967 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:56:16,971 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 17:56:16,985 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:56:17,364 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:56:17,370 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 17:56:17,397 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 17:56:17,403 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 17:56:21,012 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:56:21,075 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 17:56:21,077 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 17:56:21,077 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 17:56:21,222 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:56:21,280 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 17:56:36,382 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 17:56:36,391 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 17:56:36,392 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 17:56:36,398 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:56:36,405 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 17:56:36,413 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:56:36,473 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 17:56:36,809 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:56:36,868 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 17:56:36,872 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.480s 
+2024-06-14 17:56:36,878 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, 2 tries left, try again in 2.9828 sec... 
+2024-06-14 17:56:37,041 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:56:37] "GET /muk_web_theme/static/description/screenshot_customize.png HTTP/1.1" 404 - 106 0.423 95.478
+2024-06-14 17:56:37,047 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:56:37] "GET /muk_web_theme/static/description/screenshot_mobile_menu.png HTTP/1.1" 404 - 126 0.423 95.486
+2024-06-14 17:56:37,057 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:56:37] "GET /muk_web_theme/static/description/screenshot_settings.png HTTP/1.1" 404 - 101 0.367 95.530
+2024-06-14 17:56:37,177 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:56:37] "GET /muk_web_theme/static/description/screenshot_mobile_kanban.png HTTP/1.1" 404 - 116 0.552 95.485
+2024-06-14 17:56:37,359 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 17:56:37,368 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 17:56:39,656 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:56:39] "GET /muk_web_theme/static/description/service_development.png HTTP/1.1" 404 - 153 0.548 78.890
+2024-06-14 17:56:39,873 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:56:39,873 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 17:56:39,877 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:56:40,015 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:56:40,021 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 17:56:40,042 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 17:56:40,046 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 17:57:08,743 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:57:08,804 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 17:57:08,807 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 17:57:08,808 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 17:57:08,941 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:57:09,000 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 17:57:24,057 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 17:57:24,063 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 17:57:24,064 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 17:57:24,080 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:57:24,085 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-06-14 17:57:24,095 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:57:24,156 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 17:57:24,536 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:57:24,599 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 17:57:24,604 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.538s 
+2024-06-14 17:57:24,609 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, 1 tries left, try again in 3.1719 sec... 
+2024-06-14 17:57:27,838 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:57:27,844 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 17:57:27,855 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 17:57:28,108 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:57:28,115 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 17:57:28,138 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 17:57:28,141 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 17:57:30,928 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:57:30,987 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 17:57:30,991 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 17:57:30,992 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 17:57:31,121 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:57:31,176 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 17:57:46,278 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 17:57:46,286 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 17:57:46,287 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 17:57:46,301 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 17:57:46,307 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 17:57:46,315 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 17:57:46,377 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 17:57:46,699 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 17:57:46,762 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 17:57:46,767 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.479s 
+2024-06-14 17:57:46,772 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, maximum number of tries reached! 
+2024-06-14 17:57:46,901 14804 ERROR erp_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\http.py", line 2050, in __call__
+    response = request._serve_db()
+  File "C:\ERP\server\odoo\http.py", line 1638, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "C:\ERP\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "C:\ERP\server\odoo\http.py", line 1665, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "C:\ERP\server\odoo\http.py", line 1869, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "C:\ERP\server\odoo\addons\base\models\ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "C:\ERP\server\odoo\http.py", line 700, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "C:\ERP\server\odoo\addons\web\controllers\dataset.py", line 46, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "C:\ERP\server\odoo\addons\web\controllers\dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\ERP\server\odoo\api.py", line 468, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\ERP\server\odoo\api.py", line 453, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-77>", line 2, in button_immediate_install
+  File "C:\ERP\server\odoo\addons\base\models\ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "C:\ERP\server\odoo\addons\base\models\ir_module.py", line 475, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+  File "C:\ERP\server\odoo\addons\base\models\ir_module.py", line 599, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "<decorator-gen-16>", line 2, in new
+  File "C:\ERP\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 17:57:46,927 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:57:46] "POST /web/dataset/call_button HTTP/1.1" 200 - 6293 35.002 130.788
+2024-06-14 17:57:46,941 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:57:46] "GET /muk_web_theme/static/description/service_integration.png HTTP/1.1" 404 - 118 0.304 69.283
+2024-06-14 17:57:46,947 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:57:46] "GET /muk_web_theme/static/description/service_training.png HTTP/1.1" 404 - 92 0.247 69.192
+2024-06-14 17:57:46,962 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:57:46] "GET /muk_web_theme/static/description/service_infrastructure.png HTTP/1.1" 404 - 113 0.226 69.380
+2024-06-14 17:57:46,963 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 17:57:46] "GET /muk_web_theme/static/description/service_support.png HTTP/1.1" 404 - 134 0.307 69.036
+2024-06-14 18:03:53,890 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 18:03:53,919 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 18:05:56,761 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 18:05:56,779 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 18:05:57,017 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:05:57,017 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 18:05:57,021 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:05:57,226 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:05:57,233 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:05:57,250 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 18:05:57,251 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 18:05:58,157 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:05:58,220 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:05:58,223 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 18:05:58,223 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 18:05:58,351 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:05:58,401 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 18:06:13,454 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 18:06:13,456 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 18:06:13,459 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 18:06:13,466 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:06:13,473 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:06:13,482 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:06:13,545 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:06:13,668 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:06:13,727 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 18:06:13,734 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.274s 
+2024-06-14 18:06:13,739 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, 4 tries left, try again in 0.6092 sec... 
+2024-06-14 18:06:14,379 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:06:14,379 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 18:06:14,382 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:06:14,797 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:06:14,803 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:06:14,821 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 18:06:14,823 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 18:06:15,864 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:06:15,927 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:06:15,930 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 18:06:15,930 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 18:06:16,062 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:06:16,117 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 18:06:31,210 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 18:06:31,213 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 18:06:31,214 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 18:06:31,221 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:06:31,226 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-06-14 18:06:31,236 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:06:31,297 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:06:31,431 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:06:31,491 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 18:06:31,496 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.281s 
+2024-06-14 18:06:31,504 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, 3 tries left, try again in 1.3074 sec... 
+2024-06-14 18:07:05,608 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:07:05,613 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 18:07:05,630 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:07:06,130 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:07:06,137 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:07:06,158 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 18:07:06,160 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 18:07:07,140 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:07:07,207 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.07s, 0 queries (+0 extra) 
+2024-06-14 18:07:07,210 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 18:07:07,210 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 18:07:07,347 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:07:07,405 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 18:07:22,465 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 18:07:22,467 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 18:07:22,467 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 18:07:22,473 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:07:22,480 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:07:22,489 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:07:22,550 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:07:22,679 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:07:22,742 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 18:07:22,747 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.279s 
+2024-06-14 18:07:22,758 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, 2 tries left, try again in 6.8910 sec... 
+2024-06-14 18:07:29,347 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:07:29] "GET /muk_web_theme/static/description/screenshot_mobile_apps.png HTTP/1.1" 404 - 107 0.371 92.218
+2024-06-14 18:07:29,348 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:07:29] "GET /muk_web_theme/static/description/screenshot.png HTTP/1.1" 404 - 128 0.457 92.141
+2024-06-14 18:07:29,361 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:07:29] "GET /muk_web_theme/static/description/screenshot_apps.png HTTP/1.1" 404 - 121 0.657 91.953
+2024-06-14 18:07:29,361 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:07:29] "GET /muk_web_theme/static/description/logo.png HTTP/1.1" 404 - 110 0.351 92.261
+2024-06-14 18:07:29,468 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:07:29] "GET /muk_web_theme/static/description/screenshot_chatter.png HTTP/1.1" 404 - 124 0.463 92.248
+2024-06-14 18:07:29,674 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 18:07:29,692 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 18:07:29,803 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:07:29,849 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 18:07:29,873 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 18:07:30,254 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:07:30,490 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:07:30,498 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:07:30,516 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 18:07:30,519 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 18:07:31,386 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:07:31,454 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.07s, 0 queries (+0 extra) 
+2024-06-14 18:07:31,457 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 18:07:31,457 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 18:07:31,592 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:07:31,652 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 18:07:46,753 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 18:07:46,759 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 18:07:46,760 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 18:07:46,771 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:07:46,777 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:07:46,785 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:07:46,843 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:07:46,964 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:07:47,020 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 18:07:47,025 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.264s 
+2024-06-14 18:07:47,027 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, 1 tries left, try again in 13.3567 sec... 
+2024-06-14 18:08:01,136 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:08:07,448 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 18:08:07,473 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:08:20,331 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:08:20,337 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:08:20,361 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 18:08:20,363 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 18:08:21,331 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:08:21,388 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:08:21,392 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 18:08:21,392 14804 INFO erp_db odoo.modules.loading: Loading module muk_web_theme (34/93) 
+2024-06-14 18:08:21,517 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:08:21,569 14804 INFO erp_db odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-06-14 18:08:36,626 14804 ERROR erp_db odoo.sql_db: bad query: ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+ERROR: canceling statement due to lock timeout
+ 
+2024-06-14 18:08:36,628 14804 WARNING erp_db odoo.modules.loading: Transient module states were reset 
+2024-06-14 18:08:36,635 14804 ERROR erp_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 18:08:36,641 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:08:36,647 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:08:36,656 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:08:36,715 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:08:36,836 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:08:36,894 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 18:08:36,898 14804 INFO erp_db odoo.modules.registry: Registry loaded in 0.264s 
+2024-06-14 18:08:36,902 14804 INFO erp_db odoo.service.model: LOCK_NOT_AVAILABLE, maximum number of tries reached! 
+2024-06-14 18:08:36,919 14804 ERROR erp_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\ERP\server\odoo\http.py", line 2050, in __call__
+    response = request._serve_db()
+  File "C:\ERP\server\odoo\http.py", line 1638, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "C:\ERP\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "C:\ERP\server\odoo\http.py", line 1665, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "C:\ERP\server\odoo\http.py", line 1869, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "C:\ERP\server\odoo\addons\base\models\ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "C:\ERP\server\odoo\http.py", line 700, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "C:\ERP\server\odoo\addons\web\controllers\dataset.py", line 46, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "C:\ERP\server\odoo\addons\web\controllers\dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\ERP\server\odoo\api.py", line 468, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\ERP\server\odoo\api.py", line 453, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-77>", line 2, in button_immediate_install
+  File "C:\ERP\server\odoo\addons\base\models\ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "C:\ERP\server\odoo\addons\base\models\ir_module.py", line 475, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+  File "C:\ERP\server\odoo\addons\base\models\ir_module.py", line 599, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "<decorator-gen-16>", line 2, in new
+  File "C:\ERP\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\ERP\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\ERP\server\odoo\modules\loading.py", line 488, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\ERP\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\ERP\server\odoo\modules\loading.py", line 208, in load_module_graph
+    registry.init_models(cr, model_names, {'module': package.name}, new_install)
+  File "C:\ERP\server\odoo\modules\registry.py", line 530, in init_models
+    model._auto_init()
+  File "C:\ERP\server\odoo\models.py", line 2589, in _auto_init
+    new = field.update_db(self, columns)
+  File "C:\ERP\server\odoo\fields.py", line 1007, in update_db
+    self.update_db_column(model, column)
+  File "C:\ERP\server\odoo\fields.py", line 1037, in update_db_column
+    sql.create_column(model._cr, model._table, self.name, self.column_type[1], self.string)
+  File "C:\ERP\server\odoo\tools\sql.py", line 115, in create_column
+    cr.execute('ALTER TABLE "{}" ADD COLUMN "{}" {} {}'.format(tablename, columnname, columntype, coldefault))
+  File "C:\ERP\server\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.LockNotAvailable: canceling statement due to lock timeout
+
+2024-06-14 18:08:36,933 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:08:36] "POST /web/dataset/call_button HTTP/1.1" 200 - 6331 43.450 116.734
+2024-06-14 18:08:37,252 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 18:08:43,797 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:08:43] "GET /muk_web_theme/static/description/screenshot_mobile_menu.png HTTP/1.1" 404 - 109 0.676 73.454
+2024-06-14 18:08:43,797 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:08:43] "GET /muk_web_theme/static/description/screenshot_mobile_kanban.png HTTP/1.1" 404 - 110 6.966 67.160
+2024-06-14 18:08:43,798 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:08:43] "GET /muk_web_theme/static/description/screenshot_customize.png HTTP/1.1" 404 - 107 13.051 61.077
+2024-06-14 18:08:43,816 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:08:43] "GET /muk_web_theme/static/description/screenshot_settings.png HTTP/1.1" 404 - 89 6.503 67.402
+2024-06-14 18:08:43,853 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:08:43] "GET /muk_web_theme/static/description/screenshot_mobile_form.png HTTP/1.1" 404 - 114 6.772 67.414
+2024-06-14 18:09:22,063 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:09:22] "GET /muk_web_theme/static/description/service_infrastructure.png HTTP/1.1" 404 - 121 0.295 44.521
+2024-06-14 18:09:22,753 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:09:22] "GET /muk_web_theme/static/description/service_development.png HTTP/1.1" 404 - 86 0.176 32.455
+2024-06-14 18:09:22,754 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:09:22] "GET /muk_web_theme/static/description/service_training.png HTTP/1.1" 404 - 85 0.172 32.459
+2024-06-14 18:09:22,764 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:09:22] "GET /muk_web_theme/static/description/service_support.png HTTP/1.1" 404 - 89 0.149 32.499
+2024-06-14 18:09:22,841 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:09:22] "GET /muk_web_theme/static/description/service_integration.png HTTP/1.1" 404 - 85 0.288 32.437
+2024-06-14 18:13:18,622 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-06-14 18:13:18,716 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-06-14 18:13:18,754 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-06-14 18:13:18,780 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-06-14 18:13:18,801 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-06-14 18:13:18,825 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-06-14 18:13:18,843 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-06-14 18:13:18,875 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-06-14 18:13:18,887 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-06-14 18:13:18,907 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-06-14 18:13:18,916 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-06-14 18:13:18,964 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-06-14 18:16:31,242 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:16:31] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 9 0.051 0.082
+2024-06-14 18:16:31,289 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:16:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 58 0.061 0.137
+2024-06-14 18:16:42,617 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:16:42] "GET /muk_web_theme/static/description/icon.png HTTP/1.1" 404 - 118 0.211 11.022
+2024-06-14 18:17:52,309 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:17:52] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 10 0.026 0.015
+2024-06-14 18:17:53,097 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:17:53] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 5 0.010 0.019
+2024-06-14 18:17:53,422 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:17:53] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.004 0.006
+2024-06-14 18:17:53,674 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:17:54,780 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:17:54] "POST /web/dataset/call_button HTTP/1.1" 200 - 1197 0.587 0.527
+2024-06-14 18:17:56,207 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:17:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 50 0.023 0.018
+2024-06-14 18:17:56,491 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:17:56] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.008
+2024-06-14 18:18:04,275 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:04] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 5 0.007 0.017
+2024-06-14 18:18:04,344 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:04] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 48 0.069 0.062
+2024-06-14 18:18:06,723 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:06] "GET /muk_web_theme/static/description/icon.png HTTP/1.1" 404 - 119 0.187 9.587
+2024-06-14 18:18:06,785 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:06] "GET /code_backend_theme/static/description/icon.png HTTP/1.1" 404 - 72 0.139 1.972
+2024-06-14 18:18:35,864 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Code Backend Theme V16'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:18:35,865 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 18:18:35,867 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Code Backend Theme V16'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:18:36,034 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:18:36,097 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:18:36,163 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 18:18:36,164 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 18:18:37,106 14804 INFO erp_db odoo.modules.loading: loading 92 modules... 
+2024-06-14 18:18:37,353 14804 INFO erp_db odoo.modules.loading: 92 modules loaded in 0.25s, 0 queries (+0 extra) 
+2024-06-14 18:18:37,357 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 18:18:37,357 14804 INFO erp_db odoo.modules.loading: Loading module code_backend_theme (26/93) 
+2024-06-14 18:18:37,656 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:18:38,230 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:18:38,370 14804 INFO erp_db odoo.modules.loading: loading code_backend_theme/views/layout.xml 
+2024-06-14 18:18:39,093 14804 INFO erp_db odoo.modules.loading: loading code_backend_theme/views/icons.xml 
+2024-06-14 18:18:39,173 14804 INFO erp_db odoo.addons.base.models.ir_module: module code_backend_theme: no translation for language pt_BR 
+2024-06-14 18:18:39,308 14804 INFO erp_db odoo.modules.loading: Module code_backend_theme loaded in 1.95s, 238 queries (+238 other) 
+2024-06-14 18:18:39,308 14804 INFO erp_db odoo.modules.loading: 93 modules loaded in 1.95s, 238 queries (+238 extra) 
+2024-06-14 18:18:39,442 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:18:39,653 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:18:40,973 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 18:18:40,987 14804 INFO erp_db odoo.modules.registry: Registry loaded in 5.031s 
+2024-06-14 18:18:40,987 14804 INFO erp_db odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-06-14 18:18:41,000 14804 INFO erp_db odoo.modules.registry: Registry changed, signaling through the database 
+2024-06-14 18:18:41,002 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:41] "POST /web/dataset/call_button HTTP/1.1" 200 - 2560 1.915 3.245
+2024-06-14 18:18:41,335 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 18:18:58,380 14804 INFO erp_db odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-14 18:18:58,390 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:58] "GET /web HTTP/1.1" 200 - 138 0.215 16.844
+2024-06-14 18:18:58,777 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:58] "GET /web/assets/863-6ae4b54/web.assets_backend.min.css HTTP/1.1" 200 - 6 0.009 0.041
+2024-06-14 18:18:58,898 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:58] "GET /web/assets/864-6ae4b54/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.008 0.161
+2024-06-14 18:18:58,914 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:58] "GET /web/webclient/translations/49b0d35af3b4ee6bc6f2ad6cd376c91594f57c3b?lang=pt_BR HTTP/1.1" 200 - 2 0.001 0.030
+2024-06-14 18:18:58,997 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:58] "GET /web/webclient/load_menus/3f42a43e8b4718e696d9247d01ef75ed7c68ec9f5fed0f7b5ac2e4ff87314431 HTTP/1.1" 200 - 29 0.041 0.074
+2024-06-14 18:18:59,492 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:59] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.008 0.069
+2024-06-14 18:18:59,828 14804 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:59] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.014
+2024-06-14 18:18:59,843 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:59] "POST /web/action/load HTTP/1.1" 200 - 8 0.013 0.017
+2024-06-14 18:18:59,866 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:59] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.022 0.026
+2024-06-14 18:18:59,871 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:59] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.021
+2024-06-14 18:18:59,927 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:59] "POST /mail/init_messaging HTTP/1.1" 200 - 58 0.120 0.041
+2024-06-14 18:18:59,930 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:18:59] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 50 0.122 0.041
+2024-06-14 18:19:00,224 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:00] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.014 0.059
+2024-06-14 18:19:00,304 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:00] "POST /mail/load_message_failures HTTP/1.1" 200 - 13 0.046 0.011
+2024-06-14 18:19:13,737 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:13] "POST /web/action/load HTTP/1.1" 200 - 11 0.078 0.040
+2024-06-14 18:19:14,413 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:14] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 53 0.073 0.261
+2024-06-14 18:19:14,835 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:14] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.023 0.010
+2024-06-14 18:19:14,983 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 50 0.149 0.033
+2024-06-14 18:19:16,121 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:16] "GET /code_backend_theme/static/src/img/icons/close.png HTTP/1.1" 404 - 117 0.351 15.946
+2024-06-14 18:19:17,237 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:17] "GET /muk_web_theme/static/description/icon.png HTTP/1.1" 404 - 70 0.370 1.508
+2024-06-14 18:19:18,090 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:19:18] "GET /code_backend_theme/static/src/img/code_logo.png HTTP/1.1" 404 - 96 0.396 17.444
+2024-06-14 18:21:26,997 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Inventário'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:21:26,997 14804 INFO erp_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-06-14 18:21:26,998 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Inventário'] to user ofellipe2023@gmail.com #2 via 127.0.0.1 
+2024-06-14 18:21:27,120 14804 INFO erp_db odoo.modules.loading: loading 1 modules... 
+2024-06-14 18:21:27,127 14804 INFO erp_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-06-14 18:21:27,145 14804 INFO erp_db odoo.modules.loading: updating modules list 
+2024-06-14 18:21:27,146 14804 INFO erp_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-06-14 18:21:28,016 14804 INFO erp_db odoo.modules.loading: loading 93 modules... 
+2024-06-14 18:21:28,078 14804 INFO erp_db odoo.modules.loading: 93 modules loaded in 0.06s, 0 queries (+0 extra) 
+2024-06-14 18:21:28,081 14804 INFO erp_db odoo.modules.loading: loading 101 modules... 
+2024-06-14 18:21:28,081 14804 INFO erp_db odoo.modules.loading: Loading module barcodes (8/101) 
+2024-06-14 18:21:28,364 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:28,417 14804 INFO erp_db odoo.modules.registry: module barcodes: creating or updating database tables 
+2024-06-14 18:21:28,804 14804 INFO erp_db odoo.modules.loading: loading barcodes/data/barcodes_data.xml 
+2024-06-14 18:21:28,826 14804 INFO erp_db odoo.modules.loading: loading barcodes/views/barcodes_view.xml 
+2024-06-14 18:21:28,918 14804 INFO erp_db odoo.modules.loading: loading barcodes/security/ir.model.access.csv 
+2024-06-14 18:21:28,953 14804 INFO erp_db odoo.addons.base.models.ir_module: module barcodes: loading base translation file pt for language pt_BR 
+2024-06-14 18:21:28,993 14804 INFO erp_db odoo.addons.base.models.ir_module: module barcodes: loading translation file pt_BR for language pt_BR 
+2024-06-14 18:21:29,064 14804 INFO erp_db odoo.modules.loading: Module barcodes loaded in 0.98s, 158 queries (+158 other) 
+2024-06-14 18:21:29,064 14804 INFO erp_db odoo.modules.loading: Loading module barcodes_gs1_nomenclature (17/101) 
+2024-06-14 18:21:29,256 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:29,313 14804 INFO erp_db odoo.modules.registry: module barcodes_gs1_nomenclature: creating or updating database tables 
+2024-06-14 18:21:29,621 14804 INFO erp_db odoo.modules.loading: loading barcodes_gs1_nomenclature/data/barcodes_gs1_rules.xml 
+2024-06-14 18:21:29,722 14804 INFO erp_db odoo.modules.loading: loading barcodes_gs1_nomenclature/views/barcodes_view.xml 
+2024-06-14 18:21:29,767 14804 INFO erp_db odoo.addons.base.models.ir_module: module barcodes_gs1_nomenclature: loading base translation file pt for language pt_BR 
+2024-06-14 18:21:29,795 14804 INFO erp_db odoo.addons.base.models.ir_module: module barcodes_gs1_nomenclature: loading translation file pt_BR for language pt_BR 
+2024-06-14 18:21:29,827 14804 INFO erp_db odoo.modules.loading: Module barcodes_gs1_nomenclature loaded in 0.76s, 202 queries (+202 other) 
+2024-06-14 18:21:29,827 14804 INFO erp_db odoo.modules.loading: Loading module stock (63/101) 
+2024-06-14 18:21:29,953 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:30,214 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:30,293 14804 INFO erp_db odoo.modules.registry: module stock: creating or updating database tables 
+2024-06-14 18:21:31,107 14804 INFO erp_db odoo.models: Prepare computation of product.template.tracking 
+2024-06-14 18:21:35,099 14804 INFO erp_db odoo.modules.loading: loading stock/security/stock_security.xml 
+2024-06-14 18:21:35,732 14804 WARNING erp_db odoo.models: method res.partner.check_vat: @constrains parameter 'vat' is not writeable 
+2024-06-14 18:21:36,147 14804 INFO erp_db odoo.modules.loading: loading stock/security/ir.model.access.csv 
+2024-06-14 18:21:36,287 14804 INFO erp_db odoo.modules.loading: loading stock/data/digest_data.xml 
+2024-06-14 18:21:36,321 14804 INFO erp_db odoo.modules.loading: loading stock/data/mail_templates.xml 
+2024-06-14 18:21:36,351 14804 INFO erp_db odoo.modules.loading: loading stock/data/default_barcode_patterns.xml 
+2024-06-14 18:21:36,378 14804 INFO erp_db odoo.modules.loading: loading stock/data/stock_data.xml 
+2024-06-14 18:21:37,730 14804 INFO erp_db odoo.modules.loading: loading stock/data/stock_sequence_data.xml 
+2024-06-14 18:21:37,785 14804 INFO erp_db odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml 
+2024-06-14 18:21:37,802 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_stock_forecasted.xml 
+2024-06-14 18:21:37,830 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_stock_quantity.xml 
+2024-06-14 18:21:37,850 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_stock_reception.xml 
+2024-06-14 18:21:37,897 14804 INFO erp_db odoo.modules.loading: loading stock/report/stock_report_views.xml 
+2024-06-14 18:21:37,968 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_package_barcode.xml 
+2024-06-14 18:21:38,004 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_lot_barcode.xml 
+2024-06-14 18:21:38,028 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_location_barcode.xml 
+2024-06-14 18:21:38,055 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml 
+2024-06-14 18:21:38,087 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_deliveryslip.xml 
+2024-06-14 18:21:38,141 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_stockinventory.xml 
+2024-06-14 18:21:38,161 14804 INFO erp_db odoo.modules.loading: loading stock/report/report_stock_rule.xml 
+2024-06-14 18:21:38,209 14804 INFO erp_db odoo.modules.loading: loading stock/report/package_templates.xml 
+2024-06-14 18:21:38,229 14804 INFO erp_db odoo.modules.loading: loading stock/report/picking_templates.xml 
+2024-06-14 18:21:38,261 14804 INFO erp_db odoo.modules.loading: loading stock/report/product_templates.xml 
+2024-06-14 18:21:38,288 14804 INFO erp_db odoo.modules.loading: loading stock/report/product_packaging.xml 
+2024-06-14 18:21:38,307 14804 INFO erp_db odoo.modules.loading: loading stock/data/mail_template_data.xml 
+2024-06-14 18:21:38,338 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_menu_views.xml 
+2024-06-14 18:21:38,477 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_assign_serial_views.xml 
+2024-06-14 18:21:38,502 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml 
+2024-06-14 18:21:38,528 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml 
+2024-06-14 18:21:38,554 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_scheduler_compute_views.xml 
+2024-06-14 18:21:38,588 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_immediate_transfer_views.xml 
+2024-06-14 18:21:38,607 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_inventory_conflict.xml 
+2024-06-14 18:21:38,634 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml 
+2024-06-14 18:21:38,655 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml 
+2024-06-14 18:21:38,677 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_request_count.xml 
+2024-06-14 18:21:38,745 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_replenishment_info.xml 
+2024-06-14 18:21:38,785 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml 
+2024-06-14 18:21:38,812 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml 
+2024-06-14 18:21:38,841 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/product_replenish_views.xml 
+2024-06-14 18:21:38,865 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/product_label_layout_views.xml 
+2024-06-14 18:21:38,886 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_track_confirmation_views.xml 
+2024-06-14 18:21:38,907 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_orderpoint_snooze_views.xml 
+2024-06-14 18:21:38,933 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml 
+2024-06-14 18:21:38,958 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_inventory_adjustment_name.xml 
+2024-06-14 18:21:38,984 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_inventory_warning.xml 
+2024-06-14 18:21:39,007 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_label_type.xml 
+2024-06-14 18:21:39,026 14804 INFO erp_db odoo.modules.loading: loading stock/wizard/stock_lot_label_layout.xml 
+2024-06-14 18:21:39,045 14804 INFO erp_db odoo.modules.loading: loading stock/views/res_partner_views.xml 
+2024-06-14 18:21:39,112 14804 INFO erp_db odoo.modules.loading: loading stock/views/product_strategy_views.xml 
+2024-06-14 18:21:39,174 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_lot_views.xml 
+2024-06-14 18:21:39,249 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_scrap_views.xml 
+2024-06-14 18:21:39,338 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_quant_views.xml 
+2024-06-14 18:21:40,021 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_warehouse_views.xml 
+2024-06-14 18:21:40,075 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_move_line_views.xml 
+2024-06-14 18:21:40,172 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_picking_views.xml 
+2024-06-14 18:21:40,347 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_picking_type_views.xml 
+2024-06-14 18:21:40,430 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_move_views.xml 
+2024-06-14 18:21:40,610 14804 INFO erp_db odoo.modules.loading: loading stock/views/product_views.xml 
+2024-06-14 18:21:40,916 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_location_views.xml 
+2024-06-14 18:21:41,049 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_orderpoint_views.xml 
+2024-06-14 18:21:41,156 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_storage_category_views.xml 
+2024-06-14 18:21:41,215 14804 INFO erp_db odoo.modules.loading: loading stock/views/res_config_settings_views.xml 
+2024-06-14 18:21:41,355 14804 INFO erp_db odoo.modules.loading: loading stock/views/report_stock_traceability.xml 
+2024-06-14 18:21:41,391 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_template.xml 
+2024-06-14 18:21:41,418 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_rule_views.xml 
+2024-06-14 18:21:41,486 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_package_level_views.xml 
+2024-06-14 18:21:41,532 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_package_type_view.xml 
+2024-06-14 18:21:41,583 14804 INFO erp_db odoo.modules.loading: loading stock/views/stock_forecasted.xml 
+2024-06-14 18:21:41,599 14804 INFO erp_db odoo.modules.loading: Module stock: loading demo 
+2024-06-14 18:21:41,601 14804 INFO erp_db odoo.modules.loading: loading stock/data/stock_demo_pre.xml 
+2024-06-14 18:21:42,085 14804 INFO erp_db odoo.modules.loading: loading stock/data/stock_demo.xml 
+2024-06-14 18:21:43,830 14804 INFO erp_db odoo.modules.loading: loading stock/data/stock_demo2.xml 
+2024-06-14 18:21:45,817 14804 INFO erp_db odoo.modules.loading: loading stock/data/stock_orderpoint_demo.xml 
+2024-06-14 18:21:45,956 14804 INFO erp_db odoo.modules.loading: loading stock/data/stock_storage_category_demo.xml 
+2024-06-14 18:21:46,037 14804 INFO erp_db odoo.addons.base.models.ir_module: module stock: loading base translation file pt for language pt_BR 
+2024-06-14 18:21:46,155 14804 INFO erp_db odoo.addons.base.models.ir_module: module stock: loading translation file pt_BR for language pt_BR 
+2024-06-14 18:21:47,217 14804 INFO erp_db odoo.modules.loading: Module stock loaded in 17.39s, 8944 queries (+8944 other) 
+2024-06-14 18:21:47,217 14804 INFO erp_db odoo.modules.loading: Loading module stock_account (80/101) 
+2024-06-14 18:21:47,687 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:47,765 14804 INFO erp_db odoo.modules.registry: module stock_account: creating or updating database tables 
+2024-06-14 18:21:48,627 14804 INFO erp_db odoo.modules.loading: loading stock_account/security/stock_account_security.xml 
+2024-06-14 18:21:48,715 14804 INFO erp_db odoo.modules.loading: loading stock_account/security/ir.model.access.csv 
+2024-06-14 18:21:48,745 14804 INFO erp_db odoo.modules.loading: loading stock_account/data/stock_account_data.xml 
+2024-06-14 18:21:48,771 14804 INFO erp_db odoo.modules.loading: loading stock_account/views/stock_account_views.xml 
+2024-06-14 18:21:49,376 14804 INFO erp_db odoo.modules.loading: loading stock_account/views/res_config_settings_views.xml 
+2024-06-14 18:21:49,469 14804 INFO erp_db odoo.modules.loading: loading stock_account/data/product_data.xml 
+2024-06-14 18:21:49,488 14804 INFO erp_db odoo.modules.loading: loading stock_account/views/report_invoice.xml 
+2024-06-14 18:21:49,514 14804 INFO erp_db odoo.modules.loading: loading stock_account/views/stock_valuation_layer_views.xml 
+2024-06-14 18:21:49,607 14804 INFO erp_db odoo.modules.loading: loading stock_account/views/stock_quant_views.xml 
+2024-06-14 18:21:49,642 14804 INFO erp_db odoo.modules.loading: loading stock_account/views/product_views.xml 
+2024-06-14 18:21:49,708 14804 INFO erp_db odoo.modules.loading: loading stock_account/wizard/stock_request_count.xml 
+2024-06-14 18:21:49,727 14804 INFO erp_db odoo.modules.loading: loading stock_account/wizard/stock_valuation_layer_revaluation_views.xml 
+2024-06-14 18:21:49,747 14804 INFO erp_db odoo.modules.loading: loading stock_account/wizard/stock_quantity_history.xml 
+2024-06-14 18:21:49,765 14804 INFO erp_db odoo.modules.loading: loading stock_account/report/report_stock_forecasted.xml 
+2024-06-14 18:21:49,797 14804 INFO erp_db odoo.addons.base.models.ir_module: module stock_account: loading base translation file pt for language pt_BR 
+2024-06-14 18:21:49,832 14804 INFO erp_db odoo.addons.base.models.ir_module: module stock_account: loading translation file pt_BR for language pt_BR 
+2024-06-14 18:21:50,163 14804 INFO erp_db odoo.modules.loading: Module stock_account loaded in 2.95s, 754 queries (+754 other) 
+2024-06-14 18:21:50,163 14804 INFO erp_db odoo.modules.loading: Loading module stock_sms (81/101) 
+2024-06-14 18:21:50,373 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:50,437 14804 INFO erp_db odoo.modules.registry: module stock_sms: creating or updating database tables 
+2024-06-14 18:21:50,848 14804 INFO erp_db odoo.modules.loading: loading stock_sms/data/sms_data.xml 
+2024-06-14 18:21:50,867 14804 INFO erp_db odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml 
+2024-06-14 18:21:51,025 14804 INFO erp_db odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml 
+2024-06-14 18:21:51,047 14804 INFO erp_db odoo.modules.loading: loading stock_sms/security/ir.model.access.csv 
+2024-06-14 18:21:51,069 14804 INFO erp_db odoo.modules.loading: loading stock_sms/security/sms_security.xml 
+2024-06-14 18:21:51,101 14804 INFO erp_db odoo.addons.base.models.ir_module: module stock_sms: loading base translation file pt for language pt_BR 
+2024-06-14 18:21:51,129 14804 INFO erp_db odoo.addons.base.models.ir_module: module stock_sms: loading translation file pt_BR for language pt_BR 
+2024-06-14 18:21:51,226 14804 INFO erp_db odoo.modules.loading: Module stock_sms loaded in 1.06s, 219 queries (+219 other) 
+2024-06-14 18:21:51,226 14804 INFO erp_db odoo.modules.loading: Loading module spreadsheet_dashboard_stock_account (91/101) 
+2024-06-14 18:21:51,362 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:51,450 14804 INFO erp_db odoo.modules.loading: loading spreadsheet_dashboard_stock_account/data/dashboards.xml 
+2024-06-14 18:21:51,552 14804 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_dashboard_stock_account: loading base translation file pt for language pt_BR 
+2024-06-14 18:21:51,576 14804 INFO erp_db odoo.addons.base.models.ir_module: module spreadsheet_dashboard_stock_account: loading translation file pt_BR for language pt_BR 
+2024-06-14 18:21:51,598 14804 INFO erp_db odoo.modules.loading: Module spreadsheet_dashboard_stock_account loaded in 0.37s, 27 queries (+27 other) 
+2024-06-14 18:21:51,599 14804 INFO erp_db odoo.modules.loading: Loading module sale_stock (97/101) 
+2024-06-14 18:21:51,982 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:52,052 14804 INFO erp_db odoo.modules.registry: module sale_stock: creating or updating database tables 
+2024-06-14 18:21:52,209 14804 INFO erp_db odoo.models: Prepare computation of sale.order.warehouse_id 
+2024-06-14 18:21:52,209 14804 INFO erp_db odoo.models: Prepare computation of sale.order.delivery_status 
+2024-06-14 18:21:52,209 14804 INFO erp_db odoo.models: Prepare computation of sale.order.effective_date 
+2024-06-14 18:21:52,890 14804 INFO erp_db odoo.modules.loading: loading sale_stock/security/sale_stock_security.xml 
+2024-06-14 18:21:52,944 14804 INFO erp_db odoo.modules.loading: loading sale_stock/security/ir.model.access.csv 
+2024-06-14 18:21:52,988 14804 INFO erp_db odoo.modules.loading: loading sale_stock/views/sale_order_views.xml 
+2024-06-14 18:21:53,129 14804 INFO erp_db odoo.modules.loading: loading sale_stock/views/stock_route_views.xml 
+2024-06-14 18:21:53,150 14804 INFO erp_db odoo.modules.loading: loading sale_stock/views/res_config_settings_views.xml 
+2024-06-14 18:21:53,453 14804 INFO erp_db odoo.modules.loading: loading sale_stock/views/sale_stock_portal_template.xml 
+2024-06-14 18:21:53,480 14804 INFO erp_db odoo.modules.loading: loading sale_stock/views/stock_lot_views.xml 
+2024-06-14 18:21:53,505 14804 INFO erp_db odoo.modules.loading: loading sale_stock/views/res_users_views.xml 
+2024-06-14 18:21:53,564 14804 INFO erp_db odoo.modules.loading: loading sale_stock/report/report_stock_forecasted.xml 
+2024-06-14 18:21:53,585 14804 INFO erp_db odoo.modules.loading: loading sale_stock/report/sale_order_report_templates.xml 
+2024-06-14 18:21:53,623 14804 INFO erp_db odoo.modules.loading: loading sale_stock/report/stock_report_deliveryslip.xml 
+2024-06-14 18:21:53,647 14804 INFO erp_db odoo.modules.loading: loading sale_stock/data/mail_templates.xml 
+2024-06-14 18:21:53,673 14804 INFO erp_db odoo.modules.loading: loading sale_stock/data/sale_stock_data.xml 
+2024-06-14 18:21:53,689 14804 INFO erp_db odoo.modules.loading: loading sale_stock/wizard/stock_rules_report_views.xml 
+2024-06-14 18:21:53,743 14804 INFO erp_db odoo.modules.loading: loading sale_stock/wizard/sale_order_cancel_views.xml 
+2024-06-14 18:21:53,766 14804 INFO erp_db odoo.modules.loading: Module sale_stock: loading demo 
+2024-06-14 18:21:53,766 14804 INFO erp_db odoo.modules.loading: loading sale_stock/data/sale_order_demo.xml 
+2024-06-14 18:21:55,011 14804 INFO erp_db odoo.addons.base.models.ir_module: module sale_stock: loading base translation file pt for language pt_BR 
+2024-06-14 18:21:55,090 14804 INFO erp_db odoo.addons.base.models.ir_module: module sale_stock: loading translation file pt_BR for language pt_BR 
+2024-06-14 18:21:55,184 14804 INFO erp_db odoo.modules.loading: Module sale_stock loaded in 3.59s, 1290 queries (+1290 other) 
+2024-06-14 18:21:55,184 14804 INFO erp_db odoo.modules.loading: Loading module sale_project_stock (101/101) 
+2024-06-14 18:21:55,363 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:55,433 14804 INFO erp_db odoo.modules.registry: module sale_project_stock: creating or updating database tables 
+2024-06-14 18:21:55,498 14804 INFO erp_db odoo.modules.loading: loading sale_project_stock/views/stock_move_views.xml 
+2024-06-14 18:21:55,568 14804 INFO erp_db odoo.addons.base.models.ir_module: module sale_project_stock: loading base translation file pt for language pt_BR 
+2024-06-14 18:21:55,592 14804 INFO erp_db odoo.addons.base.models.ir_module: module sale_project_stock: loading translation file pt_BR for language pt_BR 
+2024-06-14 18:21:55,618 14804 INFO erp_db odoo.modules.loading: Module sale_project_stock loaded in 0.43s, 54 queries (+54 other) 
+2024-06-14 18:21:55,619 14804 INFO erp_db odoo.modules.loading: 101 modules loaded in 27.54s, 11648 queries (+11648 extra) 
+2024-06-14 18:21:55,938 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:56,161 14804 WARNING erp_db odoo.fields: Redundant default on l10n_br_fiscal.document.line.currency_id 
+2024-06-14 18:21:57,628 14804 INFO erp_db odoo.modules.loading: Modules loaded. 
+2024-06-14 18:21:57,642 14804 INFO erp_db odoo.modules.registry: Registry loaded in 30.542s 
+2024-06-14 18:21:57,643 14804 INFO erp_db odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-06-14 18:21:57,683 14804 INFO erp_db odoo.modules.registry: Registry changed, signaling through the database 
+2024-06-14 18:21:57,687 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:21:57] "POST /web/dataset/call_button HTTP/1.1" 200 - 14112 15.162 15.549
+2024-06-14 18:21:58,026 14804 INFO erp_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-14 18:22:24,363 14804 INFO erp_db odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2024-06-14 18:22:25,352 14804 INFO erp_db odoo.addons.stock.models.stock_orderpoint: A batch of 4 orderpoints is processed and committed 
+2024-06-14 18:22:25,400 14804 INFO erp_db odoo.addons.stock.models.stock_rule: A batch of 4 moves are assigned and committed 
+2024-06-14 18:22:25,419 14804 INFO erp_db odoo.addons.stock.models.stock_rule: _run_scheduler_tasks is finished and committed 
+2024-06-14 18:22:25,419 14804 INFO erp_db odoo.addons.base.models.ir_cron: Job `Procurement: run scheduler` done. 
+2024-06-14 18:22:35,666 14804 INFO erp_db odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-14 18:22:35,677 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:35] "GET /web HTTP/1.1" 200 - 166 0.732 36.924
+2024-06-14 18:22:36,410 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:36] "GET /web/assets/888-b1508e3/web.assets_common.min.css HTTP/1.1" 200 - 6 0.022 0.074
+2024-06-14 18:22:36,462 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:36] "GET /web/assets/889-0fae094/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.026 0.089
+2024-06-14 18:22:36,466 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:36] "GET /web/assets/890-b1508e3/web.assets_common.min.js HTTP/1.1" 200 - 4 0.008 0.108
+2024-06-14 18:22:36,467 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:36] "GET /web/webclient/translations/53c2192502b10de84c7a3cecd5776d66b1d55af5?lang=pt_BR HTTP/1.1" 200 - 2 0.009 0.079
+2024-06-14 18:22:36,670 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:36] "GET /web/webclient/load_menus/cd230f8073049a640efa3e0651a8a3c51e98632e3ed731518ffc2f001a97df48 HTTP/1.1" 200 - 29 0.113 0.187
+2024-06-14 18:22:36,675 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:36] "GET /web/assets/891-0fae094/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.025 0.295
+2024-06-14 18:22:38,339 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:38] "POST /web/action/load HTTP/1.1" 200 - 8 0.023 0.014
+2024-06-14 18:22:38,486 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.047 0.062
+2024-06-14 18:22:38,510 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:38] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.013 0.094
+2024-06-14 18:22:38,887 14804 INFO erp_db werkzeug: 127.0.0.1 - - [14/Jun/2024 18:22:38] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010

@@ -1,0 +1,20 @@
+2024-06-14 14:55:18.339 -03 [5032] ERROR:  canceling statement due to lock timeout
+2024-06-14 14:55:18.339 -03 [5032] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 14:56:06.704 -03 [5032] ERROR:  canceling statement due to lock timeout
+2024-06-14 14:56:06.704 -03 [5032] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 14:56:36.381 -03 [11092] ERROR:  canceling statement due to lock timeout
+2024-06-14 14:56:36.381 -03 [11092] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 14:57:24.056 -03 [5032] ERROR:  canceling statement due to lock timeout
+2024-06-14 14:57:24.056 -03 [5032] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 14:57:46.278 -03 [6800] ERROR:  canceling statement due to lock timeout
+2024-06-14 14:57:46.278 -03 [6800] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 15:06:13.454 -03 [11092] ERROR:  canceling statement due to lock timeout
+2024-06-14 15:06:13.454 -03 [11092] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 15:06:31.208 -03 [7872] ERROR:  canceling statement due to lock timeout
+2024-06-14 15:06:31.208 -03 [7872] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 15:07:22.463 -03 [11092] ERROR:  canceling statement due to lock timeout
+2024-06-14 15:07:22.463 -03 [11092] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 15:07:46.752 -03 [4416] ERROR:  canceling statement due to lock timeout
+2024-06-14 15:07:46.752 -03 [4416] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
+2024-06-14 15:08:36.625 -03 [11092] ERROR:  canceling statement due to lock timeout
+2024-06-14 15:08:36.625 -03 [11092] STATEMENT:  ALTER TABLE "res_users" ADD COLUMN "sidebar_type" VARCHAR 
